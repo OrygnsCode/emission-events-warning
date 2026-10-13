@@ -1,0 +1,31 @@
+{
+ "frozen": "2026-10-04T13:58:23+00:00",
+ "note": "Final plant link table (plan D2 item 3, D3), frozen after the author's review and before any outcome analysis. Made by src/link_plants_v2.py at the commit below with the rules and review answers listed.",
+ "code_commit": "ca560fd50827ec5336fa1c7138d2955ffa4c821d",
+ "counts": {
+  "plants": 6037,
+  "linked": 1140,
+  "linked_with_event_rns": 596,
+  "one_to_one": 854,
+  "registry_only": 790,
+  "tx_rmp_in_linked_plants": 1221,
+  "tx_rmp_total": 2408,
+  "tx_rmp_in_plants_with_event_rns": 669,
+  "accepted_links": {
+   "registry": 1373,
+   "own_id": 296
+  },
+  "review_pairs": 375,
+  "rejected": 72,
+  "chain_flags_after_review": 28
+ },
+ "sha256": {
+  "data/frozen/plant_members_v2.csv": "cbb0e0956a6d2092f44eafaea430ad4920386823a95d2f7293d1fd4a71616eb9",
+  "data/frozen/plants_v2.csv": "68277497c26ecf9e2691e151f34a54014d916c80fb18c23d1e375ebb46aaa47d",
+  "data/frozen/link_pairs.csv": "80b3c94f3dad6bf9a3e31379807cdaeaeae8c1c22846903c403c8cecd7121a01",
+  "data/frozen/plant_chain_checks.csv": "42d76a86737ca24991524af4a8c096c8ed72dc4536dbb1e46e2ed89f18bcc759",
+  "data/manual/link_review_decisions.json": "e5eae0117635c316011a0c786ca108750deb5a54ee82c88c93aecc08e38d58b7",
+  "rules/linking_rules.json": "5f7564fc99d814a9f6e156f8732dcde42d1ff390612814c06bf7985f5eb7c1ce",
+  "src/link_plants_v2.py": "1981917264326d5360663202529d8862e428c096692fca396947a4f3ae2e1a97"
+ }
+}

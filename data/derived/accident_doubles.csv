@@ -1,0 +1,23 @@
+facility,accident_1,date_1,accident_2,date_2,days_apart,candidate_type,same_chemicals_and_release_type,different_filings,fields_disagreeing,decision,kept,kept_date,merged_away
+100000034269,7501,2005-02-25,7502,2005-02-26,1,B_within_3_days,True,False,consequences:InjuriesWorkers,keep both,,,
+100000038274,1088,1997-02-27,1087,1997-02-27,0,B_within_3_days,True,False,,keep both,,,
+100000038274,6025,2001-04-22,6024,2001-04-22,0,B_within_3_days,False,False,duration:AccidentReleaseDuration consequences:InjuriesWorkers,keep both,,,
+100000042535,3016,1994-10-06,3009,1994-10-08,2,B_within_3_days,False,False,duration:AccidentReleaseDuration release source:RS_Piping release source:RS_ProcessVessel consequences:OnsitePropertyDamage weather:Precipitation weather:WeatherUnknown,keep both,,,
+100000042535,3199,1996-05-09,3200,1996-05-11,2,B_within_3_days,False,False,duration:AccidentReleaseDuration release source:RS_Piping release source:RS_Joint,keep both,,,
+100000042535,7090,2002-06-12,7134,2002-06-13,1,B_within_3_days+A_same_type_different_filings,True,True,,merge,7134,2002-06-13,7090
+100000042535,7133,2002-10-14,7089,2002-11-14,31,A_same_type_different_filings,True,True,,merge,7133,2002-10-14,7089
+100000042535,8983,2004-07-13,8987,2004-07-15,2,B_within_3_days,False,False,duration:AccidentReleaseDuration release source:RS_TransferHose release source:RS_Valve consequences:InjuriesWorkers consequences:OnsitePropertyDamage weather:WindDirection weather:Temperature weather:StabilityClass,keep both,,,
+100000069515,8495,2008-01-18,8496,2008-01-19,1,B_within_3_days,False,False,duration:AccidentReleaseDuration release source:RS_ProcessVessel release source:OtherReleaseSource consequences:OnsitePropertyDamage weather:WindSpeed weather:WindDirection weather:Temperature,keep both,,,
+100000080921,1000010910,2006-02-24,1000010911,2006-02-26,2,B_within_3_days,False,False,duration:AccidentReleaseDuration release source:OtherReleaseSource consequences:InjuriesWorkers,keep both,,,
+100000080921,1000010913,2006-03-31,1000010914,2006-04-03,3,B_within_3_days,False,False,duration:AccidentReleaseDuration release source:OtherReleaseSource,keep both,,,
+100000080921,1000010878,2006-04-12,1000010879,2006-04-12,0,B_within_3_days,False,False,duration:AccidentReleaseDuration release source:RS_Valve,keep both,,,
+100000080921,1000010916,2006-05-29,1000010917,2006-06-01,3,B_within_3_days,False,False,duration:AccidentReleaseDuration release source:OtherReleaseSource weather:Precipitation weather:WeatherUnknown,keep both,,,
+100000080921,1000011165,2009-12-24,1000011161,2009-12-24,0,B_within_3_days,False,False,weather:WindSpeed weather:WindDirection,keep both,,,
+100000095265,1000011902,2006-05-08,1000011901,2006-05-09,1,B_within_3_days,True,False,duration:AccidentReleaseDuration release source:RS_Valve,keep both,,,
+100000107886,4714,1998-08-29,890,1998-09-24,26,A_same_type_different_filings,True,True,weather:WindSpeedUnitCode,keep both,,,
+100000112219,1000056959,2017-01-23,1000056977,2017-01-24,1,B_within_3_days,True,False,weather:Temperature,keep both,,,
+100000137372,8904,2006-06-19,8903,2006-06-19,0,B_within_3_days,True,False,,keep both,,,
+100000189529,1000053062,2013-11-17,1000053061,2013-11-20,3,B_within_3_days,True,False,duration:AccidentReleaseDuration release source:RS_Piping release source:OtherReleaseSource weather:Temperature,keep both,,,
+100000230626,1000040698,2011-01-06,1000042472,2011-01-26,20,A_same_type_different_filings,True,True,,merge,1000042472,2011-01-26,1000040698
+100000079826|100000079489 (plant Q00630),1000005393,2004-11-06,8698,2004-11-06,0,B_within_3_days+C_two_facilities_one_plant,False,True,release source:RS_Piping,keep both,,,
+100000079826|100000079489 (plant Q00630),1000005413,2008-08-20,8699,2008-08-20,0,B_within_3_days+C_two_facilities_one_plant,False,True,,merge,1000005413,2008-08-20,8699

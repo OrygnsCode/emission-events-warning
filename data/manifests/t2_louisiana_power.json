@@ -1,0 +1,26 @@
+{
+ "note": "Power check for fresh test T2 of the planned-work lead in Louisiana (docs/planned_work_test.md), done before any\nLouisiana outcome is looked at, and without any Louisiana accident data.\n\nExposure: the planned-work start dates read from LDEQ documents (data/louisiana/):\nset A notices (sections 319 and 309) with a full scheduled start date, plus, as a generous addition, the set C test\nvariances whose planned work states a start day (word rule class \"planned work\"). One activity per AI number (as indexed by EDMS, the number the RMP link uses) and start day.\nPlants: the AI numbers concerned; years 2009 to 2025 (set A covers 2009 to 2026; RMP data end in 2025).\n\nAccidents are simulated, not observed. Two assumed accident rates, both taken from Texas, not Louisiana:\n  typical   0.136 accidents per plant-year: the Texas primary panel's 545 accidents over 216 plants and 18.6 years\n  generous  1 accident per plant-year at every plant, far above any Texas average\nA planted rate ratio of 1.5 per doubling of planned-work reports in days -7 to -1 (the T2 rule) gives each day's\naccident rate; the T2 model (conditional Poisson, plant-year strata, month of year) is fitted to each simulated data\nset; power = share of draws whose 95% range lies above 1. 300 draws per scenario.\nRule (docs/planned_work_test.md, changes of 2026-10-05): below 20% power the test is not run.",
+ "activities": {
+  "set_A_with_scheduled_start": 21,
+  "set_C_test_planned_with_start": 5,
+  "in_2009_to_2025": 21,
+  "ai_numbers": 16
+ },
+ "exposed_plant_days": 145,
+ "plant_days": 99344,
+ "typical": {
+  "accidents_per_plant_year": 0.136,
+  "draws": 300,
+  "mean_simulated_accidents": 36.6,
+  "mean_accidents_on_exposed_days": 0.08,
+  "power": 0.073
+ },
+ "generous": {
+  "accidents_per_plant_year": 1.0,
+  "draws": 300,
+  "mean_simulated_accidents": 274.8,
+  "mean_accidents_on_exposed_days": 0.67,
+  "power": 0.103
+ },
+ "decision": "not run: power below 20% in both scenarios"
+}

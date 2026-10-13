@@ -1,0 +1,28 @@
+{
+ "note": "Completeness and dating check (plan D2 item 7, descriptive): serious events found in the National Response Center\n(linked by the author's review) and OSHA (fatality or catastrophe investigations, severe injury reports) at RMP-linked\nplants, compared with the RMP accident table: the share with an RMP accident at the same plant within 3 days (and\nwithin 30 days), by source. Not every such event had to be reported to RMP (RMP covers releases of listed chemicals\nfrom covered processes), so the share without an RMP record is an upper bound on what RMP misses.\nCSB: the review of Chemical Safety Board investigations is summarized in docs/phase5_results.md, section 10.",
+ "nrc_serious": {
+  "plant_days": 212,
+  "plants": 94,
+  "with_rmp_accident_within_3_days": 35,
+  "with_rmp_accident_within_30_days": 38,
+  "share_within_3_days": 0.165,
+  "material_on_rmp_list": {
+   "plant_days": 74,
+   "with_rmp_accident_within_3_days": 14
+  }
+ },
+ "osha_fatality_catastrophe": {
+  "plant_days": 63,
+  "plants": 50,
+  "with_rmp_accident_within_3_days": 5,
+  "with_rmp_accident_within_30_days": 5,
+  "share_within_3_days": 0.079
+ },
+ "osha_severe_injury": {
+  "plant_days": 255,
+  "plants": 95,
+  "with_rmp_accident_within_3_days": 9,
+  "with_rmp_accident_within_30_days": 13,
+  "share_within_3_days": 0.035
+ }
+}

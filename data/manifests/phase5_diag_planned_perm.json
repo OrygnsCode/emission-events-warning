@@ -1,0 +1,13 @@
+{
+ "note": "Phase 5 diagnostic (D9/D10, exploratory): permutation check of the planned-work finding. Accidents stay fixed;\nwithin each plant-year of the primary panel, the daily series of planned-work report starts is shifted by a random\ncircular offset (keeps how planned work bunches together, breaks its timing relative to accidents). The 7-day sum\n(days -7 to -1) is computed inside the plant-year for both the real and the shifted series, so both are built the\nsame way. Statistic: the planned-work coefficient in the same model as phase5_diag_planned.py (unplanned and\nstatewide terms kept real). 500 draws.",
+ "plant_years_with_day_gaps": 0,
+ "real_rr_within_year_build": 1.676,
+ "draws": 500,
+ "null_median_rr": 1.022,
+ "null_p5_p95_rr": [
+  0.723,
+  1.328
+ ],
+ "p_one_sided": 0.004,
+ "p_two_sided": 0.018
+}

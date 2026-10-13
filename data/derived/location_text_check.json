@@ -1,0 +1,9 @@
+{
+ "rns_with_parsed_points": 2060,
+ "parsed_points": 2269,
+ "points_with_known_coordinates_to_compare": 55,
+ "median_km_to_nearest_known_point": 0.377,
+ "share_within_0_25_km": 0.218,
+ "share_within_1_km": 0.945,
+ "share_beyond_5_km": 0.055
+}

@@ -1,0 +1,117 @@
+{
+ "exported": "2026-10-06T14:31:42.452Z",
+ "items": [
+  {
+   "key": "SITE-00",
+   "typed": "All Star Recycling Center, San Antonio, Texas (7100 block FM 1346)"
+  },
+  {
+   "key": "SITE-01",
+   "typed": "Atlantic Coffee Solutions, Houston, Texas (3900 Harrisburg Boulevard)"
+  },
+  {
+   "key": "SITE-02",
+   "typed": "BP Texas City refinery (now Galveston Bay refinery), Texas City, Texas"
+  },
+  {
+   "key": "SITE-03",
+   "typed": "Cooler Graphics manufacturing building, Channelview, Texas (Sheldon Road)"
+  },
+  {
+   "key": "SITE-04",
+   "typed": "Cotey Chemical Corporation, Lubbock, Texas (near 46th Street and MLK Boulevard)"
+  },
+  {
+   "key": "SITE-05",
+   "typed": "Derichebourg Recycling Center, Houston, Texas (East Navigation near Harrisburg)"
+  },
+  {
+   "key": "SITE-06",
+   "typed": "DrillChem chemical plant, Conroe, Texas"
+  },
+  {
+   "key": "SITE-07",
+   "typed": "FedEx Ground sortation facility, Schertz, Texas (9935 Doerr Lane)"
+  },
+  {
+   "key": "SITE-08",
+   "typed": "Freeport LNG liquefaction/export terminal, Quintana, Texas (Quintana Island)"
+  },
+  {
+   "key": "SITE-09",
+   "typed": "Haas-Anderson Construction asphalt plant, Corpus Christi, Texas (6300 block Hopkins Road)"
+  },
+  {
+   "key": "SITE-10",
+   "typed": "International Paper Texarkana Mill, Domino, Texas"
+  },
+  {
+   "key": "SITE-11",
+   "typed": "LyondellBasell Houston Refining refinery, Houston/Pasadena, Texas (100 Allen Genoa Road / 12000 Lawndale)"
+  },
+  {
+   "key": "SITE-12",
+   "typed": "PeroxyChem Pasadena plant, Pasadena, Texas (12000 Bay Area Boulevard)"
+  },
+  {
+   "key": "SITE-13",
+   "typed": "Sound Resource Solutions chemical plant, near Shepherd, Texas (731 FM 1127)"
+  },
+  {
+   "key": "SITE-14",
+   "typed": "Sunoco Logistics Partners Nederland crude-oil terminal, Nederland, Texas"
+  },
+  {
+   "key": "SITE-15",
+   "typed": "Tesla Gigafactory Texas, Austin, Texas"
+  },
+  {
+   "key": "SITE-16",
+   "typed": "Tri-Chem Specialty Chemicals plant, Cresson, Texas"
+  },
+  {
+   "key": "SITE-17",
+   "typed": "Tyler Welders Supply gas storage yard, Tyler area, Texas (US Highway 271)"
+  },
+  {
+   "key": "SITE-18",
+   "typed": "Watson Grinding and Manufacturing, Houston, Texas (4525 Gessner Road)"
+  },
+  {
+   "key": "SITE-19",
+   "typed": "West Fertilizer Company, West, Texas"
+  },
+  {
+   "key": "SITE-20",
+   "typed": "Javelina Gas Processing Facility, Corpus Christi, Texas (5314 IH 37; RN102190139)"
+  },
+  {
+   "key": "SITE-21",
+   "typed": "LyondellBasell La Porte Complex acetyls plant, La Porte, Texas (1515 Miller Cut-Off Road)"
+  }
+ ],
+ "answers": {
+  "SITE-00": "none",
+  "SITE-01": "none",
+  "SITE-02": "100000070987",
+  "SITE-03": "none",
+  "SITE-04": "none",
+  "SITE-05": "none",
+  "SITE-06": "none",
+  "SITE-07": "none",
+  "SITE-08": "none",
+  "SITE-09": "none",
+  "SITE-10": "100000067465",
+  "SITE-11": "100000118133",
+  "SITE-12": "none",
+  "SITE-13": "none",
+  "SITE-14": "100000228023",
+  "SITE-15": "none",
+  "SITE-16": "none",
+  "SITE-17": "100000236531",
+  "SITE-18": "none",
+  "SITE-19": "100000135597",
+  "SITE-20": "100000071744",
+  "SITE-21": "100000158553"
+ }
+}

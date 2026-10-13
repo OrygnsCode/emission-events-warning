@@ -1,0 +1,139 @@
+{
+ "rule": "plan D6 item 7",
+ "log": {
+  "episodes_valid_end_with_location": 24990,
+  "monitor_sites_considered": 472,
+  "sites_with_airport_within_50km": 472,
+  "exclusion_events": 79385,
+  "exclusion_events_end_used": 79300,
+  "exclusion_events_end_over_365_days": 19
+ },
+ "by_family": {
+  "so2": {
+   "episodes_reporting_family": 12412,
+   "no_monitor_with_data_within_10km": 10413,
+   "paired": 1999,
+   "no_downwind_hour": 1175,
+   "under_10_comparison_hours": 57,
+   "analysed": 767,
+   "plants": 48,
+   "monitors": 20,
+   "ratio": 1.909,
+   "ratio_ci95": [
+    1.551,
+    2.215
+   ],
+   "share_peak_above_p95": 0.316,
+   "median_downwind_hours": 5.0,
+   "placebo_analysed": 225,
+   "placebo_ratio": 0.849,
+   "placebo_share_peak_above_p95": 0.187,
+   "real_share_same_episodes": 0.338
+  },
+  "nox": {
+   "episodes_reporting_family": 15804,
+   "no_monitor_with_data_within_10km": 13352,
+   "paired": 2452,
+   "no_downwind_hour": 1463,
+   "under_10_comparison_hours": 56,
+   "analysed": 933,
+   "plants": 61,
+   "monitors": 16,
+   "ratio": 1.169,
+   "ratio_ci95": [
+    1.097,
+    1.238
+   ],
+   "share_peak_above_p95": 0.289,
+   "median_downwind_hours": 4.0,
+   "placebo_analysed": 208,
+   "placebo_ratio": 1.12,
+   "placebo_share_peak_above_p95": 0.26,
+   "real_share_same_episodes": 0.269
+  },
+  "h2s": {
+   "episodes_reporting_family": 11016,
+   "no_monitor_with_data_within_10km": 9942,
+   "paired": 1074,
+   "no_downwind_hour": 642,
+   "under_10_comparison_hours": 33,
+   "analysed": 399,
+   "plants": 15,
+   "monitors": 8,
+   "ratio": 1.009,
+   "ratio_ci95": [
+    0.809,
+    1.317
+   ],
+   "share_peak_above_p95": 0.253,
+   "median_downwind_hours": 6.0,
+   "placebo_analysed": 139,
+   "placebo_ratio": 1.267,
+   "placebo_share_peak_above_p95": 0.295,
+   "real_share_same_episodes": 0.216
+  },
+  "benzene": {
+   "episodes_reporting_family": 4378,
+   "no_monitor_with_data_within_10km": 3312,
+   "paired": 1066,
+   "no_downwind_hour": 643,
+   "under_10_comparison_hours": 43,
+   "analysed": 380,
+   "plants": 30,
+   "monitors": 14,
+   "ratio": 1.347,
+   "ratio_ci95": [
+    1.145,
+    1.584
+   ],
+   "share_peak_above_p95": 0.347,
+   "median_downwind_hours": 5.0,
+   "placebo_analysed": 96,
+   "placebo_ratio": 1.142,
+   "placebo_share_peak_above_p95": 0.302,
+   "real_share_same_episodes": 0.271
+  },
+  "butadiene": {
+   "episodes_reporting_family": 2686,
+   "no_monitor_with_data_within_10km": 1629,
+   "paired": 1057,
+   "no_downwind_hour": 637,
+   "under_10_comparison_hours": 44,
+   "analysed": 376,
+   "plants": 24,
+   "monitors": 12,
+   "ratio": 2.986,
+   "ratio_ci95": [
+    1.99,
+    7.479
+   ],
+   "share_peak_above_p95": 0.338,
+   "median_downwind_hours": 4.0,
+   "placebo_analysed": 83,
+   "placebo_ratio": 0.984,
+   "placebo_share_peak_above_p95": 0.289,
+   "real_share_same_episodes": 0.325
+  },
+  "voc": {
+   "episodes_reporting_family": 4639,
+   "no_monitor_with_data_within_10km": 3803,
+   "paired": 836,
+   "no_downwind_hour": 527,
+   "under_10_comparison_hours": 44,
+   "analysed": 265,
+   "plants": 39,
+   "monitors": 15,
+   "ratio": 1.224,
+   "ratio_ci95": [
+    1.018,
+    1.485
+   ],
+   "share_peak_above_p95": 0.309,
+   "median_downwind_hours": 5.0,
+   "placebo_analysed": 66,
+   "placebo_ratio": 0.902,
+   "placebo_share_peak_above_p95": 0.303,
+   "real_share_same_episodes": 0.242
+  }
+ }
+}

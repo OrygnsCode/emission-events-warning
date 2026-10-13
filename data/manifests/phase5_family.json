@@ -1,0 +1,820 @@
+{
+ "exposure_logs": {
+  "pounds": {
+   "pound_rows": 465332,
+   "after_exact_repeats_within_occurrence": 464163,
+   "nox_part_rows_dropped": 7111
+  },
+  "recurrence": {
+   "recurrent_occurrences": 25546
+  }
+ },
+ "results": {
+  "O2_fire_explosion": {
+   "x": {
+    "rr": 1.0072,
+    "ci": [
+     0.7931,
+     1.279
+    ],
+    "p": 0.9531748516827814,
+    "beta": 0.010327021236269416,
+    "se": 0.17586784702298353,
+    "n_accidents": 156,
+    "n_plants": 91,
+    "n_days": 51067,
+    "log": {
+     "accidents_in_window": 156,
+     "accidents_not_at_risk": 0,
+     "days_before_full_window": 0
+    }
+   }
+  },
+  "O3_harm_to_people": {
+   "x": {
+    "rr": 1.0564,
+    "ci": [
+     0.8105,
+     1.3769
+    ],
+    "p": 0.6849626346737008,
+    "beta": 0.07913818027215201,
+    "se": 0.19506549685468283,
+    "n_accidents": 229,
+    "n_plants": 116,
+    "n_days": 72876,
+    "log": {
+     "accidents_in_window": 229,
+     "accidents_not_at_risk": 0,
+     "days_before_full_window": 0
+    }
+   }
+  },
+  "O4_harm_outside_fence": {
+   "x": {
+    "rr": 0.5589,
+    "ci": [
+     0.388,
+     0.805
+    ],
+    "p": 0.0017784536845411036,
+    "beta": -0.8393024363794934,
+    "se": 0.268582510490714,
+    "n_accidents": 92,
+    "n_plants": 64,
+    "n_days": 29920,
+    "log": {
+     "accidents_in_window": 92,
+     "accidents_not_at_risk": 0,
+     "days_before_full_window": 0
+    }
+   }
+  },
+  "window_30": {
+   "x": {
+    "rr": 0.9463,
+    "ci": [
+     0.8319,
+     1.0764
+    ],
+    "p": 0.4011959762518096,
+    "beta": -0.07962408815886485,
+    "se": 0.09484848533229544,
+    "n_accidents": 545,
+    "n_plants": 216,
+    "n_days": 153138,
+    "log": {
+     "accidents_in_window": 545,
+     "accidents_not_at_risk": 0,
+     "days_before_full_window": 0
+    }
+   }
+  },
+  "window_180": {
+   "x": {
+    "rr": 0.6839,
+    "ci": [
+     0.5869,
+     0.7969
+    ],
+    "p": 1.122121889185479e-06,
+    "beta": -0.548216539462642,
+    "se": 0.11259519756054677,
+    "n_accidents": 536,
+    "n_plants": 214,
+    "n_days": 150890,
+    "log": {
+     "accidents_in_window": 545,
+     "accidents_not_at_risk": 0,
+     "days_before_full_window": 13065
+    }
+   }
+  },
+  "window_365": {
+   "x": {
+    "rr": 0.4747,
+    "ci": [
+     0.3524,
+     0.6394
+    ],
+    "p": 9.487392547136153e-07,
+    "beta": -1.0750209552395218,
+    "se": 0.21930326960458224,
+    "n_accidents": 523,
+    "n_plants": 211,
+    "n_days": 147856,
+    "log": {
+     "accidents_in_window": 545,
+     "accidents_not_at_risk": 0,
+     "days_before_full_window": 49473
+    }
+   }
+  },
+  "lag_profile": {
+   "l0_3": {
+    "rr": 0.8623,
+    "ci": [
+     0.717,
+     1.037
+    ],
+    "p": 0.11556732635615652,
+    "beta": -0.21374148152522326,
+    "se": 0.1358249030387935,
+    "n_accidents": 495,
+    "n_plants": 202,
+    "n_days": 139884,
+    "log": {
+     "accidents_in_window": 545,
+     "accidents_not_at_risk": 0,
+     "days_before_full_window": 121287
+    }
+   },
+   "l3_6": {
+    "rr": 0.7097,
+    "ci": [
+     0.5878,
+     0.857
+    ],
+    "p": 0.0003662854044625963,
+    "beta": -0.4946243928434386,
+    "se": 0.13881254011169633,
+    "n_accidents": 495,
+    "n_plants": 202,
+    "n_days": 139884,
+    "log": {
+     "accidents_in_window": 545,
+     "accidents_not_at_risk": 0,
+     "days_before_full_window": 121287
+    }
+   },
+   "l6_12": {
+    "rr": 0.6659,
+    "ci": [
+     0.5153,
+     0.8604
+    ],
+    "p": 0.001871410272289653,
+    "beta": -0.5867218842704444,
+    "se": 0.1886616952821084,
+    "n_accidents": 495,
+    "n_plants": 202,
+    "n_days": 139884,
+    "log": {
+     "accidents_in_window": 545,
+     "accidents_not_at_risk": 0,
+     "days_before_full_window": 121287
+    }
+   },
+   "l12_24": {
+    "rr": 0.7163,
+    "ci": [
+     0.5181,
+     0.9903
+    ],
+    "p": 0.043517445724465365,
+    "beta": -0.4814221952464712,
+    "se": 0.2384802021368788,
+    "n_accidents": 495,
+    "n_plants": 202,
+    "n_days": 139884,
+    "log": {
+     "accidents_in_window": 545,
+     "accidents_not_at_risk": 0,
+     "days_before_full_window": 121287
+    }
+   }
+  },
+  "dose_top_quarter": {
+   "top": {
+    "rr": 0.8037,
+    "ci": [
+     0.6747,
+     0.9574
+    ],
+    "p": 0.014403080645832178,
+    "beta": -0.31519938113960067,
+    "se": 0.1288078972466685,
+    "n_accidents": 545,
+    "n_plants": 216,
+    "n_days": 153138,
+    "log": {
+     "accidents_in_window": 545,
+     "accidents_not_at_risk": 0,
+     "days_before_full_window": 0
+    },
+    "rr_yes_vs_no": 0.7296,
+    "ci_yes_vs_no": [
+     0.5669,
+     0.9392
+    ]
+   }
+  },
+  "pounds_four_families": {
+   "lbs": {
+    "rr": 0.9928,
+    "ci": [
+     0.9684,
+     1.0179
+    ],
+    "p": 0.572393969902929,
+    "beta": -0.010375039116913027,
+    "se": 0.01837821214042197,
+    "n_accidents": 545,
+    "n_plants": 216,
+    "n_days": 153138,
+    "log": {
+     "accidents_in_window": 545,
+     "accidents_not_at_risk": 0,
+     "days_before_full_window": 0
+    }
+   }
+  },
+  "recurrence": {
+   "rec": {
+    "rr": 0.9104,
+    "ci": [
+     0.7751,
+     1.0694
+    ],
+    "p": 0.25314622866391767,
+    "beta": -0.13536734997324246,
+    "se": 0.11845849131747418,
+    "n_accidents": 545,
+    "n_plants": 216,
+    "n_days": 153138,
+    "log": {
+     "accidents_in_window": 545,
+     "accidents_not_at_risk": 0,
+     "days_before_full_window": 0
+    }
+   }
+  },
+  "real_time_report_date": {
+   "x": {
+    "rr": 0.8625,
+    "ci": [
+     0.7353,
+     1.0118
+    ],
+    "p": 0.0692992937325616,
+    "beta": -0.2133692921469746,
+    "se": 0.11746411956951855,
+    "n_accidents": 545,
+    "n_plants": 216,
+    "n_days": 153138,
+    "log": {
+     "accidents_in_window": 545,
+     "accidents_not_at_risk": 0,
+     "days_before_full_window": 0
+    }
+   }
+  },
+  "H1M_mechanism": {
+   "process": {
+    "rr": 0.9623,
+    "ci": [
+     0.7988,
+     1.1591
+    ],
+    "p": 0.6853825145765164,
+    "beta": -0.05550826361371366,
+    "se": 0.1370137185285282,
+    "n_accidents": 545,
+    "n_plants": 216,
+    "n_days": 153138,
+    "log": {
+     "accidents_in_window": 545,
+     "accidents_not_at_risk": 0,
+     "days_before_full_window": 0
+    }
+   },
+   "outside": {
+    "rr": 0.8761,
+    "ci": [
+     0.7394,
+     1.038
+    ],
+    "p": 0.12636384472661932,
+    "beta": -0.19085356675172854,
+    "se": 0.12485520855408144,
+    "n_accidents": 545,
+    "n_plants": 216,
+    "n_days": 153138,
+    "log": {
+     "accidents_in_window": 545,
+     "accidents_not_at_risk": 0,
+     "days_before_full_window": 0
+    }
+   },
+   "unknown": {
+    "rr": 0.9125,
+    "ci": [
+     0.7988,
+     1.0423
+    ],
+    "p": 0.17722368836543279,
+    "beta": -0.13217420327527363,
+    "se": 0.09795378031020138,
+    "n_accidents": 545,
+    "n_plants": 216,
+    "n_days": 153138,
+    "log": {
+     "accidents_in_window": 545,
+     "accidents_not_at_risk": 0,
+     "days_before_full_window": 0
+    }
+   },
+   "contrast_process_minus_outside": {
+    "ratio_of_rr": 1.0984,
+    "ci": [
+     0.8249,
+     1.4624
+    ],
+    "p": 0.5206991471753901,
+    "beta_diff": 0.13534530313801488,
+    "se": 0.21073024024852305
+   }
+  }
+ },
+ "end_2023": {
+  "O2_fire_explosion": {
+   "x": {
+    "rr": 0.9613,
+    "ci": [
+     0.757,
+     1.2207
+    ],
+    "p": 0.7459651230090896,
+    "beta": -0.05696325713681475,
+    "se": 0.17583193959560947,
+    "n_accidents": 165,
+    "n_plants": 96,
+    "n_days": 54352,
+    "log": {
+     "accidents_in_window": 165,
+     "accidents_not_at_risk": 0,
+     "days_before_full_window": 0
+    }
+   }
+  },
+  "O3_harm_to_people": {
+   "x": {
+    "rr": 1.0266,
+    "ci": [
+     0.8034,
+     1.3117
+    ],
+    "p": 0.8338721743354367,
+    "beta": 0.03783777740462334,
+    "se": 0.1804049789231979,
+    "n_accidents": 246,
+    "n_plants": 123,
+    "n_days": 78716,
+    "log": {
+     "accidents_in_window": 246,
+     "accidents_not_at_risk": 0,
+     "days_before_full_window": 0
+    }
+   }
+  },
+  "O4_harm_outside_fence": {
+   "x": {
+    "rr": 0.594,
+    "ci": [
+     0.3898,
+     0.9053
+    ],
+    "p": 0.015392168117118521,
+    "beta": -0.7514441610057764,
+    "se": 0.3101273664478569,
+    "n_accidents": 99,
+    "n_plants": 69,
+    "n_days": 32110,
+    "log": {
+     "accidents_in_window": 99,
+     "accidents_not_at_risk": 0,
+     "days_before_full_window": 0
+    }
+   }
+  },
+  "window_30": {
+   "x": {
+    "rr": 0.9676,
+    "ci": [
+     0.8437,
+     1.1097
+    ],
+    "p": 0.63762505361881,
+    "beta": -0.04750696988642141,
+    "se": 0.10085935265064265,
+    "n_accidents": 571,
+    "n_plants": 223,
+    "n_days": 161168,
+    "log": {
+     "accidents_in_window": 571,
+     "accidents_not_at_risk": 0,
+     "days_before_full_window": 0
+    }
+   }
+  },
+  "window_180": {
+   "x": {
+    "rr": 0.6855,
+    "ci": [
+     0.5908,
+     0.7954
+    ],
+    "p": 6.442788600402594e-07,
+    "beta": -0.5447295373513974,
+    "se": 0.10943951049114746,
+    "n_accidents": 562,
+    "n_plants": 221,
+    "n_days": 158920,
+    "log": {
+     "accidents_in_window": 571,
+     "accidents_not_at_risk": 0,
+     "days_before_full_window": 13333
+    }
+   }
+  },
+  "window_365": {
+   "x": {
+    "rr": 0.4655,
+    "ci": [
+     0.3473,
+     0.624
+    ],
+    "p": 3.1260420829681834e-07,
+    "beta": -1.103101067602097,
+    "se": 0.21563115106298514,
+    "n_accidents": 549,
+    "n_plants": 219,
+    "n_days": 155886,
+    "log": {
+     "accidents_in_window": 571,
+     "accidents_not_at_risk": 0,
+     "days_before_full_window": 50481
+    }
+   }
+  },
+  "lag_profile": {
+   "l0_3": {
+    "rr": 0.8499,
+    "ci": [
+     0.7063,
+     1.0227
+    ],
+    "p": 0.08499285247279653,
+    "beta": -0.23465084318574161,
+    "se": 0.13623296495886522,
+    "n_accidents": 521,
+    "n_plants": 210,
+    "n_days": 147914,
+    "log": {
+     "accidents_in_window": 571,
+     "accidents_not_at_risk": 0,
+     "days_before_full_window": 123727
+    }
+   },
+   "l3_6": {
+    "rr": 0.7085,
+    "ci": [
+     0.5905,
+     0.8501
+    ],
+    "p": 0.0002096463633982637,
+    "beta": -0.4971545683572213,
+    "se": 0.13410876390691231,
+    "n_accidents": 521,
+    "n_plants": 210,
+    "n_days": 147914,
+    "log": {
+     "accidents_in_window": 571,
+     "accidents_not_at_risk": 0,
+     "days_before_full_window": 123727
+    }
+   },
+   "l6_12": {
+    "rr": 0.6738,
+    "ci": [
+     0.5223,
+     0.8693
+    ],
+    "p": 0.002386028618835745,
+    "beta": -0.5696062692328734,
+    "se": 0.18752886698087404,
+    "n_accidents": 521,
+    "n_plants": 210,
+    "n_days": 147914,
+    "log": {
+     "accidents_in_window": 571,
+     "accidents_not_at_risk": 0,
+     "days_before_full_window": 123727
+    }
+   },
+   "l12_24": {
+    "rr": 0.7446,
+    "ci": [
+     0.5464,
+     1.0147
+    ],
+    "p": 0.06182393284787513,
+    "beta": -0.42549981685402527,
+    "se": 0.22783773704708965,
+    "n_accidents": 521,
+    "n_plants": 210,
+    "n_days": 147914,
+    "log": {
+     "accidents_in_window": 571,
+     "accidents_not_at_risk": 0,
+     "days_before_full_window": 123727
+    }
+   }
+  },
+  "dose_top_quarter": {
+   "top": {
+    "rr": 0.7885,
+    "ci": [
+     0.6648,
+     0.9351
+    ],
+    "p": 0.0063298782259131325,
+    "beta": -0.34288294877592596,
+    "se": 0.1255896364910002,
+    "n_accidents": 571,
+    "n_plants": 223,
+    "n_days": 161168,
+    "log": {
+     "accidents_in_window": 571,
+     "accidents_not_at_risk": 0,
+     "days_before_full_window": 0
+    },
+    "rr_yes_vs_no": 0.7097,
+    "ci_yes_vs_no": [
+     0.5549,
+     0.9078
+    ]
+   }
+  },
+  "pounds_four_families": {
+   "lbs": {
+    "rr": 0.9865,
+    "ci": [
+     0.9632,
+     1.0104
+    ],
+    "p": 0.2655239427282745,
+    "beta": -0.01960626243935998,
+    "se": 0.01760889183680217,
+    "n_accidents": 571,
+    "n_plants": 223,
+    "n_days": 161168,
+    "log": {
+     "accidents_in_window": 571,
+     "accidents_not_at_risk": 0,
+     "days_before_full_window": 0
+    }
+   }
+  },
+  "recurrence": {
+   "rec": {
+    "rr": 0.9251,
+    "ci": [
+     0.7943,
+     1.0773
+    ],
+    "p": 0.316347357193272,
+    "beta": -0.11237269292945584,
+    "se": 0.11214926849211303,
+    "n_accidents": 571,
+    "n_plants": 223,
+    "n_days": 161168,
+    "log": {
+     "accidents_in_window": 571,
+     "accidents_not_at_risk": 0,
+     "days_before_full_window": 0
+    }
+   }
+  },
+  "real_time_report_date": {
+   "x": {
+    "rr": 0.8537,
+    "ci": [
+     0.7319,
+     0.9959
+    ],
+    "p": 0.04416189644170676,
+    "beta": -0.2281363428239744,
+    "se": 0.11335680625091521,
+    "n_accidents": 571,
+    "n_plants": 223,
+    "n_days": 161168,
+    "log": {
+     "accidents_in_window": 571,
+     "accidents_not_at_risk": 0,
+     "days_before_full_window": 0
+    }
+   }
+  },
+  "H1M_mechanism": {
+   "process": {
+    "rr": 0.958,
+    "ci": [
+     0.8045,
+     1.1408
+    ],
+    "p": 0.6300096140884264,
+    "beta": -0.06193351385873345,
+    "se": 0.1285692373074435,
+    "n_accidents": 571,
+    "n_plants": 223,
+    "n_days": 161168,
+    "log": {
+     "accidents_in_window": 571,
+     "accidents_not_at_risk": 0,
+     "days_before_full_window": 0
+    }
+   },
+   "outside": {
+    "rr": 0.871,
+    "ci": [
+     0.7443,
+     1.0193
+    ],
+    "p": 0.08523615924507522,
+    "beta": -0.1991819460741374,
+    "se": 0.11573073372984992,
+    "n_accidents": 571,
+    "n_plants": 223,
+    "n_days": 161168,
+    "log": {
+     "accidents_in_window": 571,
+     "accidents_not_at_risk": 0,
+     "days_before_full_window": 0
+    }
+   },
+   "unknown": {
+    "rr": 0.9183,
+    "ci": [
+     0.8003,
+     1.0537
+    ],
+    "p": 0.22461297245035294,
+    "beta": -0.12293503228467281,
+    "se": 0.10123500905492552,
+    "n_accidents": 571,
+    "n_plants": 223,
+    "n_days": 161168,
+    "log": {
+     "accidents_in_window": 571,
+     "accidents_not_at_risk": 0,
+     "days_before_full_window": 0
+    }
+   },
+   "contrast_process_minus_outside": {
+    "ratio_of_rr": 1.0998,
+    "ci": [
+     0.8421,
+     1.4364
+    ],
+    "p": 0.4849782852501159,
+    "beta_diff": 0.13724843221540395,
+    "se": 0.19654142309598377
+   }
+  }
+ },
+ "holm": {
+  "family_size": 15,
+  "tests": [
+   {
+    "test": "O2_fire_explosion",
+    "p": 0.9531748516827814,
+    "p_holm": 1.0,
+    "significant": false
+   },
+   {
+    "test": "O3_harm_to_people",
+    "p": 0.6849626346737008,
+    "p_holm": 1.0,
+    "significant": false
+   },
+   {
+    "test": "O4_harm_outside_fence",
+    "p": 0.0017784536845411036,
+    "p_holm": 0.021341444214493244,
+    "significant": true
+   },
+   {
+    "test": "window_30",
+    "p": 0.4011959762518096,
+    "p_holm": 1.0,
+    "significant": false
+   },
+   {
+    "test": "window_180",
+    "p": 1.122121889185479e-06,
+    "p_holm": 1.5709706448596705e-05,
+    "significant": true
+   },
+   {
+    "test": "window_365",
+    "p": 9.487392547136153e-07,
+    "p_holm": 1.423108882070423e-05,
+    "significant": true
+   },
+   {
+    "test": "lag_profile:l0_3",
+    "p": 0.11556732635615652,
+    "p_holm": 0.8089712844930956,
+    "significant": false
+   },
+   {
+    "test": "lag_profile:l3_6",
+    "p": 0.0003662854044625963,
+    "p_holm": 0.004761710258013752,
+    "significant": true
+   },
+   {
+    "test": "lag_profile:l6_12",
+    "p": 0.001871410272289653,
+    "p_holm": 0.021341444214493244,
+    "significant": true
+   },
+   {
+    "test": "lag_profile:l12_24",
+    "p": 0.043517445724465365,
+    "p_holm": 0.3916570115201883,
+    "significant": false
+   },
+   {
+    "test": "dose_top_quarter",
+    "p": 0.014403080645832178,
+    "p_holm": 0.14403080645832178,
+    "significant": false
+   },
+   {
+    "test": "pounds_four_families",
+    "p": 0.572393969902929,
+    "p_holm": 1.0,
+    "significant": false
+   },
+   {
+    "test": "recurrence",
+    "p": 0.25314622866391767,
+    "p_holm": 1.0,
+    "significant": false
+   },
+   {
+    "test": "real_time_report_date",
+    "p": 0.0692992937325616,
+    "p_holm": 0.5543943498604929,
+    "significant": false
+   },
+   {
+    "test": "H1M_mechanism:contrast",
+    "p": 0.5206991471753901,
+    "p_holm": 1.0,
+    "significant": false
+   }
+  ]
+ },
+ "voc_total_rows_only_separate": {
+  "rr": 1.0225,
+  "ci": [
+   0.9718,
+   1.0759
+  ],
+  "p": 0.3901456587008063,
+  "beta": 0.03216946540357992,
+  "se": 0.037434507559068395,
+  "n_accidents": 545,
+  "n_plants": 216,
+  "n_days": 153138,
+  "log": {
+   "accidents_in_window": 545,
+   "accidents_not_at_risk": 0,
+   "days_before_full_window": 0
+  }
+ },
+ "note_dose_scale": "dose_top_quarter is a yes/no term: read rr_yes_vs_no (exp(beta)); its rr field is 2^beta and is not the rate ratio (D10 addendum)."
+}

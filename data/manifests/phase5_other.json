@@ -1,0 +1,313 @@
+{
+ "N1_other_plants_same_county_sector": {
+  "rr": 0.9976,
+  "ci": [
+   0.9571,
+   1.0397
+  ],
+  "p": 0.9083735486100366,
+  "n_accidents": 15139,
+  "n_plants": 602,
+  "pseudo_outcomes": 18782,
+  "real_accidents_with_a_neighbour": 483
+ },
+ "concordance": {
+  "accidents": 545,
+  "with_tceq_report_within_2_days": 234,
+  "share": 0.429,
+  "by_period": {
+   "2003-2005": {
+    "size": 89,
+    "mean": 0.494
+   },
+   "2006-2014": {
+    "size": 282,
+    "mean": 0.411
+   },
+   "2015-2021": {
+    "size": 174,
+    "mean": 0.425
+   }
+  }
+ },
+ "sector_refining": {
+  "rr": 1.1937,
+  "ci": [
+   0.8663,
+   1.645
+  ],
+  "p": 0.2790452924131437,
+  "n_accidents": 87,
+  "n_plants": 22
+ },
+ "sector_chemicals": {
+  "rr": 0.8324,
+  "ci": [
+   0.6706,
+   1.0333
+  ],
+  "p": 0.09635035851691476,
+  "n_accidents": 280,
+  "n_plants": 86
+ },
+ "sector_gas_processing": {
+  "rr": 1.157,
+  "ci": [
+   0.8143,
+   1.644
+  ],
+  "p": 0.41590816844250655,
+  "n_accidents": 39,
+  "n_plants": 27
+ },
+ "sector_other": {
+  "rr": 0.3773,
+  "ci": [
+   0.2051,
+   0.6941
+  ],
+  "p": 0.0017262502939583424,
+  "n_accidents": 139,
+  "n_plants": 81
+ },
+ "region_houston": {
+  "rr": 0.9378,
+  "ci": [
+   0.7543,
+   1.1659
+  ],
+  "p": 0.5632026349219394,
+  "n_accidents": 262,
+  "n_plants": 74
+ },
+ "region_beaumont": {
+  "rr": 0.6343,
+  "ci": [
+   0.4333,
+   0.9285
+  ],
+  "p": 0.01921478830902057,
+  "n_accidents": 56,
+  "n_plants": 21
+ },
+ "region_corpus_christi": {
+  "rr": 0.8555,
+  "ci": [
+   0.5305,
+   1.3796
+  ],
+  "p": 0.5221681537081913,
+  "n_accidents": 46,
+  "n_plants": 19
+ },
+ "region_other_regions": {
+  "rr": 0.7955,
+  "ci": [
+   0.5849,
+   1.0819
+  ],
+  "p": 0.14485093023659945,
+  "n_accidents": 181,
+  "n_plants": 102
+ },
+ "cause_equipment": {
+  "rr": 0.9673,
+  "ci": [
+   0.8036,
+   1.1644
+  ],
+  "p": 0.7255685963495158,
+  "n_accidents": 545,
+  "n_plants": 216
+ },
+ "cause_instrument": {
+  "rr": 0.8699,
+  "ci": [
+   0.6501,
+   1.1639
+  ],
+  "p": 0.3479710152882136,
+  "n_accidents": 545,
+  "n_plants": 216
+ },
+ "cause_maintenance_startup": {
+  "rr": 0.825,
+  "ci": [
+   0.6213,
+   1.0955
+  ],
+  "p": 0.18373484760755243,
+  "n_accidents": 545,
+  "n_plants": 216
+ },
+ "cause_operator": {
+  "rr": 1.1647,
+  "ci": [
+   0.8259,
+   1.6426
+  ],
+  "p": 0.3846808595615543,
+  "n_accidents": 545,
+  "n_plants": 216
+ },
+ "cause_power": {
+  "rr": 1.0108,
+  "ci": [
+   0.7884,
+   1.2958
+  ],
+  "p": 0.9326430922388604,
+  "n_accidents": 545,
+  "n_plants": 216
+ },
+ "cause_third_party": {
+  "rr": 1.272,
+  "ci": [
+   0.856,
+   1.8902
+  ],
+  "p": 0.23374034546492872,
+  "n_accidents": 545,
+  "n_plants": 216
+ },
+ "cause_unknown": {
+  "rr": 0.9028,
+  "ci": [
+   0.785,
+   1.0382
+  ],
+  "p": 0.15163865005017718,
+  "n_accidents": 545,
+  "n_plants": 216
+ },
+ "cause_upset": {
+  "rr": 1.0853,
+  "ci": [
+   0.9123,
+   1.2911
+  ],
+  "p": 0.35551839694967113,
+  "n_accidents": 545,
+  "n_plants": 216
+ },
+ "cause_weather": {
+  "rr": 0.8231,
+  "ci": [
+   0.6332,
+   1.07
+  ],
+  "p": 0.14582863147226277,
+  "n_accidents": 545,
+  "n_plants": 216
+ },
+ "unit_flare": {
+  "rr": 0.9502,
+  "ci": [
+   0.8026,
+   1.1248
+  ],
+  "p": 0.5527319483989466,
+  "n_accidents": 545,
+  "n_plants": 216
+ },
+ "unit_tank": {
+  "rr": 0.9161,
+  "ci": [
+   0.6406,
+   1.3101
+  ],
+  "p": 0.6311512534578905,
+  "n_accidents": 545,
+  "n_plants": 216
+ },
+ "unit_compressor_engine": {
+  "rr": 0.7726,
+  "ci": [
+   0.4955,
+   1.2045
+  ],
+  "p": 0.2548417460275041,
+  "n_accidents": 545,
+  "n_plants": 216
+ },
+ "unit_combustion_heater": {
+  "rr": 0.9336,
+  "ci": [
+   0.6685,
+   1.3039
+  ],
+  "p": 0.6869598794468439,
+  "n_accidents": 545,
+  "n_plants": 216
+ },
+ "unit_refining_cracking": {
+  "rr": 1.095,
+  "ci": [
+   0.8389,
+   1.4294
+  ],
+  "p": 0.504223608176438,
+  "n_accidents": 545,
+  "n_plants": 216
+ },
+ "unit_sulfur_amine": {
+  "rr": 0.966,
+  "ci": [
+   0.6843,
+   1.3638
+  ],
+  "p": 0.8442249176424119,
+  "n_accidents": 545,
+  "n_plants": 216
+ },
+ "unit_cooling_tower": {
+  "rr": 0.946,
+  "ci": [
+   0.6028,
+   1.4845
+  ],
+  "p": 0.8092212600034983,
+  "n_accidents": 545,
+  "n_plants": 216
+ },
+ "unit_loading": {
+  "rr": 1.3658,
+  "ci": [
+   0.7943,
+   2.3483
+  ],
+  "p": 0.2596070036745852,
+  "n_accidents": 545,
+  "n_plants": 216
+ },
+ "unit_wastewater": {
+  "rr": 0.9281,
+  "ci": [
+   0.3757,
+   2.2924
+  ],
+  "p": 0.8714924727615025,
+  "n_accidents": 545,
+  "n_plants": 216
+ },
+ "unit_vent_relief": {
+  "rr": 0.9818,
+  "ci": [
+   0.7454,
+   1.2931
+  ],
+  "p": 0.8959649475350815,
+  "n_accidents": 545,
+  "n_plants": 216
+ },
+ "unit_fugitive_piping": {
+  "rr": 0.8304,
+  "ci": [
+   0.6268,
+   1.1001
+  ],
+  "p": 0.1951784503188756,
+  "n_accidents": 545,
+  "n_plants": 216
+ }
+}

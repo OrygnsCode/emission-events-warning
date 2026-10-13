@@ -1,0 +1,12 @@
+{
+ "note": "Descriptive counts the paper quotes that were not stored elsewhere (plan D16): reports and kept events at\nRMP-linked plants, accidents that follow an earlier accident at the same plant within 120 days, and accidents at\nplants that reported no unplanned event during their study period (the difference between the 545 accidents of the\nmain test and the 472 in the event-rate figure).",
+ "reports_total": 103614,
+ "reports_at_rmp_linked_plants": 53230,
+ "events_in_exposure_series": 68610,
+ "events_at_rmp_linked_plants": 34371,
+ "accidents_in_window": 545,
+ "accidents_within_120_days_after_earlier_at_plant": 107,
+ "accidents_in_event_rate_figure": 472,
+ "accidents_at_plants_without_events_in_study_period": 73,
+ "share_removed_of_linked_events_pct": 0.78
+}

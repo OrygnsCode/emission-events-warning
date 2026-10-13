@@ -1,0 +1,112 @@
+{
+ "note": "Phase 5: H4 (National Response Center reports as the outcome, every TCEQ site with emission events) and O6 (OSHA\nrecords as the outcome at RMP-linked plants), by the rules of plan D11, written after the author's link review and\nbefore this was run.",
+ "h4_links": {
+  "linked_reports": 262,
+  "sites": 114,
+  "site_days": 240
+ },
+ "H4_end_2021": {
+  "rr": 0.817,
+  "ci": [
+   0.663,
+   1.007
+  ],
+  "p": 0.0587,
+  "n_outcome_days": 218,
+  "n_units": 105,
+  "n_strata": 187,
+  "sites_linked_to_rmp_plants": 105
+ },
+ "H4_end_2021_own_reports_removed": {
+  "rr": 1.08,
+  "ci": [
+   0.875,
+   1.333
+  ],
+  "p": 0.4712,
+  "n_outcome_days": 218,
+  "n_units": 105,
+  "n_strata": 187
+ },
+ "H4_end_2023": {
+  "rr": 0.789,
+  "ci": [
+   0.647,
+   0.962
+  ],
+  "p": 0.0193,
+  "n_outcome_days": 238,
+  "n_units": 112,
+  "n_strata": 205
+ },
+ "H4_end_2023_own_reports_removed": {
+  "rr": 1.042,
+  "ci": [
+   0.859,
+   1.264
+  ],
+  "p": 0.6767,
+  "n_outcome_days": 238,
+  "n_units": 112,
+  "n_strata": 205
+ },
+ "o6_links": {
+  "linked_records": 320,
+  "plants": 104,
+  "plant_days_from_2015": 271
+ },
+ "O6_end_2021": {
+  "rr": 1.099,
+  "ci": [
+   0.786,
+   1.535
+  ],
+  "p": 0.5809,
+  "n_outcome_days": 210,
+  "n_units": 81,
+  "n_strata": 158,
+  "log": {
+   "accidents_in_window": 225,
+   "accidents_not_at_risk": 15,
+   "days_before_full_window": 0
+  }
+ },
+ "O6_end_2021_own_reports_removed": {
+  "rr": 1.133,
+  "ci": [
+   0.804,
+   1.596
+  ],
+  "p": 0.477,
+  "n_outcome_days": 210,
+  "n_units": 81,
+  "n_strata": 158
+ },
+ "O6_end_2023": {
+  "rr": 1.083,
+  "ci": [
+   0.816,
+   1.437
+  ],
+  "p": 0.582,
+  "n_outcome_days": 255,
+  "n_units": 91,
+  "n_strata": 193,
+  "log": {
+   "accidents_in_window": 271,
+   "accidents_not_at_risk": 16,
+   "days_before_full_window": 0
+  }
+ },
+ "O6_end_2023_own_reports_removed": {
+  "rr": 1.116,
+  "ci": [
+   0.832,
+   1.498
+  ],
+  "p": 0.4635,
+  "n_outcome_days": 255,
+  "n_units": 91,
+  "n_strata": 193
+ }
+}

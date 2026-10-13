@@ -1,0 +1,58 @@
+workbook_facility,refinery,network,rn,basis
+Big Spring,big_spring,main,RN100250869,EPA index facility ALON BIG SPRING REFINERY; Central Registry NAICS 324110
+Big Spring Refinery,big_spring,main,RN100250869,RN stated in workbook
+Delek Big Spring,big_spring,main,RN100250869,EPA index facility; Central Registry
+Delek Big Spring Refinery,big_spring,main,RN100250869,RN stated in workbook
+CITGO Corpus Christi Refinery East Plant,citgo_cc_east,main,RN102555166,RN stated in workbook
+Citgo Corpus Christi East Refinery,citgo_cc_east,main,RN102555166,RN stated in workbook
+CITGO Corpus Christi Refinery West Plant,citgo_cc_west,main,RN100238799,RN stated in workbook
+Citgo Corpus Christi West Refinery,citgo_cc_west,main,RN100238799,RN stated in workbook
+Deer Park Refinery,deer_park,main,RN111372785,RN stated in workbook (RN11372785 is a typing error; RN100211879 is the earlier whole-site RN)
+Deer Park Refinery LP,deer_park,main,RN111372785,RN stated in workbook
+Shell Deer Park,deer_park,main,RN100211879,RN stated in workbook (refinery reported under the whole-site RN before the 2022 sale)
+Shell Oil Company,deer_park,main,RN100211879,RN stated in workbook
+Shell Oil Deer Park,deer_park,main,RN100211879,RN stated in workbook
+Delek Tyler,tyler,main,RN100222512,EPA index facility DELEK REFINING; Central Registry
+Delek Tyler Refinery,tyler,main,RN100222512,RN stated in workbook
+Tyler Refinery,tyler,main,RN100222512,EPA index facility DELEK REFINING
+ExxonMobil Baytown Refinery,baytown,main,RN102579307,Central Registry EXXONMOBIL BAYTOWN REFINERY (workbook gives the EPA FRS ID)
+ExxonMobil Beaumont Refinery,beaumont,main,RN102450756,Central Registry EXXONMOBIL BEAUMONT REFINERY (workbook gives the EPA FRS ID)
+"Flint Hills Resources Corpus Christi LLC, East Refinery",fhr_cc_east,main,RN102534138,RN stated in workbook; Central Registry FLINT HILLS RESOURCES EAST REFINERY
+"Flint Hills Resources LLC, West Refinery",fhr_cc_east,main,RN102534138,RN stated in workbook and EPA index says EAST PLANT; the word West is a typing error
+"Flint Hills Resources Corpus Christi, LLC – West Refinery",fhr_cc_west,main,RN100235266,RN stated in workbook; Central Registry FHR CORPUS CHRISTI WEST REFINERY
+"Flint Hills Resources Corpus Christi, LLC – Mid Terminal",fhr_cc_west,mid_terminal,RN100235266,RN stated in workbook; a separate sampler ring filed with the West Refinery
+Galveston Bay Refinery,galveston_bay,main,RN102535077,EPA index BLANCHARD REFINING COMPANY LLC; Central Registry BLANCHARD REFINING GALVESTON BAY REFINERY
+Marathon Galveston Bay,galveston_bay,main,RN102535077,EPA index BLANCHARD REFINING COMPANY LLC; Central Registry
+Houston,valero_houston,main,RN100219310,EPA index VALERO REFINING HOUSTON REFINERY
+Valero Houston,valero_houston,main,RN100219310,RN stated in workbook
+Houston Refining LP,houston_refining,main,RN100218130,RN stated in workbook
+KMCC Galena Park Splitter,kmcc_splitter,main,RN108071325,RN stated in workbook; Central Registry KMCC SPLITTER FACILITY (RN100237452 is the neighbouring terminal)
+Kinder Morgan Crude and Condensate,kmcc_splitter,main,RN108071325,EPA index KMCC SPLITTER FACILITY
+Magellan Corpus Christi Terminal,magellan_cc,main,RN102536836,RN stated in workbook
+Magellan Processing L.P.,magellan_cc,main,RN102536836,RN stated in workbook
+Marathon El Paso,el_paso,main,RN100213016,EPA index WESTERN REFINING EL PASO ALL SITES; Central Registry MARATHON EL PASO REFINERY
+Western Refining  Company LLC,el_paso,main,RN100213016,EPA index; Central Registry
+Western Refining Company,el_paso,main,RN100213016,EPA index; Central Registry
+Western Refining Company LLC,el_paso,main,RN100213016,EPA index; Central Registry
+Western Refining Company LP,el_paso,main,RN100213016,EPA index; Central Registry
+"Western Refining Company, L.L.C",el_paso,main,RN100213016,EPA index; Central Registry
+"Western Refining Company, L.L.C.",el_paso,main,RN100213016,EPA index; Central Registry
+Motiva PAR,motiva_pa,main,RN100209451,Central Registry PORT ARTHUR REFINERY 2555 SAVANNAH AVE (workbook gives the TCEQ air account)
+P66 Borger,borger,main,RN102495884,Central Registry BORGER REFINERY
+Phillips 66 Borger Refinery,borger,main,RN102495884,Central Registry BORGER REFINERY
+P66 Borger JTF,borger,jtf,RN102495884,Central Registry BORGER REFINERY; a separate sampler ring in the same filings
+Pasadena Refinery,pasadena,main,RN100716661,Central Registry PASADENA REFINERY
+Pasadena Refining,pasadena,main,RN100716661,Central Registry
+Pasadena Refining System Inc.,pasadena,main,RN100716661,Central Registry
+Pasadena Refining Systems Inc.,pasadena,main,RN100716661,Central Registry
+Phillips 66 Sweeny Refinery,sweeny,main,RN101619179,Central Registry SWEENY REFINERY AND PETROCHEMICAL COMPLEX
+Port Arthur,total_pa,main,RN102457520,RN stated in workbook
+Total Refinery,total_pa,main,RN102457520,RN stated in workbook
+TotalEnergies Refinery,total_pa,main,RN102457520,RN stated in workbook
+Valero Corpus Christi East,valero_cc_east,main,RN100211663,Central Registry VALERO CORPUS CHRISTI REFINERY EAST PLANT
+Valero Corpus Christi West,valero_cc_west,main,RN100214386,Central Registry VALERO CORPUS CHRISTI REFINERY WEST PLANT
+Valero McKee,mckee,main,RN100210517,RN stated in workbook
+Valero Port Arthur,valero_pa,main,RN102584026,Central Registry VALERO PORT ARTHUR REFINERY
+Valero Texas City,valero_tc,main,RN100238385,RN stated in workbook
+Valero Three Rivers,three_rivers,main,RN100542802,RN stated in workbook
+Harvest Midstream - Alliance Terminal,,,,one period only; not a refinery; left out

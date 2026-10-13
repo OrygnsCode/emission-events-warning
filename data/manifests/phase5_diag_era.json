@@ -1,0 +1,57 @@
+{
+ "plant_only_R12": {
+  "rr": 1.3198,
+  "ci": [
+   1.1379,
+   1.5307
+  ],
+  "p": 0.0002454743914219737,
+  "n_accidents": 545,
+  "n_days": 1400305,
+  "fitted_by": "pyfixest"
+ },
+ "plant_x_5yr": {
+  "rr": 1.1335,
+  "ci": [
+   0.9781,
+   1.3136
+  ],
+  "p": 0.09579266617193327,
+  "n_accidents": 545,
+  "n_days": 1400305,
+  "fitted_by": "pyfixest"
+ },
+ "plant_x_3yr": {
+  "rr": 1.0877,
+  "ci": [
+   0.9337,
+   1.2671
+  ],
+  "p": 0.2803440417540286,
+  "n_accidents": 545,
+  "n_days": 1400305,
+  "fitted_by": "pyfixest"
+ },
+ "plant_x_2yr": {
+  "rr": 0.9965,
+  "ci": [
+   0.8521,
+   1.1653
+  ],
+  "p": 0.9648455072524051,
+  "n_accidents": 545,
+  "n_days": 1400305,
+  "fitted_by": "pyfixest"
+ },
+ "plant_year_primary": {
+  "rr": 0.8789,
+  "ci": [
+   0.7545,
+   1.0238
+  ],
+  "p": 0.09726555795533787,
+  "n_accidents": 545,
+  "n_days": 153138,
+  "fitted_by": "pyfixest"
+ }
+}

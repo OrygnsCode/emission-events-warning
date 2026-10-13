@@ -1,0 +1,270 @@
+{
+ "csb": [
+  {
+   "key": "CSB-aghorn-operating-inc-waterflood-station-hydrogen-sulfide-release-.html.gz",
+   "source": "CSB investigation",
+   "date": "2019-10-26",
+   "name": "Aghorn Operating Inc. Waterflood Station Hydrogen Sulfide Release",
+   "address": "ODESSA, TX",
+   "candidates": []
+  },
+  {
+   "key": "CSB-arkema-inc-chemical-plant-fire-.html.gz",
+   "source": "CSB investigation",
+   "date": "2017-08-29",
+   "name": "Arkema Inc. Chemical Plant Fire",
+   "address": "CROSBY, TX",
+   "candidates": []
+  },
+  {
+   "key": "CSB-bp-america-texas-city-refinery-explosion.html.gz",
+   "source": "CSB investigation",
+   "date": "2005-03-23",
+   "name": "BP America (Texas City) Refinery Explosion",
+   "address": "TEXAS CITY, TX",
+   "candidates": [
+    {
+     "id": "1000009158",
+     "names": "Blanchard Refining Company LLC - Galveston Bay Ref (RMP accident dated 2005-03-23)",
+     "addresses": [
+      "2401 5th Avenue South, Texas City"
+     ],
+     "why": [
+      "same city, 0 days apart"
+     ]
+    }
+   ]
+  },
+  {
+   "key": "CSB-citgo-refinery-hydrofluoric-acid-release-and-fire.html.gz",
+   "source": "CSB investigation",
+   "date": "2009-07-19",
+   "name": "CITGO Refinery Hydrofluoric Acid Release and Fire",
+   "address": "CORPUS CHRISTI, TX",
+   "candidates": [
+    {
+     "id": "1000009419",
+     "names": "CITGO Corpus Christi Refinery East Plant (RMP accident dated 2009-07-19)",
+     "addresses": [
+      "1801 Nueces Bay Blvd., Corpus Christi"
+     ],
+     "why": [
+      "same city, 0 days apart"
+     ]
+    }
+   ]
+  },
+  {
+   "key": "CSB-dupont-la-porte-facility-toxic-chemical-release-.html.gz",
+   "source": "CSB investigation",
+   "date": "2014-11-15",
+   "name": "DuPont La Porte Facility Toxic Chemical Release",
+   "address": "LA PORTE, TX",
+   "candidates": [
+    {
+     "id": "1000038559",
+     "names": "La Porte Plant (RMP accident dated 2014-11-15)",
+     "addresses": [
+      "12501 Strang Road, La Porte"
+     ],
+     "why": [
+      "same city, 0 days apart"
+     ]
+    }
+   ]
+  },
+  {
+   "key": "CSB-formosa-plastics-propylene-explosion.html.gz",
+   "source": "CSB investigation",
+   "date": "2005-10-06",
+   "name": "Formosa Plastics Propylene Explosion",
+   "address": "POINT COMFORT, TX",
+   "candidates": [
+    {
+     "id": "1000012536",
+     "names": "Formosa Plastics Corporation, Texas (RMP accident dated 2005-10-06)",
+     "addresses": [
+      "201 Formosa Drive, Point Comfort"
+     ],
+     "why": [
+      "same city, 0 days apart"
+     ]
+    }
+   ]
+  },
+  {
+   "key": "CSB-goodyear-heat-exchanger-rupture.html.gz",
+   "source": "CSB investigation",
+   "date": "2008-06-11",
+   "name": "Goodyear Heat Exchanger Rupture",
+   "address": "HOUSTON, TX",
+   "candidates": [
+    {
+     "id": "1000047819",
+     "names": "G-3C Houston Plant (RMP accident dated 2008-06-11)",
+     "addresses": [
+      "2000 Goodyear Drive, Houston"
+     ],
+     "why": [
+      "same city, 0 days apart"
+     ]
+    }
+   ]
+  },
+  {
+   "key": "CSB-intercontinental-terminals-company-itc-tank-fire.html.gz",
+   "source": "CSB investigation",
+   "date": "2019-03-17",
+   "name": "Intercontinental Terminals Company (ITC) Tank Fire",
+   "address": "DEER PARK, TX",
+   "candidates": []
+  },
+  {
+   "key": "CSB-kmco-llc-fatal-fire-and-explosion-.html.gz",
+   "source": "CSB investigation",
+   "date": "2019-04-02",
+   "name": "KMCO LLC Fatal Fire and Explosion",
+   "address": "CROSBY, TX",
+   "candidates": []
+  },
+  {
+   "key": "CSB-kuraray-pasadena-release-and-fire.html.gz",
+   "source": "CSB investigation",
+   "date": "2018-05-19",
+   "name": "Kuraray Pasadena Release and Fire",
+   "address": "PASADENA, TX",
+   "candidates": [
+    {
+     "id": "1000063037",
+     "names": "Kuraray America, Inc. (RMP accident dated 2018-05-19)",
+     "addresses": [
+      "11500 Bay Area Boulevard, Pasadena"
+     ],
+     "why": [
+      "same city, 0 days apart"
+     ]
+    }
+   ]
+  },
+  {
+   "key": "CSB-lyondellbasell-la-porte-fatal-chemical-release-.html.gz",
+   "source": "CSB investigation",
+   "date": "2021-07-27",
+   "name": "LyondellBasell La Porte Fatal Chemical Release",
+   "address": "LA PORTE, TX",
+   "candidates": []
+  },
+  {
+   "key": "CSB-marcus-oil-and-chemical-tank-explosion.html.gz",
+   "source": "CSB investigation",
+   "date": "2004-12-03",
+   "name": "Marcus Oil and Chemical Tank Explosion",
+   "address": "HOUSTON, TX",
+   "candidates": []
+  },
+  {
+   "key": "CSB-positive-material-verification-prevent-errors.html.gz",
+   "source": "CSB investigation",
+   "date": "2005-07-28",
+   "name": "Positive Material Verification: Prevent Errors",
+   "address": "TEXAS CITY, TX",
+   "candidates": [
+    {
+     "id": "1000009159",
+     "names": "Blanchard Refining Company LLC - Galveston Bay Ref (RMP accident dated 2005-07-28)",
+     "addresses": [
+      "2401 5th Avenue South, Texas City"
+     ],
+     "why": [
+      "same city, 0 days apart"
+     ]
+    }
+   ]
+  },
+  {
+   "key": "CSB-sunoco-logistics-partners-flash-fire.html.gz",
+   "source": "CSB investigation",
+   "date": "2016-08-12",
+   "name": "Sunoco Logistics Partners Flash Fire",
+   "address": "NEDERLAND, TX",
+   "candidates": []
+  },
+  {
+   "key": "CSB-texas-tech-university-chemistry-lab-explosion.html.gz",
+   "source": "CSB investigation",
+   "date": "2010-01-07",
+   "name": "Texas Tech University Chemistry Lab Explosion",
+   "address": "LUBBOCK, TX",
+   "candidates": []
+  },
+  {
+   "key": "CSB-tpc-port-neches-explosions-and-fire.html.gz",
+   "source": "CSB investigation",
+   "date": "2019-11-27",
+   "name": "TPC Port Neches Explosions and Fire",
+   "address": "PORT NECHES, TX",
+   "candidates": [
+    {
+     "id": "1000078737",
+     "names": "TPC Group- Port Neches Operations (RMP accident dated 2019-11-27)",
+     "addresses": [
+      "2102 SPUR 136, PORT NECHES"
+     ],
+     "why": [
+      "same city, 0 days apart"
+     ]
+    }
+   ]
+  },
+  {
+   "key": "CSB-valero-mckee-refinery-propane-fire.html.gz",
+   "source": "CSB investigation",
+   "date": "2007-02-16",
+   "name": "Valero McKee Refinery Propane Fire",
+   "address": "SUNRAY, TX",
+   "candidates": [
+    {
+     "id": "8972",
+     "names": "Valero McKee Refinery (RMP accident dated 2007-02-16)",
+     "addresses": [
+      "6701 FM 119, Sunray"
+     ],
+     "why": [
+      "same city, 0 days apart"
+     ]
+    }
+   ]
+  },
+  {
+   "key": "CSB-watson-grinding-fatal-explosion-and-fire-.html.gz",
+   "source": "CSB investigation",
+   "date": "2020-01-24",
+   "name": "Watson Grinding Fatal Explosion and Fire",
+   "address": "HOUSTON, TX",
+   "candidates": []
+  },
+  {
+   "key": "CSB-wendland-1h-well-fatal-explosion-.html.gz",
+   "source": "CSB investigation",
+   "date": "2020-01-29",
+   "name": "Wendland 1H Well Fatal Explosion",
+   "address": "BURLESON COUNTY, TX",
+   "candidates": []
+  },
+  {
+   "key": "CSB-west-fertilizer-explosion-and-fire-.html.gz",
+   "source": "CSB investigation",
+   "date": "2013-04-17",
+   "name": "West Fertilizer Explosion and Fire",
+   "address": "WEST, TX",
+   "candidates": []
+  }
+ ],
+ "log": {
+  "pages": 150,
+  "with_location": 126,
+  "with_date": 137,
+  "texas_2003_2023": 20,
+  "with_a_candidate": 9
+ }
+}

@@ -1,0 +1,67 @@
+{
+  "version": "1.2",
+  "written": "2026-10-04, before the link table is built, using only plant names, IDs, addresses and coordinates (no emission events counted, no accidents)",
+  "purpose": "Link Texas RMP facilities to TCEQ regulated entities (RNs) for plan Deviation D2 item 3. Every rule below was tested against the EPA Facility Registry Service links before adoption; the measured agreement is recorded under each rule.",
+  "plant_definition": "A plant is a connected group of RMP facility IDs and RNs joined by accepted links (same as plan section 3.1, with more link types).",
+  "normalization": {
+    "ids": "Upper case; every character that is not a letter or digit removed. IDs shorter than 6 characters after this are ignored (they collide too often, for example 'NA').",
+    "title_v_permit": "RMP ClearAirOpPermitID and TCEQ AIROP IDs are reduced to the permit number: an optional leading 'O' (or a zero typed in its place) and leading zeros are removed, leaving 1 to 5 digits.",
+    "county": "RMP county from the FIPS code via the RMP county table; TCEQ county from the Central Registry; compared in upper case.",
+    "street_address": "Upper case, punctuation removed; house number plus street name with suffixes and directions removed (ROAD, RD, STREET, ST, AVENUE, AVE, DRIVE, DR, HIGHWAY, HWY, BOULEVARD, BLVD, LANE, LN, PARKWAY, PKWY, FREEWAY, FWY, NORTH, SOUTH, EAST, WEST and single-letter directions), plus the 5-digit ZIP code.",
+    "distance": "Great-circle approximation in km between any RMP coordinate (facility or EPA registry point, any filing) and any TCEQ coordinate for the RN (emissions inventory, spills, notices of enforcement, EPA registry). The smallest distance is used.",
+    "name_words": "Words of 3 or more letters from the names. Not evidence: words that appear in more than 0.5% of TCEQ name strings, counted over the same strings that are compared (each RN's site names plus customer names; 141 words, among them legal forms such as INC, LLC, CORPORATION and very common operator names), and, for a given pair, any word that is part of either record's own city or county name (two records in Port Arthur sharing the words PORT and ARTHUR says nothing about being the same plant)."
+  },
+  "accept_automatically": [
+    {
+      "rule": "registry",
+      "text": "The RMP facility and the RN are joined through an EPA Facility Registry Service REGISTRY_ID (programs RMP and TX-TCEQ ACR), directly or through a chain.",
+      "basis": "This is the original plan rule (section 3.1)."
+    },
+    {
+      "rule": "own_id",
+      "text": "An ID the RMP facility wrote in its own filings (OtherEPAFacilityID or ClearAirOpPermitID) equals an ID TCEQ lists for the RN (Central Registry additional IDs; for the permit field, Title V operating permit numbers), AND the RN is in the same county, AND the RN has the same street address or lies within 1 km.",
+      "basis": "Tested on facilities that already have registry links: 172 of 189 (91%) accepted pairs for listed IDs and 267 of 287 (93%) for Title V numbers are the registry's own RN; the rest, read one by one, are mostly a second RN at the same site. Without the county condition, permit numbers matched unrelated plants in other counties."
+    }
+  ],
+  "send_to_human_review": [
+    {
+      "rule": "own_id_unconfirmed",
+      "text": "An ID match in the same county with no matching address and no coordinates within 1 km.",
+      "basis": "Such pairs included two different gas plants in one county and other sites of the same company."
+    },
+    {
+      "rule": "address_only",
+      "text": "Same street address and ZIP, no ID or registry link.",
+      "basis": "69% agreement with the registry; large complexes share one address across several companies."
+    },
+    {
+      "rule": "location_name",
+      "text": "RN within 1 km sharing a non-generic name word, or within 0.25 km with any name, no ID or registry link.",
+      "basis": "At most 88% agreement with the registry even under the tightest version."
+    }
+  ],
+  "review_scope": "Only pairs whose RN has at least one emission event report are reviewed, because only those change the exposure in H1. Pairs whose RN has no events are not added; this affects only which facilities enter H2 and is reported.",
+  "review_rules_for_the_reviewer": "The reviewer sees the two records only: names, operator and company names, addresses, county, coordinates and distance, industry codes and program IDs. The reviewer never sees emission event counts or accidents. Answer 'same plant' only when the records describe the same physical site; 'different' when they describe different sites or companies sharing an address; 'cannot tell' otherwise. Only 'same plant' links are added.",
+  "reject": [
+    {
+      "rule": "county_differs",
+      "text": "Any ID match where the RN is in a different county.",
+      "basis": "Every cross-county match inspected was a number collision with an unrelated plant."
+    }
+  ],
+  "after_linking": "Plants (connected groups) whose members lie more than 5 km apart, or with more than 10 RNs, are listed for review, because a chain of links can join separate sites.",
+  "changes": [
+    {
+      "date": "2026-10-04",
+      "version": "1.1",
+      "change": "Words from either record's own city or county name no longer count as shared name words for that pair.",
+      "reason": "The first review item paired a city water plant with a chemical complex only because both names contained the city name. Found while testing the review page, before any review answers and before any outcome analysis. A statewide place-word list was tried first and rejected: it also removed company words that happen to be Texas town names (Enterprise, Morgan, Flint, Union, Plains, Martin)."
+    },
+    {
+      "date": "2026-10-04",
+      "version": "1.2",
+      "change": "The frequency of name words is counted over site names plus customer names, the same strings that are compared, instead of site names only.",
+      "reason": "Reading the shared-word column of the review queue showed that 264 of 549 location candidates shared only legal-form words (INC, LLC, COMPANY, CORPORATION), which are rare in TCEQ site names but common in customer names, so the v1.1 count missed them. Checked against registry links for facilities that have them: location candidates with a shared word agreed with the registry 32% of the time under v1.1 and 51% under v1.2, and the 421 candidates removed almost never agreed (about 1%). Candidates within 0.25 km are unchanged. The review queue went from 612 pairs (330 facilities) to 375 pairs (256 facilities). No review answers were used, no events counted, no accidents read."
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+ "note": "Phase 5 diagnostic (D9, exploratory): what the plants' own RMP accident records say about the accidents that had\nplanned work (maintenance, startup, shutdown reports to TCEQ) starting in the 7 days before, compared with the other\naccidents. RMP has no field for the unit's operating state; the closest are the contributing-factor boxes\n(maintenance, upset condition, improper procedure, human error and others) and the initiating event. The free-text\n\"other\" fields are only searched for the words start-up, startup, shutdown, shut down, turnaround, restart and\ncommissioning, and only counts are kept (no text is stored or shown). Accidents: the primary H1 set (full links,\nmerged duplicates, at-risk days, June 2003 to 2021).",
+ "accidents": 545,
+ "with_planned_before": 32,
+ "plants_with_planned_before": 17,
+ "records_not_found": 0,
+ "factors": {
+  "CF_EquipmentFailure": {
+   "with_planned_before": 13,
+   "share_with_planned_before": 0.406,
+   "share_others": 0.452,
+   "fisher_p": 0.7152
+  },
+  "CF_HumanError": {
+   "with_planned_before": 14,
+   "share_with_planned_before": 0.438,
+   "share_others": 0.316,
+   "fisher_p": 0.1735
+  },
+  "CF_ImproperProcedure": {
+   "with_planned_before": 13,
+   "share_with_planned_before": 0.406,
+   "share_others": 0.226,
+   "fisher_p": 0.03
+  },
+  "CF_Overpressurization": {
+   "with_planned_before": 2,
+   "share_with_planned_before": 0.062,
+   "share_others": 0.097,
+   "fisher_p": 0.7578
+  },
+  "CF_UpsetCondition": {
+   "with_planned_before": 2,
+   "share_with_planned_before": 0.062,
+   "share_others": 0.066,
+   "fisher_p": 1.0
+  },
+  "CF_BypassCondition": {
+   "with_planned_before": 1,
+   "share_with_planned_before": 0.031,
+   "share_others": 0.016,
+   "fisher_p": 0.4223
+  },
+  "CF_Maintenance": {
+   "with_planned_before": 11,
+   "share_with_planned_before": 0.344,
+   "share_others": 0.199,
+   "fisher_p": 0.0691
+  },
+  "CF_ProcessDesignFailure": {
+   "with_planned_before": 1,
+   "share_with_planned_before": 0.031,
+   "share_others": 0.099,
+   "fisher_p": 0.3479
+  },
+  "CF_UnsuitableEquipment": {
+   "with_planned_before": 1,
+   "share_with_planned_before": 0.031,
+   "share_others": 0.09,
+   "fisher_p": 0.5094
+  },
+  "CF_UnusualWeather": {
+   "with_planned_before": 0,
+   "share_with_planned_before": 0.0,
+   "share_others": 0.039,
+   "fisher_p": 0.6223
+  },
+  "CF_ManagementError": {
+   "with_planned_before": 6,
+   "share_with_planned_before": 0.188,
+   "share_others": 0.051,
+   "fisher_p": 0.0077
+  },
+  "initiating_human_error": {
+   "with_planned_before": 17,
+   "share_with_planned_before": 0.531,
+   "share_others": 0.324,
+   "fisher_p": 0.0203
+  },
+  "initiating_weather": {
+   "with_planned_before": 1,
+   "share_with_planned_before": 0.031,
+   "share_others": 0.041,
+   "fisher_p": 1.0
+  },
+  "other_text_mentions_startup_shutdown_turnaround": {
+   "with_planned_before": 0,
+   "share_with_planned_before": 0.0,
+   "share_others": 0.008,
+   "fisher_p": 1.0
+  }
+ }
+}

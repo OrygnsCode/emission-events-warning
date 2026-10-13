@@ -1,0 +1,60 @@
+{
+ "v1_eligible_events": 28478,
+ "events_with_location": 28332,
+ "by_family": {
+  "so2": {
+   "events_reporting_family": 13921,
+   "with_location": 13812,
+   "monitor_within_10km_same_year": 2221,
+   "of_which_wind_measured_at_monitor_site": 2221,
+   "median_km_to_nearest": 2.82,
+   "plants_reporting_family": 174,
+   "plants_with_covered_events": 65
+  },
+  "h2s": {
+   "events_reporting_family": 12480,
+   "with_location": 12375,
+   "monitor_within_10km_same_year": 936,
+   "of_which_wind_measured_at_monitor_site": 936,
+   "median_km_to_nearest": 1.92,
+   "plants_reporting_family": 140,
+   "plants_with_covered_events": 12
+  },
+  "nox": {
+   "events_reporting_family": 14211,
+   "with_location": 14097,
+   "monitor_within_10km_same_year": 2259,
+   "of_which_wind_measured_at_monitor_site": 2259,
+   "median_km_to_nearest": 4.84,
+   "plants_reporting_family": 266,
+   "plants_with_covered_events": 86
+  },
+  "benzene": {
+   "events_reporting_family": 4837,
+   "with_location": 4837,
+   "monitor_within_10km_same_year": 1182,
+   "of_which_wind_measured_at_monitor_site": 1182,
+   "median_km_to_nearest": 5.5,
+   "plants_reporting_family": 157,
+   "plants_with_covered_events": 38
+  },
+  "butadiene": {
+   "events_reporting_family": 2339,
+   "with_location": 2334,
+   "monitor_within_10km_same_year": 987,
+   "of_which_wind_measured_at_monitor_site": 987,
+   "median_km_to_nearest": 5.5,
+   "plants_reporting_family": 63,
+   "plants_with_covered_events": 29
+  },
+  "voc": {
+   "events_reporting_family": 5184,
+   "with_location": 5096,
+   "monitor_within_10km_same_year": 820,
+   "of_which_wind_measured_at_monitor_site": 820,
+   "median_km_to_nearest": 4.36,
+   "plants_reporting_family": 204,
+   "plants_with_covered_events": 55
+  }
+ }
+}

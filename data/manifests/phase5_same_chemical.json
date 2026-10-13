@@ -1,0 +1,38 @@
+{
+ "note": "Exploratory test A (plan D14 item 3, with the matching change logged the same day before running): unplanned\nemission events that release a chemical the plant handles in its RMP processes.\n\nExposure: kept unplanned emission-event occurrences (same filters, merge and exclusion set as the primary count)\nwith at least one listed contaminant matching one of the plant's RMP process chemicals (any filing; components of\nflammable mixtures included; confidential \"CBI\" entries left out). Name matching as in D14. Model as H1 (window\n90, gap 7, end 2021); statewide count: the same matched count at all other plants. Shown as registered and with the\nplant's matched reports on accident days and the 2 days after removed.",
+ "plants_with_rmp_chemicals": 2328,
+ "kept_occurrences_with_contaminants": 67484,
+ "matched_occurrences": 17518,
+ "share_matched": 0.26,
+ "top_matched_contaminants": {
+  "Propane": 14208,
+  "Ethylene (gaseous)": 7512,
+  "Isobutane": 7339,
+  "Hydrogen Sulfide": 6734,
+  "Propylene (Propene)": 6466,
+  "Butane": 6180,
+  "Butane, N-": 5282,
+  "Pentane": 4518,
+  "1,3-BUTADIENE": 3385,
+  "Isopentane": 3363
+ },
+ "registered_design": {
+  "rr": 0.905,
+  "ci": [
+   0.767,
+   1.068
+  ],
+  "p": 0.2364,
+  "n_accidents": 545
+ },
+ "own_reports_removed": {
+  "rr": 1.06,
+  "ci": [
+   0.838,
+   1.342
+  ],
+  "p": 0.6265,
+  "n_accidents": 545,
+  "events_removed": 205
+ }
+}

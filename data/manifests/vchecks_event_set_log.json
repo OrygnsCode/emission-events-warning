@@ -1,0 +1,13 @@
+{
+ "after_same_start_merge": 28480,
+ "frozen_duplicate": 48,
+ "frozen_filed_in_error": 293,
+ "narrow_non_event": 555,
+ "dropped_any": 853,
+ "end_after_2030_set_missing": 2,
+ "kept": 27627,
+ "with_location": 27488,
+ "with_valid_start": 27627,
+ "with_valid_end_after_start": 27607,
+ "episodes": 25141
+}

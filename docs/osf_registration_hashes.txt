@@ -1,0 +1,13 @@
+Source version (git commit): d5dd47cf080a1020661a52943fafc84064d97e0e
+Prepared: 2026-10-03 UTC
+
+preregistration_documents.pdf holds print versions of these source files at that commit, in this order:
+  analysis_plan.md  573e42f76c195c6c85de5dead6456e80a76dca5cc2dfe2db8935cc4ddd16f196
+  cause_codebook.md  65d16915e87d74ae56a0747ba970389c983d03df049e68d638d8bf2f71739658
+  data_sources.md  c54f39414c973ed5f2d4bcfe2822b4f83cdb92d1ff83183e52793a855edc04bd
+
+SHA-256 of each uploaded file:
+4bb707b5cd97c89913ee54b6c5cefe7182d98864ee264e8d02bc5739e2d5d807  preregistration_documents.pdf
+33d5d163e96b14f74e55572b2f417e923fa2f0a8a30e5248b80ba3843057f1bb  cause_rules.json
+1c02d3cca3efb59076c7c042c7796350faba28205f42e0ab38670c2904ceaa22  gdelt_url_rules.json
+7570dff867a1e248058f8ab82e8ac19eb1176f9dd1e5a2174aebec8b941d2447  power_h1.json

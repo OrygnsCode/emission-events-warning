@@ -1,0 +1,57 @@
+{
+  "runs_per_ratio": 2000,
+  "links": "v2",
+  "seconds": 1657,
+  "formula": "y ~ x + xs | plant_year + moy",
+  "design": {
+    "window": 90,
+    "gap": 7,
+    "study": [
+      "2003-06-01",
+      "2021-12-31"
+    ]
+  },
+  "plant_years": 426,
+  "plants": 216,
+  "summary": [
+    {
+      "variant": "R15_drop_chain_cases_120",
+      "planted_ratio": 1.0,
+      "runs": 2000,
+      "share_p_below_0.05": 0.055,
+      "share_detected_and_positive": 0.031,
+      "median_estimated_ratio": 0.999,
+      "median_ci": [
+        0.833,
+        1.199
+      ],
+      "median_accidents_used": 447
+    },
+    {
+      "variant": "R16_post_exclusion_120",
+      "planted_ratio": 1.0,
+      "runs": 2000,
+      "share_p_below_0.05": 0.051,
+      "share_detected_and_positive": 0.03,
+      "median_estimated_ratio": 1.001,
+      "median_ci": [
+        0.788,
+        1.271
+      ],
+      "median_accidents_used": 447
+    },
+    {
+      "variant": "primary",
+      "planted_ratio": 1.0,
+      "runs": 2000,
+      "share_p_below_0.05": 0.059,
+      "share_detected_and_positive": 0.034,
+      "median_estimated_ratio": 0.998,
+      "median_ci": [
+        0.852,
+        1.168
+      ],
+      "median_accidents_used": 546
+    }
+  ]
+}

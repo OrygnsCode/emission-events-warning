@@ -1,0 +1,12 @@
+{
+ "benzene": {
+  "overlap_hours": 1022841,
+  "median_ratio_aqs_to_agc": 1.0,
+  "share_within_10pct": 1.0
+ },
+ "butadiene": {
+  "overlap_hours": 233133,
+  "median_ratio_aqs_to_agc": 1.0,
+  "share_within_10pct": 1.0
+ }
+}

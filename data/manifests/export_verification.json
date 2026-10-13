@@ -1,0 +1,169 @@
+{
+  "export_files": 103614,
+  "incidents_matching_detail_page": 102804,
+  "incidents_differing": 279,
+  "incidents_matching_after_known_artifacts": 531,
+  "both_empty": 3886,
+  "export_contaminant_rows": 575601,
+  "detail_contaminant_rows": 575698,
+  "sha256_mismatches": 0,
+  "unreadable": 0,
+  "export_wrong_incident": 0,
+  "flag_values": {
+    "estimated_ind": {
+      "YES": 557478,
+      "NO": 18123
+    },
+    "amount_unknown_ind": {
+      "NO": 575482,
+      "YES": 119
+    }
+  },
+  "examples_of_differences": [
+    [
+      16343,
+      16,
+      17,
+      [],
+      []
+    ],
+    [
+      16428,
+      18,
+      17,
+      [
+        [
+          "PROCESS 1",
+          "Methane",
+          76.59,
+          "POUNDS",
+          0.0,
+          "",
+          "106.352"
+        ],
+        [
+          "PROCESS 1",
+          "Methane",
+          76.59,
+          "POUNDS",
+          0.0,
+          "",
+          "106.352 Unknown date Riley Booster"
+        ]
+      ],
+      [
+        [
+          "PROCESS 1",
+          "Methane",
+          76.59,
+          "POUNDS",
+          0.0,
+          "",
+          "106.352106.352 Unknown date Riley Booster"
+        ],
+        [
+          "PROCESS 1",
+          "NATURAL GAS",
+          null,
+          "",
+          0.0,
+          "",
+          "106.352 Unknown date Riley Booster"
+        ]
+      ]
+    ],
+    [
+      17290,
+      6,
+      7,
+      [],
+      [
+        [
+          "22-E-01",
+          "VOC",
+          666.06,
+          "POUNDS",
+          0.0,
+          "",
+          "TCEQ Permit # 38754"
+        ]
+      ]
+    ],
+    [
+      18700,
+      2,
+      3,
+      [],
+      [
+        [
+          "RB01B",
+          "Sulfur dioxide",
+          5664.0,
+          "POUNDS",
+          4128.0,
+          "POUNDS",
+          "This emission unit has two identical stacks. Emissions have been associated with Precipitator Stack A due to data entry issues. In reality emissions would be split evenly between the two emission points."
+        ]
+      ]
+    ],
+    [
+      18756,
+      2,
+      3,
+      [],
+      [
+        [
+          "RB02B",
+          "Sulfur dioxide",
+          5076.0,
+          "POUNDS",
+          4524.0,
+          "POUNDS",
+          "This emission unit has two identical stacks. Emissions have been associated with Precipitator Stack A due to data entry issues. In reality emissions would be split evenly between the two emission points."
+        ]
+      ]
+    ],
+    [
+      22562,
+      4,
+      5,
+      [],
+      []
+    ],
+    [
+      27206,
+      2,
+      3,
+      [],
+      [
+        [
+          "",
+          "Opacity",
+          92.0,
+          "% OPACITY",
+          7.0,
+          "% OPACITY",
+          "TCEQ Air Permit No. 19732"
+        ]
+      ]
+    ],
+    [
+      28554,
+      1,
+      2,
+      [],
+      [
+        [
+          "T5",
+          "VOC",
+          1190.0,
+          "POUNDS",
+          0.0,
+          "",
+          ""
+        ]
+      ]
+    ]
+  ],
+  "comparison": "emission point number, contaminant, quantity, units, limit, limit units, authorization; blank placeholders (N/A, NA, None) and runs of spaces ignored"
+}

@@ -1,0 +1,42 @@
+{
+ "note": "Fresh test T3 of the planned-work lead (docs/planned_work_test.md; plan D11): National Response Center serious\nreports linked by the author's review, on the H4 panel (TCEQ sites, RN-years with an outcome day), June 2003 to 2023.\n\nExposure as fixed in the test file: planned = log(1 + planned-work reports (MAINTENANCE, AIR STARTUP, AIR SHUTDOWN)\nstarting in days -7 to -1); unplanned = the same for EMISSIONS EVENT and EXCESS OPACITY; each with its statewide\ntotal minus own. Primary-filter rules, plus: reports with an impossible date (after the data download, or starting\n300 or more days after their own report date) are left out; in a same-start group whose kept report is in the\nfiled-in-error exclusion set, the occurrence is kept if any other report of the group is not excluded.\nModel: y ~ planned + unplanned + xs_planned + xs_unplanned | RN-year + month of year, errors clustered by RN.\nPrimary outcome: linked NRC report days with no RMP accident at the same plant within 3 days; the version with all\nlinked NRC report days is shown beside it. Power check first (200 draws, planted 1.5). Decision rule as fixed:\nconfirmed if the 95% range is above 1; contradicted if its top is below 1.3; otherwise inconclusive.",
+ "exposure_log": {
+  "impossible_dates_maintenance": 11,
+  "impossible_dates_emissions": 25
+ },
+ "nrc_report_days_all": 240,
+ "nrc_report_days_without_rmp_accident_within_3_days": 205,
+ "panel": {
+  "days": 63504,
+  "outcome_days": 205,
+  "sites": 104,
+  "outcome_days_with_planned_last_week": 12,
+  "share_all_days_with_planned_last_week": 0.0511
+ },
+ "power_planted_1.5": 0.3,
+ "power_label": "underpowered (below 50%)",
+ "T3_primary": {
+  "rr": 1.365,
+  "ci": [
+   0.646,
+   2.886
+  ],
+  "p": 0.4153,
+  "n_outcome_days": 205,
+  "n_sites": 104,
+  "n_strata": 178,
+  "decision": "inconclusive"
+ },
+ "T3_all_nrc_reports": {
+  "rr": 1.244,
+  "ci": [
+   0.62,
+   2.494
+  ],
+  "p": 0.5385,
+  "n_outcome_days": 240,
+  "n_sites": 114,
+  "n_strata": 207,
+  "decision_if_primary": "inconclusive"
+ }
+}

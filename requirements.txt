@@ -1,0 +1,18 @@
+# Python 3.11. These are the versions every result in data/manifests/ was made with.
+
+# analysis
+pyfixest==0.60.0
+pandas==3.0.6
+numpy==2.4.6
+scipy==1.17.1
+statsmodels==0.15.0
+matplotlib==3.11.2
+pyarrow==25.0.1
+openpyxl==3.1.5
+xlrd==2.0.2
+
+# downloading and parsing the public sources (only needed to rebuild the tables from scratch)
+requests==2.34.2
+beautifulsoup4==4.15.0
+rasterio==1.4.4
+playwright==1.63.0

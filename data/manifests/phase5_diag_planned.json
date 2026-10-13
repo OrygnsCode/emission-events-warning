@@ -1,0 +1,313 @@
+{
+ "note": "Phase 5 diagnostic (D9, exploratory, found after seeing the multiverse): planned work (TCEQ maintenance, startup\nand shutdown reports) in the week before an accident. phase5_diag_lastweek.py found 1.65 per doubling for planned\nreports starting in days -7 to -1, and about 1.0 for unplanned ones. Before saying anything, this checks:\n\n  base         full links, window ending 2021 (the primary period) and 2023; planned and unplanned last-week counts\n               each with their own statewide control\n  by_type      maintenance, startup and shutdown as separate terms\n  by_days      days -3 to -1 and days -7 to -4 as separate terms; gap 1 (days -8 to -2)\n  notified     only planned reports whose initial notification came before the work started (filed in advance, so\n               they cannot be a report about the accident); and the rest\n  finished     planned work that ended before the day (start in days -7 to -1, end before day 0) against work still\n               going on that day\n  storms       the three storm rules of the robustness checks (R5 NOAA storm records, R22 FEMA declarations, R23\n               hurricane tracks within 150 km), days dropped\n  counts       accidents and plants with at least one planned report in the week before (plan D4 item 6: 5 or more)\n  fake_dates   200 redraws of each accident to a random at-risk day of the same plant-year (no real accidents):\n               the code and design should give about 1\n  leave_one_out  the planned term with each plant left out in turn (smallest and largest)",
+ "planned_reports": {
+  "kept": 23621,
+  "start_unreadable": 3,
+  "end_unreadable": 25,
+  "notification_unreadable": 47,
+  "notified_before_start": 19006
+ },
+ "base_2021": {
+  "planned": {
+   "rr": 1.663,
+   "ci": [
+    1.265,
+    2.185
+   ],
+   "p": 0.00026
+  },
+  "unplanned": {
+   "rr": 1.016,
+   "ci": [
+    0.786,
+    1.314
+   ],
+   "p": 0.90274
+  },
+  "n_accidents": 545
+ },
+ "base_2023": {
+  "planned": {
+   "rr": 1.665,
+   "ci": [
+    1.274,
+    2.177
+   ],
+   "p": 0.00019
+  },
+  "unplanned": {
+   "rr": 1.018,
+   "ci": [
+    0.791,
+    1.311
+   ],
+   "p": 0.89027
+  },
+  "n_accidents": 571
+ },
+ "counts_2021": {
+  "accident_days": 541,
+  "accident_days_with_planned_last_week": 32,
+  "plants_with_such_accidents": 17,
+  "share_of_all_days_with_planned_last_week": 0.0361,
+  "share_of_accident_days_with_planned_last_week": 0.0591
+ },
+ "by_type": {
+  "maintenance": {
+   "rr": 1.08,
+   "ci": [
+    0.722,
+    1.616
+   ],
+   "p": 0.70767
+  },
+  "startup": {
+   "rr": 1.999,
+   "ci": [
+    1.138,
+    3.514
+   ],
+   "p": 0.01604
+  },
+  "shutdown": {
+   "rr": 1.596,
+   "ci": [
+    1.033,
+    2.467
+   ],
+   "p": 0.03512
+  },
+  "unplanned": {
+   "rr": 1.015,
+   "ci": [
+    0.781,
+    1.318
+   ],
+   "p": 0.91319
+  }
+ },
+ "by_days": {
+  "planned_days_1_3": {
+   "rr": 1.705,
+   "ci": [
+    1.208,
+    2.407
+   ],
+   "p": 0.00243
+  },
+  "planned_days_4_7": {
+   "rr": 1.605,
+   "ci": [
+    1.183,
+    2.177
+   ],
+   "p": 0.00235
+  },
+  "unplanned": {
+   "rr": 1.011,
+   "ci": [
+    0.783,
+    1.306
+   ],
+   "p": 0.93416
+  }
+ },
+ "gap_1": {
+  "planned": {
+   "rr": 1.703,
+   "ci": [
+    1.288,
+    2.251
+   ],
+   "p": 0.00019
+  },
+  "unplanned": {
+   "rr": 1.006,
+   "ci": [
+    0.792,
+    1.278
+   ],
+   "p": 0.96029
+  }
+ },
+ "notified": {
+  "planned_notified_before": {
+   "rr": 1.675,
+   "ci": [
+    1.231,
+    2.278
+   ],
+   "p": 0.00102
+  },
+  "planned_other": {
+   "rr": 1.376,
+   "ci": [
+    0.788,
+    2.404
+   ],
+   "p": 0.26187
+  },
+  "unplanned": {
+   "rr": 1.014,
+   "ci": [
+    0.784,
+    1.311
+   ],
+   "p": 0.9152
+  }
+ },
+ "finished": {
+  "planned_finished": {
+   "rr": 1.575,
+   "ci": [
+    1.167,
+    2.125
+   ],
+   "p": 0.00297
+  },
+  "planned_ongoing": {
+   "rr": 1.777,
+   "ci": [
+    1.132,
+    2.788
+   ],
+   "p": 0.01243
+  },
+  "unplanned": {
+   "rr": 1.017,
+   "ci": [
+    0.787,
+    1.314
+   ],
+   "p": 0.89542
+  },
+  "accident_days_with_finished": 25,
+  "accident_days_with_ongoing": 14
+ },
+ "storms_R5_noaa": {
+  "planned": {
+   "rr": 1.627,
+   "ci": [
+    1.254,
+    2.111
+   ],
+   "p": 0.00025
+  },
+  "unplanned": {
+   "rr": 0.998,
+   "ci": [
+    0.78,
+    1.278
+   ],
+   "p": 0.98911
+  },
+  "n_accidents": 482
+ },
+ "storms_R22_fema": {
+  "planned": {
+   "rr": 1.771,
+   "ci": [
+    1.313,
+    2.387
+   ],
+   "p": 0.00018
+  },
+  "unplanned": {
+   "rr": 0.924,
+   "ci": [
+    0.707,
+    1.209
+   ],
+   "p": 0.56614
+  },
+  "n_accidents": 436
+ },
+ "storms_R23_hurdat": {
+  "planned": {
+   "rr": 1.631,
+   "ci": [
+    1.239,
+    2.146
+   ],
+   "p": 0.00048
+  },
+  "unplanned": {
+   "rr": 1.014,
+   "ci": [
+    0.781,
+    1.317
+   ],
+   "p": 0.91429
+  },
+  "n_accidents": 540
+ },
+ "storms_all_three": {
+  "planned": {
+   "rr": 1.803,
+   "ci": [
+    1.36,
+    2.391
+   ],
+   "p": 4e-05
+  },
+  "unplanned": {
+   "rr": 0.883,
+   "ci": [
+    0.676,
+    1.153
+   ],
+   "p": 0.36123
+  },
+  "n_accidents": 401
+ },
+ "fake_dates": {
+  "draws": 200,
+  "median_rr": 0.973,
+  "share_p_below_0.05": 0.065,
+  "share_rr_at_least_real": 0.0
+ },
+ "leave_one_out": {
+  "plants": 216,
+  "min_rr": 1.591,
+  "max_rr": 1.732,
+  "max_p": 0.00393
+ },
+ "chains_R15_drop_120": {
+  "planned": {
+   "rr": 1.663,
+   "ci": [
+    1.143,
+    2.421
+   ],
+   "p": 0.00791
+  },
+  "unplanned": {
+   "rr": 0.994,
+   "ci": [
+    0.737,
+    1.34
+   ],
+   "p": 0.96846
+  },
+  "n_accidents": 436
+ },
+ "chains_R16_post_120": {
+  "planned": {
+   "rr": 1.779,
+   "ci": [
+    1.241,
+    2.551
+   ],
+   "p": 0.00171
+  },
+  "unplanned": {
+   "rr": 1.082,
+   "ci": [
+    0.79,
+    1.482
+   ],
+   "p": 0.62271
+  },
+  "n_accidents": 436
+ }
+}

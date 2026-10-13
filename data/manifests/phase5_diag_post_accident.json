@@ -1,0 +1,116 @@
+{
+ "primary_90": {
+  "post_days_dropped": 97,
+  "n_accidents": 446,
+  "n_plants": 216,
+  "n_days": 110203,
+  "x": {
+   "rr": 1.1322,
+   "ci": [
+    0.8693,
+    1.4745
+   ],
+   "p": 0.3571725853614387
+  }
+ },
+ "O4_harm_outside_fence": {
+  "post_days_dropped": 97,
+  "n_accidents": 87,
+  "n_plants": 64,
+  "n_days": 22150,
+  "x": {
+   "rr": 0.833,
+   "ci": [
+    0.5272,
+    1.3161
+   ],
+   "p": 0.4335875834971352
+  }
+ },
+ "window_180": {
+  "post_days_dropped": 187,
+  "n_accidents": 410,
+  "n_plants": 214,
+  "n_days": 84249,
+  "x": {
+   "rr": 1.0845,
+   "ci": [
+    0.7754,
+    1.5169
+   ],
+   "p": 0.6355063906402199
+  }
+ },
+ "window_365": {
+  "post_days_dropped": 372,
+  "n_accidents": 358,
+  "n_plants": 210,
+  "n_days": 62229,
+  "x": {
+   "rr": NaN,
+   "ci": [
+    NaN,
+    NaN
+   ],
+   "p": NaN
+  }
+ },
+ "lag_profile": {
+  "post_days_dropped": 730,
+  "n_accidents": 295,
+  "n_plants": 200,
+  "n_days": 52324,
+  "l0_3": {
+   "rr": 2.6044,
+   "ci": [
+    0.6408,
+    10.586
+   ],
+   "p": 0.18093787617170654
+  },
+  "l3_6": {
+   "rr": 0.7382,
+   "ci": [
+    0.109,
+    5.0007
+   ],
+   "p": 0.7557947270503738
+  },
+  "l6_12": {
+   "rr": 0.1998,
+   "ci": [
+    0.0306,
+    1.3035
+   ],
+   "p": 0.09237871783848386
+  },
+  "l12_24": {
+   "rr": 0.6654,
+   "ci": [
+    0.1062,
+    4.1672
+   ],
+   "p": 0.6633833499029429
+  }
+ },
+ "dose_top_quarter": {
+  "post_days_dropped": 97,
+  "n_accidents": 446,
+  "n_plants": 216,
+  "n_days": 110203,
+  "top": {
+   "rr": 1.1585,
+   "ci": [
+    0.8645,
+    1.5524
+   ],
+   "p": 0.3245746930741489,
+   "rr_yes_vs_no": 1.2364,
+   "ci_yes_vs_no": [
+    0.8106,
+    1.8861
+   ]
+  }
+ },
+ "note_dose_scale": "top is a yes/no term: read rr_yes_vs_no (exp(beta)); rr is 2^beta (D10 addendum)."
+}

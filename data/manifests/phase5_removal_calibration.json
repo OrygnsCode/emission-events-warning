@@ -1,0 +1,21 @@
+{
+ "note": "Calibration of the own-report removal for K = 0 and K = 7 (plan D16 item 3; K = 2 is in\nphase5_diag_own_reports.json): each accident is redrawn to a random at-risk day of its plant-year (60 draws), the\nplant's reports on the fake accident day and the K days after are removed, and the 90-day H1 model is refitted.\nWith no real accidents on those days, the median shows how far the removal itself moves the estimate.",
+ "window_90": {
+  "K_0": {
+   "draws": 60,
+   "median_rr": 1.019,
+   "p5_p95": [
+    0.832,
+    1.167
+   ]
+  },
+  "K_7": {
+   "draws": 60,
+   "median_rr": 1.059,
+   "p5_p95": [
+    0.869,
+    1.205
+   ]
+  }
+ }
+}

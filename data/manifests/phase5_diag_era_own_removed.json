@@ -1,0 +1,59 @@
+{
+ "note": "Time-scale check (D9) rerun with each plant's reports from the accident day and the 2 days after removed\n(plan D15). Strata by plant (R12), by plant and 5-, 3- and 2-year block, and by plant-year, each with year and\nmonth-of-year effects as in src/phase5_diag_era.py; every day kept; statewide count unchanged.",
+ "events_removed": 269,
+ "plant_only_R12": {
+  "rr": 1.241,
+  "ci": [
+   1.0693,
+   1.4403
+  ],
+  "p": 0.004497020553980713,
+  "n_accidents": 545,
+  "n_days": 1400305,
+  "fitted_by": "pyfixest"
+ },
+ "plant_x_5yr": {
+  "rr": 1.1124,
+  "ci": [
+   0.9277,
+   1.3338
+  ],
+  "p": 0.2502887358808956,
+  "n_accidents": 545,
+  "n_days": 1400305,
+  "fitted_by": "pyfixest"
+ },
+ "plant_x_3yr": {
+  "rr": 1.0985,
+  "ci": [
+   0.9116,
+   1.3237
+  ],
+  "p": 0.3233737608410501,
+  "n_accidents": 545,
+  "n_days": 1400305,
+  "fitted_by": "pyfixest"
+ },
+ "plant_x_2yr": {
+  "rr": 1.0692,
+  "ci": [
+   0.8747,
+   1.307
+  ],
+  "p": 0.5135900963335893,
+  "n_accidents": 545,
+  "n_days": 1400305,
+  "fitted_by": "pyfixest"
+ },
+ "plant_year_primary": {
+  "rr": 1.0478,
+  "ci": [
+   0.8507,
+   1.2906
+  ],
+  "p": 0.6605930344143551,
+  "n_accidents": 545,
+  "n_days": 153138,
+  "fitted_by": "pyfixest"
+ }
+}

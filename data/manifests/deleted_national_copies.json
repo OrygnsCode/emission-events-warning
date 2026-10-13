@@ -1,0 +1,18 @@
+{
+ "note": "Deleted on purpose after the Texas cut existed. The manifest keeps each file's URL, size and SHA-256, so a fresh download can be checked.",
+ "files": {
+  "epa_echo/ICIS-AIR_downloads.zip": "national zip; every table cut to Texas in slices/icis_air_*_tx.csv.gz",
+  "epa_echo/echo_exporter.zip": "national zip; cut to Texas in slices/echo_exporter_tx.csv.gz",
+  "epa_echo/POLL_RPT_COMBINED_EMISSIONS.zip": "national zip; cut to Texas in slices/poll_rpt_combined_emissions_tx.csv.gz",
+  "nrc/CY25.xlsx": "national workbook; cut to Texas in slices/nrc_*_tx.csv.gz",
+  "nrc/CY26.xlsx": "national workbook; cut to Texas in slices/nrc_*_tx.csv.gz",
+  "nrc/CYDECADE1990.xlsx": "national workbook; cut to Texas in slices/nrc_*_tx.csv.gz",
+  "nrc/CYDECADE2000.xlsx": "national workbook; cut to Texas in slices/nrc_*_tx.csv.gz",
+  "nrc/CYDECADE2010FirstHalf.zip": "national zip; cut to Texas in slices/nrc_*_tx.csv.gz",
+  "nrc/CYDECADE2010SecondHalf.zip": "national zip; cut to Texas in slices/nrc_*_tx.csv.gz",
+  "nrc/CYDECADE2020.zip": "national zip; cut to Texas in slices/nrc_*_tx.csv.gz",
+  "hifld_next/frs-interests__v1.0.0__geoparquet__frs-interests.parquet": "national EPA facility registry layer (459 MB); Texas registry data is in slices/frs_*_tx_relevant.csv.gz",
+  "hifld_next/epa-facility-registry-service-frs-interests__v1.0.0__geoparquet__epa-facility-registry-service-frs-interests.parquet": "national EPA facility registry layer (439 MB); same reason",
+  "eia/bulk/ELEC.zip": "national electricity bulk file (293 MB); plant-level EIA-860 and EIA-923 files are kept"
+ }
+}

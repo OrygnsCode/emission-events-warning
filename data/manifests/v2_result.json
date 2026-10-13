@@ -1,0 +1,36 @@
+{
+ "rule": "plan D6 item 8",
+ "log": {
+  "rns_with_flaring_episodes_2012_2021": 262,
+  "left_out_neighbour_within_1km": 134,
+  "rns_used": 128,
+  "reports_any_type_at_used_rns": 23579
+ },
+ "event_nights": 8778,
+ "comparison_nights": 171286,
+ "strata": 865,
+ "informative_strata": 576,
+ "rns_in_strata": 128,
+ "detection_rate_event_nights": 0.1487,
+ "detection_rate_comparison_nights": 0.0286,
+ "conditional_logit_or": 6.632,
+ "conditional_logit_ci95_rn_bootstrap": [
+  4.007,
+  10.496
+ ],
+ "bootstrap_draws": 2000,
+ "model_se_ci95": [
+  6.062,
+  7.256
+ ],
+ "odds_ratio_mh_check": 5.457,
+ "mh_ci95": [
+  4.992,
+  5.967
+ ],
+ "variant": {
+  "clock": "solar",
+  "night": "noon",
+  "primary": true
+ }
+}

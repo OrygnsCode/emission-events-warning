@@ -1,0 +1,907 @@
+{
+ "primary": {
+  "rr": 0.8789,
+  "ci": [
+   0.7545,
+   1.0238
+  ],
+  "p": 0.09726555795449499,
+  "n_accidents": 545,
+  "n_plants": 216,
+  "n_days": 153138,
+  "log": {
+   "accidents_in_window": 545,
+   "accidents_not_at_risk": 0,
+   "days_before_full_window": 0
+  },
+  "fitted_by": "pyfixest",
+  "note": "Phase 4 primary, reproduced",
+  "other_terms": {
+   "xs": {
+    "rr": 0.9558,
+    "p": 0.8964918258297379
+   }
+  }
+ },
+ "R1_window_30": {
+  "rr": 0.9463,
+  "ci": [
+   0.8319,
+   1.0764
+  ],
+  "p": 0.4011959762518096,
+  "n_accidents": 545,
+  "n_plants": 216,
+  "n_days": 153138,
+  "log": {
+   "accidents_in_window": 545,
+   "accidents_not_at_risk": 0,
+   "days_before_full_window": 0
+  },
+  "fitted_by": "pyfixest",
+  "note": "",
+  "other_terms": {
+   "xs": {
+    "rr": 0.8445,
+    "p": 0.3762737344868967
+   }
+  }
+ },
+ "R1_window_180": {
+  "rr": 0.6839,
+  "ci": [
+   0.5869,
+   0.7969
+  ],
+  "p": 1.122121889185479e-06,
+  "n_accidents": 536,
+  "n_plants": 214,
+  "n_days": 150890,
+  "log": {
+   "accidents_in_window": 545,
+   "accidents_not_at_risk": 0,
+   "days_before_full_window": 13065
+  },
+  "fitted_by": "pyfixest",
+  "note": "",
+  "other_terms": {
+   "xs": {
+    "rr": 0.8826,
+    "p": 0.8071711407638487
+   }
+  }
+ },
+ "R1_window_365": {
+  "rr": 0.4747,
+  "ci": [
+   0.3524,
+   0.6394
+  ],
+  "p": 9.487392547136153e-07,
+  "n_accidents": 523,
+  "n_plants": 211,
+  "n_days": 147856,
+  "log": {
+   "accidents_in_window": 545,
+   "accidents_not_at_risk": 0,
+   "days_before_full_window": 49473
+  },
+  "fitted_by": "pyfixest",
+  "note": "",
+  "other_terms": {
+   "xs": {
+    "rr": 0.7057,
+    "p": 0.6575163291697517
+   }
+  }
+ },
+ "R29_tceq_coordinates": {
+  "not_run": "needs TCEQ Central Registry coordinates requested under the Public Information Act; not received"
+ },
+ "R2_gap_0": {
+  "rr": 0.9297,
+  "ci": [
+   0.8009,
+   1.0793
+  ],
+  "p": 0.3383619984948427,
+  "n_accidents": 545,
+  "n_plants": 216,
+  "n_days": 153138,
+  "log": {
+   "accidents_in_window": 545,
+   "accidents_not_at_risk": 0,
+   "days_before_full_window": 0
+  },
+  "fitted_by": "pyfixest",
+  "note": "",
+  "other_terms": {
+   "xs": {
+    "rr": 1.1,
+    "p": 0.7685423385297376
+   }
+  }
+ },
+ "R2_gap_1": {
+  "rr": 0.912,
+  "ci": [
+   0.7848,
+   1.0598
+  ],
+  "p": 0.22927527753588617,
+  "n_accidents": 545,
+  "n_plants": 216,
+  "n_days": 153138,
+  "log": {
+   "accidents_in_window": 545,
+   "accidents_not_at_risk": 0,
+   "days_before_full_window": 0
+  },
+  "fitted_by": "pyfixest",
+  "note": "",
+  "other_terms": {
+   "xs": {
+    "rr": 1.0514,
+    "p": 0.8788775891230389
+   }
+  }
+ },
+ "R2_gap_30": {
+  "rr": 0.8412,
+  "ci": [
+   0.7235,
+   0.978
+  ],
+  "p": 0.02446462601292332,
+  "n_accidents": 545,
+  "n_plants": 216,
+  "n_days": 153138,
+  "log": {
+   "accidents_in_window": 545,
+   "accidents_not_at_risk": 0,
+   "days_before_full_window": 0
+  },
+  "fitted_by": "pyfixest",
+  "note": "",
+  "other_terms": {
+   "xs": {
+    "rr": 1.1589,
+    "p": 0.6704119518232121
+   }
+  }
+ },
+ "R3_plus_opacity": {
+  "rr": 0.8726,
+  "ci": [
+   0.7474,
+   1.0187
+  ],
+  "p": 0.08437851253186701,
+  "n_accidents": 545,
+  "n_plants": 216,
+  "n_days": 153138,
+  "log": {
+   "accidents_in_window": 545,
+   "accidents_not_at_risk": 0,
+   "days_before_full_window": 0
+  },
+  "fitted_by": "pyfixest",
+  "note": "",
+  "other_terms": {
+   "xs": {
+    "rr": 0.938,
+    "p": 0.8517619154295568
+   }
+  }
+ },
+ "R3_all_types": {
+  "rr": 0.865,
+  "ci": [
+   0.7446,
+   1.0049
+  ],
+  "p": 0.05798398232850288,
+  "n_accidents": 545,
+  "n_plants": 216,
+  "n_days": 153138,
+  "log": {
+   "accidents_in_window": 545,
+   "accidents_not_at_risk": 0,
+   "days_before_full_window": 0
+  },
+  "fitted_by": "pyfixest",
+  "note": "",
+  "other_terms": {
+   "xs": {
+    "rr": 0.9643,
+    "p": 0.916750956659869
+   }
+  }
+ },
+ "R4_report_date": {
+  "rr": 0.8625,
+  "ci": [
+   0.7353,
+   1.0118
+  ],
+  "p": 0.0692992937325616,
+  "n_accidents": 545,
+  "n_plants": 216,
+  "n_days": 153138,
+  "log": {
+   "accidents_in_window": 545,
+   "accidents_not_at_risk": 0,
+   "days_before_full_window": 0
+  },
+  "fitted_by": "pyfixest",
+  "note": "",
+  "other_terms": {
+   "xs": {
+    "rr": 0.9597,
+    "p": 0.9035118294369628
+   }
+  }
+ },
+ "R5_noaa_storms": {
+  "rr": 0.8295,
+  "ci": [
+   0.6984,
+   0.9852
+  ],
+  "p": 0.033137929882135264,
+  "n_accidents": 482,
+  "n_plants": 204,
+  "n_days": 123699,
+  "log": {
+   "accidents_in_window": 545,
+   "accidents_not_at_risk": 0,
+   "days_before_full_window": 0,
+   "days_dropped_by_rule": 19344,
+   "accidents_on_dropped_days": 63
+  },
+  "fitted_by": "pyfixest",
+  "note": "storm records {'records': 3022, 'unmapped': 0, 'unmapped_names': []}",
+  "other_terms": {
+   "xs": {
+    "rr": 0.8347,
+    "p": 0.6605193111417893
+   }
+  }
+ },
+ "R6_regional_count": {
+  "rr": 0.8813,
+  "ci": [
+   0.7557,
+   1.0278
+  ],
+  "p": 0.10730630819546105,
+  "n_accidents": 545,
+  "n_plants": 216,
+  "n_days": 153138,
+  "log": {
+   "accidents_in_window": 545,
+   "accidents_not_at_risk": 0,
+   "days_before_full_window": 0
+  },
+  "fitted_by": "pyfixest",
+  "note": "",
+  "other_terms": {
+   "xs": {
+    "rr": 0.8514,
+    "p": 0.2550749849102807
+   }
+  }
+ },
+ "R7_one_to_one": {
+  "rr": 0.7883,
+  "ci": [
+   0.6626,
+   0.938
+  ],
+  "p": 0.007309554494132842,
+  "n_accidents": 328,
+  "n_plants": 140,
+  "n_days": 89153,
+  "log": {
+   "accidents_in_window": 328,
+   "accidents_not_at_risk": 0,
+   "days_before_full_window": 0
+  },
+  "fitted_by": "pyfixest",
+  "note": "",
+  "other_terms": {
+   "xs": {
+    "rr": 0.8847,
+    "p": 0.7935901188400492
+   }
+  }
+ },
+ "R8_end_2022": {
+  "rr": 0.871,
+  "ci": [
+   0.7497,
+   1.0119
+  ],
+  "p": 0.07097472473280009,
+  "n_accidents": 553,
+  "n_plants": 219,
+  "n_days": 156058,
+  "log": {
+   "accidents_in_window": 553,
+   "accidents_not_at_risk": 0,
+   "days_before_full_window": 0
+  },
+  "fitted_by": "pyfixest",
+  "note": "",
+  "other_terms": {
+   "xs": {
+    "rr": 0.9017,
+    "p": 0.7673039191348818
+   }
+  }
+ },
+ "R8_end_2023": {
+  "rr": 0.8693,
+  "ci": [
+   0.7506,
+   1.0068
+  ],
+  "p": 0.06162824465451133,
+  "n_accidents": 571,
+  "n_plants": 223,
+  "n_days": 161168,
+  "log": {
+   "accidents_in_window": 571,
+   "accidents_not_at_risk": 0,
+   "days_before_full_window": 0
+  },
+  "fitted_by": "pyfixest",
+  "note": "",
+  "other_terms": {
+   "xs": {
+    "rr": 0.8358,
+    "p": 0.5895015652631157
+   }
+  }
+ },
+ "R8_end_2025": {
+  "rr": 0.8523,
+  "ci": [
+   0.737,
+   0.9855
+  ],
+  "p": 0.030968586188094616,
+  "n_accidents": 587,
+  "n_plants": 229,
+  "n_days": 166655,
+  "log": {
+   "accidents_in_window": 587,
+   "accidents_not_at_risk": 0,
+   "days_before_full_window": 0
+  },
+  "fitted_by": "pyfixest",
+  "note": "",
+  "other_terms": {
+   "xs": {
+    "rr": 0.8463,
+    "p": 0.6068588731486804
+   }
+  }
+ },
+ "R9_merge_within_3_days": {
+  "rr": 0.8814,
+  "ci": [
+   0.7549,
+   1.0293
+  ],
+  "p": 0.11061634735971992,
+  "n_accidents": 533,
+  "n_plants": 216,
+  "n_days": 153138,
+  "log": {
+   "accidents_in_window": 533,
+   "accidents_not_at_risk": 0,
+   "days_before_full_window": 0
+  },
+  "fitted_by": "pyfixest",
+  "note": "",
+  "other_terms": {
+   "xs": {
+    "rr": 1.0088,
+    "p": 0.9792528159608187
+   }
+  }
+ },
+ "R12_plant_strata": {
+  "rr": 1.3198,
+  "ci": [
+   1.1379,
+   1.5307
+  ],
+  "p": 0.0002454743916355806,
+  "n_accidents": 545,
+  "n_plants": 216,
+  "n_days": 1400305,
+  "log": {
+   "accidents_in_window": 545,
+   "accidents_not_at_risk": 0,
+   "days_before_full_window": 0
+  },
+  "fitted_by": "pyfixest",
+  "note": "",
+  "other_terms": {
+   "xs": {
+    "rr": 0.9042,
+    "p": 0.7673506733010513
+   }
+  }
+ },
+ "R13_every_report": {
+  "rr": 0.8686,
+  "ci": [
+   0.7485,
+   1.008
+  ],
+  "p": 0.06350790311905374,
+  "n_accidents": 545,
+  "n_plants": 216,
+  "n_days": 153138,
+  "log": {
+   "accidents_in_window": 545,
+   "accidents_not_at_risk": 0,
+   "days_before_full_window": 0
+  },
+  "fitted_by": "pyfixest",
+  "note": "",
+  "other_terms": {
+   "xs": {
+    "rr": 0.8228,
+    "p": 0.5718726518883046
+   }
+  }
+ },
+ "R14_calendar_month": {
+  "rr": 0.8689,
+  "ci": [
+   0.7383,
+   1.0227
+  ],
+  "p": 0.0910535105658754,
+  "n_accidents": 545,
+  "n_plants": 216,
+  "n_days": 153138,
+  "log": {
+   "accidents_in_window": 545,
+   "accidents_not_at_risk": 0,
+   "days_before_full_window": 0
+  },
+  "fitted_by": "pyfixest",
+  "note": "",
+  "other_terms": {}
+ },
+ "R15_drop_chains_120": {
+  "rr": 0.8204,
+  "ci": [
+   0.672,
+   1.0015
+  ],
+  "p": 0.051802005054450984,
+  "n_accidents": 436,
+  "n_plants": 216,
+  "n_days": 150501,
+  "log": {
+   "accidents_in_window": 545,
+   "accidents_not_at_risk": 0,
+   "days_before_full_window": 0
+  },
+  "fitted_by": "pyfixest",
+  "note": "",
+  "other_terms": {
+   "xs": {
+    "rr": 0.936,
+    "p": 0.8497354485027153
+   }
+  }
+ },
+ "R16_drop_post_120": {
+  "rr": 1.1486,
+  "ci": [
+   0.8822,
+   1.4954
+  ],
+  "p": 0.30341074605685536,
+  "n_accidents": 436,
+  "n_plants": 216,
+  "n_days": 102821,
+  "log": {
+   "accidents_in_window": 545,
+   "accidents_not_at_risk": 0,
+   "days_before_full_window": 0
+  },
+  "fitted_by": "pyfixest",
+  "note": "",
+  "other_terms": {
+   "xs": {
+    "rr": 0.9434,
+    "p": 0.8939439319832909
+   }
+  }
+ },
+ "R17": {
+  "rr": 0.8649,
+  "ci": [
+   0.7384,
+   1.013
+  ],
+  "p": 0.07181213535514708,
+  "n_accidents": 545,
+  "n_plants": 216,
+  "n_days": 153138,
+  "log": {
+   "accidents_in_window": 545,
+   "accidents_not_at_risk": 0,
+   "days_before_full_window": 0
+  },
+  "fitted_by": "pyfixest",
+  "note": "",
+  "other_terms": {
+   "xs": {
+    "rr": 0.9916,
+    "p": 0.9810623606612108
+   }
+  }
+ },
+ "R17_extended": {
+  "rr": 0.8689,
+  "ci": [
+   0.7438,
+   1.015
+  ],
+  "p": 0.07626864699050118,
+  "n_accidents": 545,
+  "n_plants": 216,
+  "n_days": 153138,
+  "log": {
+   "accidents_in_window": 545,
+   "accidents_not_at_risk": 0,
+   "days_before_full_window": 0
+  },
+  "fitted_by": "pyfixest",
+  "note": "",
+  "other_terms": {
+   "xs": {
+    "rr": 1.0094,
+    "p": 0.9788277007900983
+   }
+  }
+ },
+ "R18_original_dates": {
+  "rr": 0.8824,
+  "ci": [
+   0.7574,
+   1.0279
+  ],
+  "p": 0.10807174641933837,
+  "n_accidents": 545,
+  "n_plants": 216,
+  "n_days": 152409,
+  "log": {
+   "accidents_in_window": 545,
+   "accidents_not_at_risk": 0,
+   "days_before_full_window": 0
+  },
+  "fitted_by": "pyfixest",
+  "note": "",
+  "other_terms": {
+   "xs": {
+    "rr": 0.9909,
+    "p": 0.9792868853828929
+   }
+  }
+ },
+ "R19_no_merges": {
+  "rr": 0.8736,
+  "ci": [
+   0.7467,
+   1.022
+  ],
+  "p": 0.09146427838085636,
+  "n_accidents": 547,
+  "n_plants": 216,
+  "n_days": 153138,
+  "log": {
+   "accidents_in_window": 547,
+   "accidents_not_at_risk": 0,
+   "days_before_full_window": 0
+  },
+  "fitted_by": "pyfixest",
+  "note": "",
+  "other_terms": {
+   "xs": {
+    "rr": 0.9512,
+    "p": 0.8850969962478885
+   }
+  }
+ },
+ "R20_registry_links": {
+  "rr": 0.9982,
+  "ci": [
+   0.8063,
+   1.2356
+  ],
+  "p": 0.98644233233747,
+  "n_accidents": 402,
+  "n_plants": 164,
+  "n_days": 120057,
+  "log": {
+   "accidents_in_window": 402,
+   "accidents_not_at_risk": 0,
+   "days_before_full_window": 0
+  },
+  "fitted_by": "pyfixest",
+  "note": "",
+  "other_terms": {
+   "xs": {
+    "rr": 1.3548,
+    "p": 0.4040967714858623
+   }
+  }
+ },
+ "R22_fema": {
+  "rr": 0.8362,
+  "ci": [
+   0.6844,
+   1.0216
+  ],
+  "p": 0.07993847616514449,
+  "n_accidents": 436,
+  "n_plants": 192,
+  "n_days": 108456,
+  "log": {
+   "accidents_in_window": 545,
+   "accidents_not_at_risk": 0,
+   "days_before_full_window": 0,
+   "days_dropped_by_rule": 29441,
+   "accidents_on_dropped_days": 109
+  },
+  "fitted_by": "pyfixest",
+  "note": "{'declarations': 114, 'statewide_rows': 12}",
+  "other_terms": {
+   "xs": {
+    "rr": 0.8791,
+    "p": 0.7355236648137145
+   }
+  }
+ },
+ "R23_hurdat_150km": {
+  "rr": 0.8762,
+  "ci": [
+   0.7505,
+   1.0229
+  ],
+  "p": 0.09434362381713912,
+  "n_accidents": 540,
+  "n_plants": 216,
+  "n_days": 149556,
+  "log": {
+   "accidents_in_window": 545,
+   "accidents_not_at_risk": 0,
+   "days_before_full_window": 0,
+   "days_dropped_by_rule": 2140,
+   "accidents_on_dropped_days": 5
+  },
+  "fitted_by": "pyfixest",
+  "note": "{'hurdat_file': 'hurdat2-1851-2025-092326.txt', 'plants_with_a_passage': 1837}",
+  "other_terms": {
+   "xs": {
+    "rr": 0.9177,
+    "p": 0.8038466055424252
+   }
+  }
+ },
+ "R24_drop_covid_2020": {
+  "rr": 0.8728,
+  "ci": [
+   0.748,
+   1.0184
+  ],
+  "p": 0.0838447411759109,
+  "n_accidents": 530,
+  "n_plants": 213,
+  "n_days": 147522,
+  "log": {
+   "accidents_in_window": 545,
+   "accidents_not_at_risk": 0,
+   "days_before_full_window": 0,
+   "days_dropped_by_rule": 4896,
+   "accidents_on_dropped_days": 15
+  },
+  "fitted_by": "pyfixest",
+  "note": "",
+  "other_terms": {
+   "xs": {
+    "rr": 0.9289,
+    "p": 0.8386352512841719
+   }
+  }
+ },
+ "R26_industry_controls": {
+  "rr": 0.8814,
+  "ci": [
+   0.7557,
+   1.028
+  ],
+  "p": 0.10789645628033395,
+  "n_accidents": 545,
+  "n_plants": 216,
+  "n_days": 153138,
+  "log": {
+   "accidents_in_window": 545,
+   "accidents_not_at_risk": 0,
+   "days_before_full_window": 0
+  },
+  "fitted_by": "pyfixest",
+  "note": "{'eia_column': 'Texas Gulf Coast Refining District Percent Utilization of Refinery Operable Capacity'}",
+  "other_terms": {
+   "xs": {
+    "rr": 0.8603,
+    "p": 0.6827762228447767
+   },
+   "util_txgc": {
+    "rr": 0.9909,
+    "p": 0.4322946609076308
+   },
+   "ip_chem": {
+    "rr": 1.0029,
+    "p": 0.8920033402657599
+   },
+   "ip_ref": {
+    "rr": 1.0027,
+    "p": 0.8676018159150845
+   }
+  }
+ },
+ "R27_prior_accident": {
+  "rr": 1.0114,
+  "ci": [
+   0.6483,
+   1.5778
+  ],
+  "p": 0.96017521562036,
+  "n_accidents": 545,
+  "n_plants": 216,
+  "n_days": 153138,
+  "log": {
+   "accidents_in_window": 545,
+   "accidents_not_at_risk": 0,
+   "days_before_full_window": 0
+  },
+  "fitted_by": "pyfixest",
+  "note": "",
+  "other_terms": {
+   "xs": {
+    "rr": 0.7298,
+    "p": 0.567320991491358
+   },
+   "prior_accident_365": {
+    "rr": 0.0225,
+    "p": 1.84297022087776e-14
+   }
+  }
+ },
+ "R28_ownership_change": {
+  "rr": 0.8793,
+  "ci": [
+   0.7405,
+   1.0442
+  ],
+  "p": 0.14245123915158553,
+  "n_accidents": 477,
+  "n_plants": 207,
+  "n_days": 134059,
+  "log": {
+   "accidents_in_window": 545,
+   "accidents_not_at_risk": 0,
+   "days_before_full_window": 0,
+   "days_dropped_by_rule": 15025,
+   "accidents_on_dropped_days": 68
+  },
+  "fitted_by": "pyfixest",
+  "note": "{'ownership_or_operator_changes': 2114, 'plants_with_a_change': 1079}",
+  "other_terms": {
+   "xs": {
+    "rr": 1.2364,
+    "p": 0.5451882696553543
+   }
+  }
+ },
+ "R30_absorbed": {
+  "rr": 0.8841,
+  "ci": [
+   0.7594,
+   1.0292
+  ],
+  "p": 0.11201803700351087,
+  "n_accidents": 545,
+  "n_plants": 216,
+  "n_days": 153138,
+  "log": {
+   "accidents_in_window": 545,
+   "accidents_not_at_risk": 0,
+   "days_before_full_window": 0
+  },
+  "fitted_by": "pyfixest",
+  "note": "",
+  "other_terms": {
+   "xs": {
+    "rr": 0.9518,
+    "p": 0.8857332351713658
+   }
+  }
+ },
+ "R11_conditional_logit": {
+  "rr": 0.874,
+  "ci": [
+   0.7513,
+   1.0167
+  ],
+  "p": 0.08089360003495852,
+  "n_accidents": 545,
+  "n_plants": 216,
+  "n_days": 153138,
+  "log": {
+   "accidents_in_window": 545,
+   "accidents_not_at_risk": 0,
+   "days_before_full_window": 0
+  },
+  "fitted_by": null,
+  "note": "",
+  "other_terms": {
+   "xs": {
+    "rr": 0.9765,
+    "p": 0.9441152390094355
+   }
+  }
+ },
+ "R11_negative_binomial": {
+  "rr": 0.8776,
+  "ci": [
+   0.7524,
+   1.0236
+  ],
+  "p": 0.09625868609660564,
+  "n_accidents": 545,
+  "alpha": 1.5874,
+  "alpha_at_grid_edge": false,
+  "check_alpha_near_0_beta": -0.18627538202773922,
+  "poisson_beta": -0.18627538207990202,
+  "loglik_by_alpha": {
+   "0.01": -3521.68,
+   "0.0137": -3521.67,
+   "0.0188": -3521.66,
+   "0.0259": -3521.64,
+   "0.0355": -3521.62,
+   "0.0487": -3521.59,
+   "0.0669": -3521.56,
+   "0.0918": -3521.51,
+   "0.126": -3521.44,
+   "0.1729": -3521.36,
+   "0.2374": -3521.26,
+   "0.3258": -3521.13,
+   "0.4472": -3520.99,
+   "0.6138": -3520.84,
+   "0.8426": -3520.7,
+   "1.1565": -3520.6,
+   "1.5874": -3520.6,
+   "2.1789": -3520.77,
+   "2.9907": -3521.21,
+   "4.105": -3522.07,
+   "5.6345": -3523.51,
+   "7.7339": -3525.76,
+   "10.6156": -3529.12,
+   "14.5709": -3533.94,
+   "20.0": -3540.67
+  },
+  "note": "NB2, plant-year intercepts, month effects, statewide count; alpha by grid maximum likelihood; plant-clustered sandwich"
+ }
+}

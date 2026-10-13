@@ -1,0 +1,72 @@
+{
+ "rule": "plan D6 item 9",
+ "log": {
+  "refinery_quarters_all": 868,
+  "refineries": 26,
+  "refineries_without_plant_link": [],
+  "quarters_under_4_periods": 47
+ },
+ "primary_2018_2021": {
+  "refinery_quarters": 412,
+  "refineries": 26,
+  "quarters_with_any_episode": 274,
+  "coef_log1p_episodes": -0.0268,
+  "cluster_se": 0.059,
+  "ci95": [
+   -0.1424,
+   0.0889
+  ],
+  "wild_cluster_bootstrap_p": 0.6524,
+  "meaning": "percent change in mean delta c for a doubling of (1 + episodes) is about -1.8%"
+ },
+ "descriptive_mean_dc_by_episode_band": {
+  "0": {
+   "size": 138,
+   "median": 4.08,
+   "mean": 5.51
+  },
+  "1-2": {
+   "size": 155,
+   "median": 4.57,
+   "mean": 6.95
+  },
+  "3-5": {
+   "size": 101,
+   "median": 5.34,
+   "mean": 7.61
+  },
+  "6+": {
+   "size": 18,
+   "median": 5.63,
+   "mean": 8.74
+  }
+ },
+ "description_2022_2025": {
+  "refinery_quarters": 360,
+  "refineries": 25,
+  "last_quarter": "2025Q4",
+  "spearman_reports_vs_dc": 0.223,
+  "mean_dc_by_report_band": {
+   "0": {
+    "size": 122,
+    "median": 4.0,
+    "mean": 5.04
+   },
+   "1-2": {
+    "size": 157,
+    "median": 4.26,
+    "mean": 5.94
+   },
+   "3-5": {
+    "size": 58,
+    "median": 6.44,
+    "mean": 8.56
+   },
+   "6+": {
+    "size": 23,
+    "median": 6.52,
+    "mean": 6.62
+   }
+  }
+ }
+}

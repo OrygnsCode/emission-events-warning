@@ -1,0 +1,8 @@
+{
+ "note": "How far the National Response Center replication (H4) overlaps the RMP accident data (plan D16 item 5): of the\nsites and report days in the H4 panel (window ending 2021), how many are in RMP-linked plants, and how many report\ndays fall within 3 days of an RMP accident at the same plant.",
+ "sites": 105,
+ "sites_in_rmp_linked_plants": 91,
+ "report_days": 218,
+ "report_days_in_rmp_linked_plants": 193,
+ "report_days_within_3_days_of_rmp_accident": 33
+}

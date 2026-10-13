@@ -1,0 +1,44 @@
+{
+  "created_utc": "2026-10-03T05:21:03+00:00",
+  "tceq_detail_pages": {
+    "master_incidents": 103614,
+    "pages_saved": 103614,
+    "distinct_incidents": 103614,
+    "sha256_mismatches": 0,
+    "wrong_incident_number": 0,
+    "missing_from_master": 0,
+    "parser_warnings": 0,
+    "pages_without_emission_points": 0,
+    "pages_without_contaminants": 3886
+  },
+  "header_mismatches_vs_official_list": {
+    "rn": 0,
+    "county": 0,
+    "event_type": 0,
+    "report_type": 0,
+    "report_date": 0,
+    "start": 1,
+    "end": 0,
+    "re_name": 0,
+    "customer": 30
+  },
+  "header_mismatch_notes": {
+    "customer": "formatting only: the list joins co-owners with | and repeats names; the page prints them side by side",
+    "start": "one event on 2008-03-09, the daylight saving switch day (page 03:12 AM, list 02:12 AM)"
+  },
+  "cause_rules": {
+    "version": "1.0, frozen 2026-10-02 on the development sample (1,000 events), before any linking to accidents",
+    "unplanned_events": 71027,
+    "primary_cause_shares": {
+      "equipment": 0.251,
+      "upset": 0.183,
+      "third_party": 0.161,
+      "unknown": 0.119,
+      "weather": 0.088,
+      "instrument": 0.083,
+      "power": 0.063,
+      "maintenance_startup": 0.044,
+      "operator": 0.007
+    }
+  }
+}

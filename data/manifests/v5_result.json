@@ -1,0 +1,139 @@
+{
+ "rule": "plan D6 item 11",
+ "site_years_in_both_sources": 1812,
+ "rns": 326,
+ "d6_event_site_years_2016_2021": 1212,
+ "event_site_years_without_inventory_record": 110,
+ "site_years_with_a_d6_event": 1102,
+ "nox_part_rows_dropped": {
+  "events": 762,
+  "inventory": 250
+ },
+ "total_four_families": {
+  "site_years": 1812,
+  "both_positive": 716,
+  "inventory_only": 421,
+  "events_only": 34,
+  "neither": 641,
+  "spearman_all": 0.782,
+  "spearman_both_positive": 0.9,
+  "median_ratio_events_to_inventory": 0.727,
+  "ratio_iqr": [
+   0.307,
+   0.964
+  ],
+  "share_within_factor_2": 0.594,
+  "inventory_tons": 66949.3,
+  "event_tons": 50238.3,
+  "spearman_all_ci95": [
+   0.735,
+   0.82
+  ],
+  "median_ratio_ci95": [
+   0.657,
+   0.794
+  ]
+ },
+ "by_family": {
+  "so2": {
+   "site_years": 1812,
+   "both_positive": 376,
+   "inventory_only": 246,
+   "events_only": 42,
+   "neither": 1148,
+   "spearman_all": 0.75,
+   "spearman_both_positive": 0.947,
+   "median_ratio_events_to_inventory": 0.849,
+   "ratio_iqr": [
+    0.457,
+    0.987
+   ],
+   "share_within_factor_2": 0.686,
+   "inventory_tons": 32192.2,
+   "event_tons": 27525.7,
+   "spearman_all_ci95": [
+    0.688,
+    0.802
+   ],
+   "median_ratio_ci95": [
+    0.765,
+    0.907
+   ]
+  },
+  "h2s": {
+   "site_years": 1812,
+   "both_positive": 330,
+   "inventory_only": 112,
+   "events_only": 45,
+   "neither": 1325,
+   "spearman_all": 0.806,
+   "spearman_both_positive": 0.865,
+   "median_ratio_events_to_inventory": 0.79,
+   "ratio_iqr": [
+    0.388,
+    0.991
+   ],
+   "share_within_factor_2": 0.621,
+   "inventory_tons": 396.4,
+   "event_tons": 338.2,
+   "spearman_all_ci95": [
+    0.75,
+    0.852
+   ],
+   "median_ratio_ci95": [
+    0.687,
+    0.876
+   ]
+  },
+  "nox": {
+   "site_years": 1812,
+   "both_positive": 637,
+   "inventory_only": 373,
+   "events_only": 32,
+   "neither": 770,
+   "spearman_all": 0.751,
+   "spearman_both_positive": 0.827,
+   "median_ratio_events_to_inventory": 0.622,
+   "ratio_iqr": [
+    0.25,
+    0.985
+   ],
+   "share_within_factor_2": 0.518,
+   "inventory_tons": 7623.6,
+   "event_tons": 4448.7,
+   "spearman_all_ci95": [
+    0.704,
+    0.794
+   ],
+   "median_ratio_ci95": [
+    0.55,
+    0.707
+   ]
+  },
+  "co": {
+   "site_years": 1812,
+   "both_positive": 649,
+   "inventory_only": 400,
+   "events_only": 26,
+   "neither": 737,
+   "spearman_all": 0.76,
+   "spearman_both_positive": 0.872,
+   "median_ratio_events_to_inventory": 0.657,
+   "ratio_iqr": [
+    0.279,
+    0.972
+   ],
+   "share_within_factor_2": 0.545,
+   "inventory_tons": 26737.1,
+   "event_tons": 17925.7,
+   "spearman_all_ci95": [
+    0.714,
+    0.799
+   ],
+   "median_ratio_ci95": [
+    0.593,
+    0.745
+   ]
+  }
+ }
+}

@@ -1,0 +1,185 @@
+{
+ "reports": 103614,
+ "frozen_status_any": 4607,
+ "frozen_status": {
+  "status_duplicate": 218,
+  "status_not_reportable": 3887,
+  "status_filed_in_error": 874
+ },
+ "non_event_wordings": {
+  "non_event": {
+   "reports": 1326,
+   "not_flagged_by_frozen_rules": 1234
+  },
+  "did_not_occur": {
+   "reports": 735,
+   "not_flagged_by_frozen_rules": 630
+  },
+  "cancelled_postponed": {
+   "reports": 644,
+   "not_flagged_by_frozen_rules": 625
+  },
+  "rescind_void_delete": {
+   "reports": 464,
+   "not_flagged_by_frozen_rules": 281
+  },
+  "should_not_have_been_reported": {
+   "reports": 66,
+   "not_flagged_by_frozen_rules": 38
+  },
+  "uml0": {
+   "reports": 2153,
+   "not_flagged_by_frozen_rules": 430
+  },
+  "recordable_only": {
+   "reports": 366,
+   "not_flagged_by_frozen_rules": 303
+  },
+  "zeroed_out": {
+   "reports": 56,
+   "not_flagged_by_frozen_rules": 41
+  },
+  "no_excess_emissions": {
+   "reports": 2164,
+   "not_flagged_by_frozen_rules": 2100
+  },
+  "abundance_of_caution": {
+   "reports": 622,
+   "not_flagged_by_frozen_rules": 487
+  },
+  "below_rq_other": {
+   "reports": 3173,
+   "not_flagged_by_frozen_rules": 1052
+  },
+  "_any": {
+   "reports": 9316,
+   "not_flagged_by_frozen_rules": 6720,
+   "emissions_events_at_linked_plants_not_flagged": 3163,
+   "h1_exposure_reports_not_flagged": 1149
+  }
+ },
+ "duplicate_wordings": {
+  "duplicate_other_wording": {
+   "reports": 98,
+   "not_flagged_by_frozen_rules": 46
+  },
+  "refer_to_incident": {
+   "reports": 1144,
+   "not_flagged_by_frozen_rules": 1114
+  },
+  "same_event_as": {
+   "reports": 104,
+   "not_flagged_by_frozen_rules": 101
+  },
+  "continuation": {
+   "reports": 266,
+   "not_flagged_by_frozen_rules": 258
+  },
+  "_any": {
+   "reports": 1594,
+   "not_flagged_by_frozen_rules": 1508,
+   "emissions_events_at_linked_plants_not_flagged": 508,
+   "h1_exposure_reports_not_flagged": 123
+  }
+ },
+ "narrow_non_event": {
+  "rescind_void": {
+   "reports": 417,
+   "not_flagged_by_frozen_rules": 243
+  },
+  "not_required": {
+   "reports": 66,
+   "not_flagged_by_frozen_rules": 38
+  },
+  "uml0": {
+   "reports": 2153,
+   "not_flagged_by_frozen_rules": 430
+  },
+  "zeroed": {
+   "reports": 46,
+   "not_flagged_by_frozen_rules": 32
+  },
+  "did_not_occur": {
+   "reports": 429,
+   "not_flagged_by_frozen_rules": 353
+  },
+  "cancelled": {
+   "reports": 317,
+   "not_flagged_by_frozen_rules": 306
+  },
+  "non_event": {
+   "reports": 119,
+   "not_flagged_by_frozen_rules": 113
+  },
+  "_any": {
+   "reports": 3298,
+   "not_flagged_by_frozen_rules": 1448,
+   "emissions_events_at_linked_plants_not_flagged": 591,
+   "h1_exposure_reports_not_flagged": 209
+  }
+ },
+ "narrow_duplicate": {
+  "duplicate_other_wording": {
+   "reports": 98,
+   "not_flagged_by_frozen_rules": 46
+  },
+  "split": {
+   "reports": 101,
+   "not_flagged_by_frozen_rules": 99
+  },
+  "continuation": {
+   "reports": 266,
+   "not_flagged_by_frozen_rules": 258
+  },
+  "refer": {
+   "reports": 145,
+   "not_flagged_by_frozen_rules": 124
+  },
+  "_any": {
+   "reports": 602,
+   "not_flagged_by_frozen_rules": 524,
+   "emissions_events_at_linked_plants_not_flagged": 401,
+   "h1_exposure_reports_not_flagged": 97
+  }
+ },
+ "h1_exposure_reports": {
+  "total": 29192,
+  "status_duplicate": 48,
+  "status_not_reportable": 995,
+  "status_filed_in_error": 296,
+  "initial_only": 2584
+ },
+ "cross_references": {
+  "reports_citing_another_existing_incident": 2617,
+  "pairs": 3572,
+  "pairs_same_rn": 3349,
+  "pairs_same_rn_within_7_days": 1890,
+  "pairs_same_rn_already_merged_by_same_start_rule": 635,
+  "pairs_other_rn": 223,
+  "citing_reports_flagged_by_frozen_rules": 304
+ },
+ "report_type": {
+  "FINAL": 86000,
+  "INITIAL": 17610,
+  "ADDINFO": 2,
+  "INTERIM": 2
+ },
+ "report_lag_days": {
+  "median": 10.0,
+  "share_over_30": 0.0568,
+  "share_over_365": 0.0075,
+  "reports_over_365": 774,
+  "negative": 2615
+ },
+ "steers_outage_mentions": 212,
+ "contaminant_rows_pounds": 546367,
+ "placeholder_amounts": {
+  "0.0001": 1553,
+  "0.001": 2979,
+  "0.01": 4730
+ },
+ "zero_amounts": 84,
+ "opacity_rows": 28700,
+ "opacity_over_100": 194,
+ "co2_share_of_reported_pounds": 0.1539
+}

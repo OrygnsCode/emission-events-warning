@@ -1,0 +1,22 @@
+__pycache__/
+*.pyc
+.DS_Store
+
+# Downloads. They are public, listed with their hashes in data/manifests/, and fetched again by the scripts in src/.
+# The few small files the analysis reads directly are kept in the repository all the same.
+data/raw/
+data/external/
+data/slices/
+data/state/
+
+# Working files that src/run_all.py writes next to the tables; the results are kept in data/manifests/
+data/derived/vchecks/
+data/derived/power_h1*.json
+data/derived/h1_dryrun_*.json
+data/derived/r10_leave_one_out.csv
+
+# Offline review pages made by src/make_*_page.py. They hold copies of the records; the answers are in data/manual/.
+tools/
+
+# Working files that list single incidents
+private/

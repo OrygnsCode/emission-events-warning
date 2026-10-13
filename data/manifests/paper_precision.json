@@ -1,0 +1,126 @@
+{
+ "note": "Values the paper quotes whose stored, rounded form sits on a rounding boundary (for example 1.365), recomputed at\nfull precision with the same code, so the paper rounds them correctly. Nothing else is changed: each script is run\nwith its rounding turned off and its output sent to a scratch file instead of its manifest.",
+ "own_reports_removed_window_365": {
+  "rr": 0.9752729461439322,
+  "ci": [
+   0.7540763041615748,
+   1.2613542080967741
+  ]
+ },
+ "sim_medians": {
+  "a": {
+   "naive_90": 0.8418977846309641,
+   "fixed_90": 1.0293212392780697,
+   "naive_365": 0.55634613883941,
+   "fixed_365": 1.0757739411800724
+  },
+  "b": {
+   "naive_90": 1.0207468681939713,
+   "fixed_90": 1.2805629296566672,
+   "naive_365": 0.6266042294547036,
+   "fixed_365": 1.2104609897791452
+  }
+ },
+ "T3_primary": {
+  "rr": 1.36502997678847,
+  "ci": [
+   0.6456635848271992,
+   2.8858787785434936
+  ],
+  "p": 0.41526939266107554,
+  "n_outcome_days": 205,
+  "n_sites": 104,
+  "n_strata": 178,
+  "decision": "inconclusive"
+ },
+ "O6_end_2021": {
+  "rr": 1.0987977333577355,
+  "ci": [
+   0.7863855438785737,
+   1.5353238220494627
+  ],
+  "p": 0.5809411212402726,
+  "n_outcome_days": 210,
+  "n_units": 81,
+  "n_strata": 158,
+  "log": {
+   "accidents_in_window": 225,
+   "accidents_not_at_risk": 15,
+   "days_before_full_window": 0
+  }
+ },
+ "H4_end_2021_own_reports_removed": {
+  "rr": 1.0804367624980613,
+  "ci": [
+   0.8753987186224649,
+   1.3334993219937932
+  ],
+  "p": 0.47118659898085946,
+  "n_outcome_days": 218,
+  "n_units": 105,
+  "n_strata": 187
+ },
+ "H3_test_2016_2021_point": {
+  "baseline": {
+   "auc_roc": {
+    "value": 0.7975183211499761,
+    "ci": [
+     0.7497545040150304,
+     0.8316941680162973
+    ]
+   },
+   "auc_pr": {
+    "value": 0.04739265275309298,
+    "ci": [
+     0.02494600761767041,
+     0.07017610512966338
+    ]
+   },
+   "share_accident_quarters_in_top10": {
+    "value": 0.5259259259259259,
+    "ci": [
+     0.44680181988491907,
+     0.6044918111753371
+    ]
+   },
+   "calibration_slope": {
+    "value": 0.9724646017269968,
+    "ci": [
+     0.9004092596698843,
+     1.1018277016280789
+    ]
+   }
+  },
+  "with_events": {
+   "auc_roc": {
+    "value": 0.8079980373819708,
+    "ci": [
+     0.7590385373828444,
+     0.840224154439189
+    ]
+   },
+   "auc_pr": {
+    "value": 0.04853694985790323,
+    "ci": [
+     0.02610559646183602,
+     0.07396519876678767
+    ]
+   },
+   "share_accident_quarters_in_top10": {
+    "value": 0.5185185185185185,
+    "ci": [
+     0.44521778402248097,
+     0.6277083333333332
+    ]
+   },
+   "calibration_slope": {
+    "value": 0.9824790566596391,
+    "ci": [
+     0.8974685094079127,
+     1.1259484869077956
+    ]
+   }
+  },
+  "auc_roc_gain": 0.010479716231994729
+ }
+}

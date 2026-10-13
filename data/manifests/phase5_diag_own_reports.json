@@ -1,0 +1,192 @@
+{
+ "note": "Phase 5 diagnostic (D9, after the independent model review): the main test with the accident's own reports\nremoved from the exposure.\n\nAn accident is itself reported to TCEQ (on the accident day, events run about 20 times the plant's usual rate). Those\nreports enter the look-back windows of the comparison days that follow, which pulls the estimate below 1. Here, at\neach plant, events starting on an accident day or the K days after it (K = 0, 2, 7) are removed from the event count;\nevery day stays in. Only earlier accidents remove events from a day's window, so no future information is used. The\nstatewide count is the primary one. Windows 30, 90, 180, 365 days, gap 7, ending 2021, plus O4 and the lag profile\nfor K = 2. Calibration: the same removal around fake accident dates (each accident redrawn to a random at-risk day of\nits plant-year; 60 draws; K = 2; windows 90 and 365) shows how much the removal itself moves the estimate.\n(An earlier version, src/phase5_diag_clean.py, removed days 1 to K but kept the accident day; its estimates rose\nsteadily with K, the sign of a removal bias, and it was stopped and superseded by this one.)",
+ "events_total": 68610,
+ "remove_0_to_0": {
+  "events_removed": 239,
+  "window_30": {
+   "rr": 1.005,
+   "ci": [
+    0.857,
+    1.178
+   ],
+   "p": 0.9505,
+   "n_accidents": 545
+  },
+  "window_90": {
+   "rr": 1.028,
+   "ci": [
+    0.837,
+    1.263
+   ],
+   "p": 0.7898,
+   "n_accidents": 545
+  },
+  "window_180": {
+   "rr": 0.903,
+   "ci": [
+    0.722,
+    1.129
+   ],
+   "p": 0.3707,
+   "n_accidents": 536
+  },
+  "window_365": {
+   "rr": 0.943,
+   "ci": [
+    0.729,
+    1.22
+   ],
+   "p": 0.6554,
+   "n_accidents": 523
+  }
+ },
+ "remove_0_to_2": {
+  "events_removed": 269,
+  "window_30": {
+   "rr": 1.016,
+   "ci": [
+    0.87,
+    1.187
+   ],
+   "p": 0.8422,
+   "n_accidents": 545
+  },
+  "window_90": {
+   "rr": 1.048,
+   "ci": [
+    0.851,
+    1.291
+   ],
+   "p": 0.6606,
+   "n_accidents": 545
+  },
+  "window_180": {
+   "rr": 0.924,
+   "ci": [
+    0.734,
+    1.163
+   ],
+   "p": 0.5005,
+   "n_accidents": 536
+  },
+  "window_365": {
+   "rr": 0.975,
+   "ci": [
+    0.754,
+    1.261
+   ],
+   "p": 0.8487,
+   "n_accidents": 523
+  },
+  "O4_window_90": {
+   "rr": 0.739,
+   "ci": [
+    0.509,
+    1.074
+   ],
+   "p": 0.1132,
+   "n_accidents": 92
+  },
+  "lag_profile": {
+   "bins_days_before": [
+    "8-91",
+    "92-183",
+    "184-365",
+    "366-730"
+   ],
+   "l0": {
+    "rr": 1.12,
+    "ci": [
+     0.878,
+     1.43
+    ],
+    "p": 0.3614,
+    "n_accidents": 495
+   },
+   "l1": {
+    "rr": 0.966,
+    "ci": [
+     0.809,
+     1.154
+    ],
+    "p": 0.7018,
+    "n_accidents": 495
+   },
+   "l2": {
+    "rr": 0.989,
+    "ci": [
+     0.776,
+     1.261
+    ],
+    "p": 0.9315,
+    "n_accidents": 495
+   },
+   "l3": {
+    "rr": 0.956,
+    "ci": [
+     0.688,
+     1.328
+    ],
+    "p": 0.7876,
+    "n_accidents": 495
+   }
+  }
+ },
+ "remove_0_to_7": {
+  "events_removed": 334,
+  "window_30": {
+   "rr": 1.028,
+   "ci": [
+    0.885,
+    1.195
+   ],
+   "p": 0.7135,
+   "n_accidents": 545
+  },
+  "window_90": {
+   "rr": 1.082,
+   "ci": [
+    0.88,
+    1.33
+   ],
+   "p": 0.4539,
+   "n_accidents": 545
+  },
+  "window_180": {
+   "rr": 0.979,
+   "ci": [
+    0.789,
+    1.215
+   ],
+   "p": 0.8493,
+   "n_accidents": 536
+  },
+  "window_365": {
+   "rr": 1.033,
+   "ci": [
+    0.802,
+    1.331
+   ],
+   "p": 0.8026,
+   "n_accidents": 523
+  }
+ },
+ "fake_dates_remove_0_to_2": {
+  "window_90": {
+   "draws": 60,
+   "median_rr": 1.033,
+   "p5_p95": [
+    0.835,
+    1.17
+   ]
+  },
+  "window_365": {
+   "draws": 60,
+   "median_rr": 1.008,
+   "p5_p95": [
+    0.84,
+    1.212
+   ]
+  }
+ }
+}

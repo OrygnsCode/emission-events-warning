@@ -1,0 +1,288 @@
+{
+ "note": "Phase 5 diagnostic (D9): the only multiverse corner with significant positive estimates is the 30-day window with\nno gap (or a 1-day gap), all event types, registry-only links (rate ratios 1.15 to 1.19 in that corner; 1.18 to 1.19 for the significant ones). A 7-day gap removes it,\nso it comes from events in the last week before the accident. This splits the 30-day window into the last week\n(days -7 to -1) and the rest (days -30 to -8), and the event types into planned (maintenance, startup, shutdown) and\nunplanned (emission events, excess opacity), to see where it sits. Model and everything else as in the multiverse\nrow (end 2023). Statewide control: one per exposure.",
+ "registry_only": {
+  "row_as_in_multiverse": {
+   "rr": 1.181,
+   "ci": [
+    1.014,
+    1.376
+   ],
+   "p": 0.0328,
+   "n_accidents": 418
+  },
+  "all_types_split_by_time": {
+   "last_week": {
+    "rr": 1.285,
+    "ci": [
+     1.042,
+     1.584
+    ],
+    "p": 0.0188
+   },
+   "days_8_to_30": {
+    "rr": 1.126,
+    "ci": [
+     0.977,
+     1.298
+    ],
+    "p": 0.1016
+   }
+  },
+  "split_by_time_and_type": {
+   "planned_last_week": {
+    "rr": 1.654,
+    "ci": [
+     1.244,
+     2.198
+    ],
+    "p": 0.0005
+   },
+   "unplanned_last_week": {
+    "rr": 1.082,
+    "ci": [
+     0.805,
+     1.455
+    ],
+    "p": 0.6018
+   },
+   "planned_days_8_to_30": {
+    "rr": 1.086,
+    "ci": [
+     0.839,
+     1.405
+    ],
+    "p": 0.5295
+   },
+   "unplanned_days_8_to_30": {
+    "rr": 1.065,
+    "ci": [
+     0.924,
+     1.228
+    ],
+    "p": 0.3828
+   },
+   "xs_planned_last_week": {
+    "rr": 0.989,
+    "ci": [
+     0.813,
+     1.204
+    ],
+    "p": 0.9151
+   },
+   "xs_unplanned_last_week": {
+    "rr": 0.866,
+    "ci": [
+     0.669,
+     1.121
+    ],
+    "p": 0.274
+   },
+   "xs_planned_days_8_to_30": {
+    "rr": 0.93,
+    "ci": [
+     0.667,
+     1.295
+    ],
+    "p": 0.6664
+   },
+   "xs_unplanned_days_8_to_30": {
+    "rr": 0.959,
+    "ci": [
+     0.676,
+     1.361
+    ],
+    "p": 0.8161
+   }
+  }
+ },
+ "full": {
+  "row_as_in_multiverse": {
+   "rr": 1.092,
+   "ci": [
+    0.955,
+    1.248
+   ],
+   "p": 0.1968,
+   "n_accidents": 571
+  },
+  "all_types_split_by_time": {
+   "last_week": {
+    "rr": 1.182,
+    "ci": [
+     0.984,
+     1.42
+    ],
+    "p": 0.0733
+   },
+   "days_8_to_30": {
+    "rr": 1.056,
+    "ci": [
+     0.937,
+     1.191
+    ],
+    "p": 0.3692
+   }
+  },
+  "split_by_time_and_type": {
+   "planned_last_week": {
+    "rr": 1.658,
+    "ci": [
+     1.272,
+     2.161
+    ],
+    "p": 0.0002
+   },
+   "unplanned_last_week": {
+    "rr": 1.015,
+    "ci": [
+     0.79,
+     1.303
+    ],
+    "p": 0.9099
+   },
+   "planned_days_8_to_30": {
+    "rr": 1.047,
+    "ci": [
+     0.82,
+     1.337
+    ],
+    "p": 0.7117
+   },
+   "unplanned_days_8_to_30": {
+    "rr": 1.019,
+    "ci": [
+     0.911,
+     1.14
+    ],
+    "p": 0.7434
+   },
+   "xs_planned_last_week": {
+    "rr": 1.09,
+    "ci": [
+     0.926,
+     1.283
+    ],
+    "p": 0.3007
+   },
+   "xs_unplanned_last_week": {
+    "rr": 0.979,
+    "ci": [
+     0.792,
+     1.212
+    ],
+    "p": 0.8485
+   },
+   "xs_planned_days_8_to_30": {
+    "rr": 1.108,
+    "ci": [
+     0.831,
+     1.477
+    ],
+    "p": 0.4841
+   },
+   "xs_unplanned_days_8_to_30": {
+    "rr": 0.783,
+    "ci": [
+     0.581,
+     1.054
+    ],
+    "p": 0.107
+   }
+  }
+ },
+ "one_to_one": {
+  "row_as_in_multiverse": {
+   "rr": 1.043,
+   "ci": [
+    0.863,
+    1.262
+   ],
+   "p": 0.6613,
+   "n_accidents": 345
+  },
+  "all_types_split_by_time": {
+   "last_week": {
+    "rr": 1.1,
+    "ci": [
+     0.777,
+     1.557
+    ],
+    "p": 0.5915
+   },
+   "days_8_to_30": {
+    "rr": 1.017,
+    "ci": [
+     0.867,
+     1.194
+    ],
+    "p": 0.832
+   }
+  },
+  "split_by_time_and_type": {
+   "planned_last_week": {
+    "rr": 1.656,
+    "ci": [
+     1.205,
+     2.276
+    ],
+    "p": 0.0019
+   },
+   "unplanned_last_week": {
+    "rr": 1.017,
+    "ci": [
+     0.686,
+     1.509
+    ],
+    "p": 0.9327
+   },
+   "planned_days_8_to_30": {
+    "rr": 0.835,
+    "ci": [
+     0.579,
+     1.205
+    ],
+    "p": 0.3346
+   },
+   "unplanned_days_8_to_30": {
+    "rr": 1.002,
+    "ci": [
+     0.874,
+     1.149
+    ],
+    "p": 0.9728
+   },
+   "xs_planned_last_week": {
+    "rr": 1.114,
+    "ci": [
+     0.908,
+     1.368
+    ],
+    "p": 0.3009
+   },
+   "xs_unplanned_last_week": {
+    "rr": 0.998,
+    "ci": [
+     0.778,
+     1.281
+    ],
+    "p": 0.9906
+   },
+   "xs_planned_days_8_to_30": {
+    "rr": 1.271,
+    "ci": [
+     0.885,
+     1.827
+    ],
+    "p": 0.1947
+   },
+   "xs_unplanned_days_8_to_30": {
+    "rr": 0.553,
+    "ci": [
+     0.39,
+     0.786
+    ],
+    "p": 0.0009
+   }
+  }
+ }
+}

@@ -1,0 +1,131 @@
+{
+ "note": "Phase 5 diagnostic (D9, added after results were seen): the main test with accident aftermath removed from the\nexposure instead of dropping days.\n\nDropping the days after accidents (R16, diagnostic 2) removes the aftermath but is known to push estimates up when a\nreal effect exists (plan section 5.2). Here every day stays in; instead, events at a plant that start in the K days\nafter any accident at that plant (K = 30, 60 or 90) are removed from that plant's event count. Only earlier accidents\nare used to clean a day's window (an event can only be removed by an accident before it), so no future information\nenters. The statewide count is the primary one (not cleaned). Windows 30, 90, 180 and 365 days, gap 7, ending 2021.\nA fake-date version (accidents redrawn within plant-year, 50 draws, cleaning done with the fake dates) checks that the\ncleaning itself does not bias the result.",
+ "events_total": 68610,
+ "clean_30": {
+  "events_removed": 369,
+  "window_30": {
+   "rr": 1.05,
+   "ci": [
+    0.923,
+    1.193
+   ],
+   "p": 0.4582,
+   "n_accidents": 545
+  },
+  "window_90": {
+   "rr": 0.984,
+   "ci": [
+    0.822,
+    1.177
+   ],
+   "p": 0.858,
+   "n_accidents": 545
+  },
+  "window_180": {
+   "rr": 0.814,
+   "ci": [
+    0.693,
+    0.956
+   ],
+   "p": 0.0119,
+   "n_accidents": 536
+  },
+  "window_365": {
+   "rr": 0.668,
+   "ci": [
+    0.518,
+    0.862
+   ],
+   "p": 0.0019,
+   "n_accidents": 523
+  }
+ },
+ "clean_60": {
+  "events_removed": 749,
+  "window_30": {
+   "rr": 1.13,
+   "ci": [
+    1.008,
+    1.266
+   ],
+   "p": 0.0363,
+   "n_accidents": 545
+  },
+  "window_90": {
+   "rr": 1.129,
+   "ci": [
+    0.96,
+    1.327
+   ],
+   "p": 0.1429,
+   "n_accidents": 545
+  },
+  "window_180": {
+   "rr": 0.98,
+   "ci": [
+    0.822,
+    1.167
+   ],
+   "p": 0.8189,
+   "n_accidents": 536
+  },
+  "window_365": {
+   "rr": 0.804,
+   "ci": [
+    0.638,
+    1.012
+   ],
+   "p": 0.0628,
+   "n_accidents": 523
+  }
+ },
+ "clean_90": {
+  "events_removed": 1090,
+  "window_30": {
+   "rr": 1.256,
+   "ci": [
+    1.131,
+    1.396
+   ],
+   "p": 0.0,
+   "n_accidents": 545
+  },
+  "window_90": {
+   "rr": 1.291,
+   "ci": [
+    1.1,
+    1.514
+   ],
+   "p": 0.0017,
+   "n_accidents": 545
+  },
+  "window_180": {
+   "rr": 1.153,
+   "ci": [
+    0.98,
+    1.356
+   ],
+   "p": 0.0872,
+   "n_accidents": 536
+  },
+  "window_365": {
+   "rr": 1.012,
+   "ci": [
+    0.803,
+    1.276
+   ],
+   "p": 0.9188,
+   "n_accidents": 523
+  }
+ },
+ "fake_dates_clean_30": {
+  "window_90": {
+   "draws": 50,
+   "median_rr": 1.154
+  },
+  "window_365": {
+   "draws": 50,
+   "median_rr": 1.258
+  }
+ }
+}

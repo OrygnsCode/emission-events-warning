@@ -1,0 +1,30 @@
+{
+ "answers": 500,
+ "yes": 164,
+ "no": 316,
+ "cant_tell": 20,
+ "yes_by_site_status": {
+  "rule match": 88,
+  "author settled": 25,
+  "author: no RMP facility": 24,
+  "picked": 20,
+  "site unknown": 7
+ },
+ "yes_before_june_2003": 1,
+ "distinct_incidents": 39,
+ "incidents_at_rmp_facilities": 25,
+ "of_which_rmp_accident_within_7_days": 9,
+ "days_apart_when_found": [
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0,
+  0.0
+ ],
+ "incidents_not_at_rmp_facilities": 14,
+ "articles_per_incident_median": 1.0
+}

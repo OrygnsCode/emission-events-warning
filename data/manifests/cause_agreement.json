@@ -1,0 +1,181 @@
+{
+ "note": "Agreement between the frozen cause rules and the author's hand coding of 400 random events (plan section 4).\n\nThe author coded each event's cause text with the codebook (docs/cause_codebook.md) without seeing what the rules\nsaid. Reported: percent agreement and Cohen's kappa for the primary cause (9 categories), for the three groups used\nin the process-control contrast (plan D4: process control = equipment, instrument, upset or operator/procedure;\noutside or planned = weather, third party, power or electrical, maintenance or startup; unknown), and for each\ncategory tick and report-status flag separately.",
+ "n_events": 400,
+ "primary_cause": {
+  "agreement": 0.718,
+  "kappa": 0.666
+ },
+ "three_groups": {
+  "agreement": 0.83,
+  "kappa": 0.703
+ },
+ "confusion_primary": {
+  "equipment": {
+   "equipment": 72,
+   "instrument": 6,
+   "maintenance_startup": 1,
+   "operator": 4,
+   "power": 1,
+   "third_party": 6,
+   "unknown": 0,
+   "upset": 10,
+   "weather": 1
+  },
+  "instrument": {
+   "equipment": 3,
+   "instrument": 20,
+   "maintenance_startup": 0,
+   "operator": 3,
+   "power": 2,
+   "third_party": 1,
+   "unknown": 0,
+   "upset": 1,
+   "weather": 1
+  },
+  "maintenance_startup": {
+   "equipment": 5,
+   "instrument": 0,
+   "maintenance_startup": 11,
+   "operator": 1,
+   "power": 0,
+   "third_party": 3,
+   "unknown": 0,
+   "upset": 3,
+   "weather": 0
+  },
+  "operator": {
+   "equipment": 0,
+   "instrument": 0,
+   "maintenance_startup": 0,
+   "operator": 1,
+   "power": 0,
+   "third_party": 0,
+   "unknown": 0,
+   "upset": 0,
+   "weather": 0
+  },
+  "power": {
+   "equipment": 0,
+   "instrument": 0,
+   "maintenance_startup": 0,
+   "operator": 0,
+   "power": 28,
+   "third_party": 2,
+   "unknown": 0,
+   "upset": 0,
+   "weather": 0
+  },
+  "third_party": {
+   "equipment": 2,
+   "instrument": 0,
+   "maintenance_startup": 0,
+   "operator": 0,
+   "power": 0,
+   "third_party": 67,
+   "unknown": 0,
+   "upset": 0,
+   "weather": 0
+  },
+  "unknown": {
+   "equipment": 3,
+   "instrument": 1,
+   "maintenance_startup": 2,
+   "operator": 0,
+   "power": 0,
+   "third_party": 5,
+   "unknown": 22,
+   "upset": 13,
+   "weather": 0
+  },
+  "upset": {
+   "equipment": 4,
+   "instrument": 5,
+   "maintenance_startup": 3,
+   "operator": 3,
+   "power": 3,
+   "third_party": 7,
+   "unknown": 2,
+   "upset": 40,
+   "weather": 0
+  },
+  "weather": {
+   "equipment": 3,
+   "instrument": 0,
+   "maintenance_startup": 0,
+   "operator": 1,
+   "power": 0,
+   "third_party": 1,
+   "unknown": 0,
+   "upset": 1,
+   "weather": 26
+  }
+ },
+ "flags": {
+  "cause_weather": {
+   "agreement": 0.98,
+   "kappa": 0.856,
+   "hand_yes": 28,
+   "rules_yes": 32
+  },
+  "cause_third_party": {
+   "agreement": 0.93,
+   "kappa": 0.788,
+   "hand_yes": 95,
+   "rules_yes": 71
+  },
+  "cause_power": {
+   "agreement": 0.968,
+   "kappa": 0.858,
+   "hand_yes": 59,
+   "rules_yes": 46
+  },
+  "cause_operator": {
+   "agreement": 0.965,
+   "kappa": 0.121,
+   "hand_yes": 15,
+   "rules_yes": 1
+  },
+  "cause_instrument": {
+   "agreement": 0.935,
+   "kappa": 0.681,
+   "hand_yes": 51,
+   "rules_yes": 41
+  },
+  "cause_equipment": {
+   "agreement": 0.797,
+   "kappa": 0.573,
+   "hand_yes": 131,
+   "rules_yes": 170
+  },
+  "cause_upset": {
+   "agreement": 0.81,
+   "kappa": 0.621,
+   "hand_yes": 213,
+   "rules_yes": 189
+  },
+  "cause_maintenance_startup": {
+   "agreement": 0.88,
+   "kappa": 0.679,
+   "hand_yes": 89,
+   "rules_yes": 109
+  },
+  "status_duplicate": {
+   "agreement": 0.995,
+   "kappa": 0.498,
+   "hand_yes": 3,
+   "rules_yes": 1
+  },
+  "status_not_reportable": {
+   "agreement": 0.963,
+   "kappa": 0.708,
+   "hand_yes": 32,
+   "rules_yes": 23
+  },
+  "status_filed_in_error": {
+   "agreement": 0.985,
+   "kappa": 0.618,
+   "hand_yes": 11,
+   "rules_yes": 5
+  }
+ }
+}

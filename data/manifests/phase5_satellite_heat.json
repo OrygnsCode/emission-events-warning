@@ -1,0 +1,28 @@
+{
+ "note": "Exploratory test B (plan D14 item 4): satellite heat near a plant before its accidents. Unlike emission events,\nthis exposure is not reported by the company.\n\nExposure: for each plant and local calendar day (America/Chicago; America/Denver for El Paso and Hudspeth\ncounties is not needed here because the count is daily), whether NASA FIRMS VIIRS (Suomi NPP) recorded at least one\nnight detection within 1 km of any of the plant's event-reporting RNs (TCEQ coordinates, as in V2). x = log(1 +\nnumber of such nights in days -97 to -8). Statewide count: the same at all other plants. Accidents from 2012-04-08\n(first day with a full window) to 2021-12-31; days before 2012-04-08 are dropped. Model as H1. Shown as registered\nand with detections on accident days and the 2 days after removed.",
+ "plants_with_located_rns": 568,
+ "plants_with_any_detection_night": 374,
+ "plant_nights_with_detection": 67164,
+ "night_detections_used": 315743,
+ "registered_design": {
+  "rr": 1.091,
+  "ci": [
+   0.898,
+   1.324
+  ],
+  "p": 0.3813,
+  "n_accidents": 238,
+  "n_plants": 132
+ },
+ "detection_nights_removed": 51,
+ "own_detections_removed": {
+  "rr": 1.13,
+  "ci": [
+   0.928,
+   1.377
+  ],
+  "p": 0.2235,
+  "n_accidents": 238,
+  "n_plants": 132
+ }
+}

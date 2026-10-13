@@ -1,0 +1,1907 @@
+{
+ "meta": {
+  "frame": 69887,
+  "sample": 500,
+  "with_suggestions": 414
+ },
+ "exported": "2026-10-06T09:11:30.039Z",
+ "answers": {
+  "NEWS-000": {
+   "q1": "yes",
+   "site": "other",
+   "other": "West Fertilizer Company, West, Texas"
+  },
+  "NEWS-001": {
+   "q1": "no"
+  },
+  "NEWS-002": {
+   "q1": "yes",
+   "site": "100000135597",
+   "date": "2013-04-17"
+  },
+  "NEWS-003": {
+   "q1": "unsure"
+  },
+  "NEWS-004": {
+   "q1": "no"
+  },
+  "NEWS-005": {
+   "q1": "unsure"
+  },
+  "NEWS-006": {
+   "q1": "no"
+  },
+  "NEWS-007": {
+   "q1": "yes",
+   "site": "other",
+   "other": "International Paper Texarkana Mill, Domino, Texas",
+   "date": "2014-02-23"
+  },
+  "NEWS-008": {
+   "q1": "no"
+  },
+  "NEWS-009": {
+   "q1": "no"
+  },
+  "NEWS-010": {
+   "q1": "yes",
+   "site": "other",
+   "other": "DuPont La Porte chemical plant, La Porte, Texas (12501 Strang Road)",
+   "date": "2014-11-15"
+  },
+  "NEWS-011": {
+   "q1": "no"
+  },
+  "NEWS-012": {
+   "q1": "yes",
+   "site": "other",
+   "other": "West Fertilizer Company, West, Texas",
+   "date": "2013-04-17"
+  },
+  "NEWS-013": {
+   "q1": "yes",
+   "site": "other",
+   "other": "West Fertilizer Company, West, Texas",
+   "date": "2013-04-17"
+  },
+  "NEWS-014": {
+   "q1": "no"
+  },
+  "NEWS-015": {
+   "q1": "yes",
+   "site": "100000135597",
+   "date": "2013-04-17"
+  },
+  "NEWS-016": {
+   "q1": "yes",
+   "site": "100000201863"
+  },
+  "NEWS-017": {
+   "q1": "yes",
+   "site": "other",
+   "other": "West Fertilizer Company, West, Texas",
+   "date": "2013-04-17"
+  },
+  "NEWS-018": {
+   "q1": "no"
+  },
+  "NEWS-019": {
+   "q1": "no"
+  },
+  "NEWS-020": {
+   "q1": "no"
+  },
+  "NEWS-021": {
+   "q1": "no"
+  },
+  "NEWS-022": {
+   "q1": "no"
+  },
+  "NEWS-023": {
+   "q1": "no"
+  },
+  "NEWS-024": {
+   "q1": "no"
+  },
+  "NEWS-025": {
+   "q1": "no"
+  },
+  "NEWS-026": {
+   "q1": "yes",
+   "site": "other",
+   "other": "West Fertilizer Company, West, Texas",
+   "date": "2013-04-17"
+  },
+  "NEWS-027": {
+   "q1": "unsure"
+  },
+  "NEWS-028": {
+   "q1": "no"
+  },
+  "NEWS-029": {
+   "q1": "no"
+  },
+  "NEWS-030": {
+   "q1": "no"
+  },
+  "NEWS-031": {
+   "q1": "unsure"
+  },
+  "NEWS-032": {
+   "q1": "yes",
+   "site": "other",
+   "other": "DuPont La Porte chemical plant, La Porte, Texas (12501 Strang Road)"
+  },
+  "NEWS-033": {
+   "q1": "no"
+  },
+  "NEWS-034": {
+   "q1": "no"
+  },
+  "NEWS-035": {
+   "q1": "no"
+  },
+  "NEWS-036": {
+   "q1": "no"
+  },
+  "NEWS-037": {
+   "q1": "no"
+  },
+  "NEWS-038": {
+   "q1": "no"
+  },
+  "NEWS-039": {
+   "q1": "no"
+  },
+  "NEWS-040": {
+   "q1": "no"
+  },
+  "NEWS-041": {
+   "q1": "no"
+  },
+  "NEWS-042": {
+   "q1": "no"
+  },
+  "NEWS-043": {
+   "q1": "no"
+  },
+  "NEWS-044": {
+   "q1": "no"
+  },
+  "NEWS-045": {
+   "q1": "no"
+  },
+  "NEWS-046": {
+   "q1": "no"
+  },
+  "NEWS-047": {
+   "q1": "yes",
+   "site": "unknown",
+   "date": "2015-04-25"
+  },
+  "NEWS-048": {
+   "q1": "no"
+  },
+  "NEWS-049": {
+   "q1": "no"
+  },
+  "NEWS-050": {
+   "q1": "no"
+  },
+  "NEWS-051": {
+   "q1": "no"
+  },
+  "NEWS-052": {
+   "q1": "no"
+  },
+  "NEWS-053": {
+   "q1": "no"
+  },
+  "NEWS-054": {
+   "q1": "no"
+  },
+  "NEWS-055": {
+   "q1": "no"
+  },
+  "NEWS-056": {
+   "q1": "no"
+  },
+  "NEWS-057": {
+   "q1": "no"
+  },
+  "NEWS-058": {
+   "q1": "unsure"
+  },
+  "NEWS-059": {
+   "q1": "no"
+  },
+  "NEWS-060": {
+   "q1": "no"
+  },
+  "NEWS-061": {
+   "q1": "yes",
+   "site": "other",
+   "other": "DrillChem chemical plant, Conroe, Texas",
+   "date": "2015-08-14"
+  },
+  "NEWS-062": {
+   "q1": "yes",
+   "site": "other",
+   "other": "DrillChem chemical plant, Conroe, Texas",
+   "date": "2015-08-14"
+  },
+  "NEWS-063": {
+   "q1": "yes",
+   "site": "other",
+   "other": "DrillChem chemical plant, Conroe, Texas",
+   "date": "2015-08-14"
+  },
+  "NEWS-064": {
+   "q1": "no"
+  },
+  "NEWS-065": {
+   "q1": "no"
+  },
+  "NEWS-066": {
+   "q1": "no"
+  },
+  "NEWS-067": {
+   "q1": "yes",
+   "site": "other",
+   "other": "West Fertilizer Company, West, Texas",
+   "date": "2013-04-17"
+  },
+  "NEWS-068": {
+   "q1": "no"
+  },
+  "NEWS-069": {
+   "q1": "yes",
+   "site": "other",
+   "other": "Atlantic Coffee Solutions, Houston, Texas (3900 Harrisburg Boulevard)",
+   "date": "2015-11-12"
+  },
+  "NEWS-070": {
+   "q1": "yes",
+   "site": "other",
+   "other": "Ramsey natural gas processing plant, near Orla, Texas",
+   "date": "2015-12-03"
+  },
+  "NEWS-071": {
+   "q1": "no"
+  },
+  "NEWS-072": {
+   "q1": "yes",
+   "site": "other",
+   "other": "PeroxyChem Pasadena plant, Pasadena, Texas (12000 Bay Area Boulevard)"
+  },
+  "NEWS-073": {
+   "q1": "yes",
+   "site": "other",
+   "other": "PeroxyChem Pasadena plant, Pasadena, Texas (12000 Bay Area Boulevard)"
+  },
+  "NEWS-074": {
+   "q1": "no"
+  },
+  "NEWS-075": {
+   "q1": "no"
+  },
+  "NEWS-076": {
+   "q1": "no"
+  },
+  "NEWS-077": {
+   "q1": "yes",
+   "site": "other",
+   "other": "Pasadena Refining Systems refinery, Pasadena, Texas (111 Red Bluff Road)"
+  },
+  "NEWS-078": {
+   "q1": "yes",
+   "site": "other",
+   "other": "Pasadena Refining Systems refinery, Pasadena, Texas (111 Red Bluff Road)"
+  },
+  "NEWS-079": {
+   "q1": "yes",
+   "site": "other",
+   "other": "Pasadena Refining Systems refinery, Pasadena, Texas (111 Red Bluff Road)"
+  },
+  "NEWS-080": {
+   "q1": "no"
+  },
+  "NEWS-081": {
+   "q1": "no"
+  },
+  "NEWS-082": {
+   "q1": "yes",
+   "site": "100000148912",
+   "date": "2014-11-15"
+  },
+  "NEWS-083": {
+   "q1": "yes",
+   "site": "100000148912",
+   "date": "2014-11-15"
+  },
+  "NEWS-084": {
+   "q1": "no"
+  },
+  "NEWS-085": {
+   "q1": "no"
+  },
+  "NEWS-086": {
+   "q1": "no"
+  },
+  "NEWS-087": {
+   "q1": "no"
+  },
+  "NEWS-088": {
+   "q1": "yes",
+   "site": "other",
+   "other": "LyondellBasell Houston Refining refinery, Houston/Pasadena, Texas (100 Allen Genoa Road / 12000 Lawndale)"
+  },
+  "NEWS-089": {
+   "q1": "no"
+  },
+  "NEWS-090": {
+   "q1": "no"
+  },
+  "NEWS-091": {
+   "q1": "no"
+  },
+  "NEWS-092": {
+   "q1": "no"
+  },
+  "NEWS-093": {
+   "q1": "yes",
+   "site": "100000152256"
+  },
+  "NEWS-094": {
+   "q1": "yes",
+   "site": "other",
+   "other": "West Fertilizer Company, West, Texas",
+   "date": "2013-04-17"
+  },
+  "NEWS-095": {
+   "q1": "yes",
+   "site": "other",
+   "other": "West Fertilizer Company, West, Texas",
+   "date": "2013-04-17"
+  },
+  "NEWS-096": {
+   "q1": "yes",
+   "site": "other",
+   "other": "West Fertilizer Company, West, Texas",
+   "date": "2013-04-17"
+  },
+  "NEWS-097": {
+   "q1": "yes",
+   "site": "100000152256",
+   "date": "2016-05-11"
+  },
+  "NEWS-098": {
+   "q1": "yes",
+   "site": "other",
+   "other": "West Fertilizer Company, West, Texas",
+   "date": "2013-04-17"
+  },
+  "NEWS-099": {
+   "q1": "no"
+  },
+  "NEWS-100": {
+   "q1": "no"
+  },
+  "NEWS-101": {
+   "q1": "no"
+  },
+  "NEWS-102": {
+   "q1": "no"
+  },
+  "NEWS-103": {
+   "q1": "no"
+  },
+  "NEWS-104": {
+   "q1": "no"
+  },
+  "NEWS-105": {
+   "q1": "no"
+  },
+  "NEWS-106": {
+   "q1": "unsure"
+  },
+  "NEWS-107": {
+   "q1": "no"
+  },
+  "NEWS-108": {
+   "q1": "no"
+  },
+  "NEWS-109": {
+   "q1": "no"
+  },
+  "NEWS-110": {
+   "q1": "no"
+  },
+  "NEWS-111": {
+   "q1": "no"
+  },
+  "NEWS-112": {
+   "q1": "no"
+  },
+  "NEWS-113": {
+   "q1": "no"
+  },
+  "NEWS-114": {
+   "q1": "no"
+  },
+  "NEWS-115": {
+   "q1": "no"
+  },
+  "NEWS-116": {
+   "q1": "no"
+  },
+  "NEWS-117": {
+   "q1": "no"
+  },
+  "NEWS-118": {
+   "q1": "no"
+  },
+  "NEWS-119": {
+   "q1": "yes",
+   "site": "other",
+   "other": "Sunoco Logistics Partners Nederland crude-oil terminal, Nederland, Texas",
+   "date": "2016-08-12"
+  },
+  "NEWS-120": {
+   "q1": "yes",
+   "site": "other",
+   "other": "Sunoco Logistics Partners Nederland crude-oil terminal, Nederland, Texas",
+   "date": "2016-08-12"
+  },
+  "NEWS-121": {
+   "q1": "yes",
+   "site": "other",
+   "other": "Sunoco Logistics Partners Nederland crude-oil terminal, Nederland, Texas",
+   "date": "2016-08-12"
+  },
+  "NEWS-122": {
+   "q1": "yes",
+   "site": "other",
+   "other": "Sunoco Logistics Partners Nederland crude-oil terminal, Nederland, Texas",
+   "date": "2016-08-12"
+  },
+  "NEWS-123": {
+   "q1": "yes",
+   "site": "other",
+   "other": "Sunoco Logistics Partners Nederland crude-oil terminal, Nederland, Texas",
+   "date": "2016-08-12"
+  },
+  "NEWS-124": {
+   "q1": "no"
+  },
+  "NEWS-125": {
+   "q1": "no"
+  },
+  "NEWS-126": {
+   "q1": "no"
+  },
+  "NEWS-127": {
+   "q1": "no"
+  },
+  "NEWS-128": {
+   "q1": "no"
+  },
+  "NEWS-129": {
+   "q1": "yes",
+   "site": "other",
+   "other": "Haas-Anderson Construction asphalt plant, Corpus Christi, Texas (6300 block Hopkins Road)"
+  },
+  "NEWS-130": {
+   "q1": "yes",
+   "site": "other",
+   "other": "BP Texas City refinery (now Galveston Bay refinery), Texas City, Texas"
+  },
+  "NEWS-131": {
+   "q1": "no"
+  },
+  "NEWS-132": {
+   "q1": "no"
+  },
+  "NEWS-133": {
+   "q1": "no"
+  },
+  "NEWS-134": {
+   "q1": "no"
+  },
+  "NEWS-135": {
+   "q1": "no"
+  },
+  "NEWS-136": {
+   "q1": "no"
+  },
+  "NEWS-137": {
+   "q1": "yes",
+   "site": "other",
+   "other": "West Fertilizer Company, West, Texas",
+   "date": "2013-04-17"
+  },
+  "NEWS-138": {
+   "q1": "no"
+  },
+  "NEWS-139": {
+   "q1": "no"
+  },
+  "NEWS-140": {
+   "q1": "no"
+  },
+  "NEWS-141": {
+   "q1": "no"
+  },
+  "NEWS-142": {
+   "q1": "no"
+  },
+  "NEWS-143": {
+   "q1": "no"
+  },
+  "NEWS-144": {
+   "q1": "no"
+  },
+  "NEWS-145": {
+   "q1": "no"
+  },
+  "NEWS-146": {
+   "q1": "no"
+  },
+  "NEWS-147": {
+   "q1": "no"
+  },
+  "NEWS-148": {
+   "q1": "no"
+  },
+  "NEWS-149": {
+   "q1": "no"
+  },
+  "NEWS-150": {
+   "q1": "no"
+  },
+  "NEWS-151": {
+   "q1": "no"
+  },
+  "NEWS-152": {
+   "q1": "no"
+  },
+  "NEWS-153": {
+   "q1": "no"
+  },
+  "NEWS-154": {
+   "q1": "no"
+  },
+  "NEWS-155": {
+   "q1": "no"
+  },
+  "NEWS-156": {
+   "q1": "no"
+  },
+  "NEWS-157": {
+   "q1": "no"
+  },
+  "NEWS-158": {
+   "q1": "no"
+  },
+  "NEWS-159": {
+   "q1": "no"
+  },
+  "NEWS-160": {
+   "q1": "no"
+  },
+  "NEWS-161": {
+   "q1": "no"
+  },
+  "NEWS-162": {
+   "q1": "no"
+  },
+  "NEWS-163": {
+   "q1": "no"
+  },
+  "NEWS-164": {
+   "q1": "no"
+  },
+  "NEWS-165": {
+   "q1": "no"
+  },
+  "NEWS-166": {
+   "q1": "no"
+  },
+  "NEWS-167": {
+   "q1": "no"
+  },
+  "NEWS-168": {
+   "q1": "no"
+  },
+  "NEWS-169": {
+   "q1": "no"
+  },
+  "NEWS-170": {
+   "q1": "no"
+  },
+  "NEWS-171": {
+   "q1": "yes",
+   "site": "other",
+   "other": "Tyler Welders Supply gas storage yard, Tyler area, Texas (US Highway 271)",
+   "date": "2017-06-13"
+  },
+  "NEWS-172": {
+   "q1": "no"
+  },
+  "NEWS-173": {
+   "q1": "yes",
+   "site": "other",
+   "other": "Derichebourg Recycling Center, Houston, Texas (East Navigation near Harrisburg)",
+   "date": "2017-06-14"
+  },
+  "NEWS-174": {
+   "q1": "no"
+  },
+  "NEWS-175": {
+   "q1": "no"
+  },
+  "NEWS-176": {
+   "q1": "no"
+  },
+  "NEWS-177": {
+   "q1": "no"
+  },
+  "NEWS-178": {
+   "q1": "no"
+  },
+  "NEWS-179": {
+   "q1": "no"
+  },
+  "NEWS-180": {
+   "q1": "yes",
+   "site": "other",
+   "other": "Cooler Graphics manufacturing building, Channelview, Texas (Sheldon Road)",
+   "date": "2017-07-29"
+  },
+  "NEWS-181": {
+   "q1": "no"
+  },
+  "NEWS-182": {
+   "q1": "unsure"
+  },
+  "NEWS-183": {
+   "q1": "no"
+  },
+  "NEWS-184": {
+   "q1": "no"
+  },
+  "NEWS-185": {
+   "q1": "no"
+  },
+  "NEWS-186": {
+   "q1": "no"
+  },
+  "NEWS-187": {
+   "q1": "no"
+  },
+  "NEWS-188": {
+   "q1": "unsure"
+  },
+  "NEWS-189": {
+   "q1": "no"
+  },
+  "NEWS-190": {
+   "q1": "no"
+  },
+  "NEWS-191": {
+   "q1": "yes",
+   "site": "100000124457"
+  },
+  "NEWS-192": {
+   "q1": "unsure"
+  },
+  "NEWS-193": {
+   "q1": "yes",
+   "site": "other",
+   "other": "Arkema Crosby chemical plant, Crosby, Texas (18000 Crosby Eastgate Road)"
+  },
+  "NEWS-194": {
+   "q1": "yes",
+   "site": "other",
+   "other": "Arkema Crosby chemical plant, Crosby, Texas (18000 Crosby Eastgate Road)"
+  },
+  "NEWS-195": {
+   "q1": "yes",
+   "site": "other",
+   "other": "Arkema Crosby chemical plant, Crosby, Texas (18000 Crosby Eastgate Road)"
+  },
+  "NEWS-196": {
+   "q1": "no"
+  },
+  "NEWS-197": {
+   "q1": "yes",
+   "site": "other",
+   "other": "Arkema Crosby chemical plant, Crosby, Texas (18000 Crosby Eastgate Road)"
+  },
+  "NEWS-198": {
+   "q1": "yes",
+   "site": "other",
+   "other": "Arkema Crosby chemical plant, Crosby, Texas (18000 Crosby Eastgate Road)"
+  },
+  "NEWS-199": {
+   "q1": "yes",
+   "site": "other",
+   "other": "Arkema Crosby chemical plant, Crosby, Texas (18000 Crosby Eastgate Road)"
+  },
+  "NEWS-200": {
+   "q1": "yes",
+   "site": "other",
+   "other": "Arkema Crosby chemical plant, Crosby, Texas (18000 Crosby Eastgate Road)"
+  },
+  "NEWS-201": {
+   "q1": "yes",
+   "site": "other",
+   "other": "Arkema Crosby chemical plant, Crosby, Texas (18000 Crosby Eastgate Road)"
+  },
+  "NEWS-202": {
+   "q1": "yes",
+   "site": "other",
+   "other": "Arkema Crosby chemical plant, Crosby, Texas (18000 Crosby Eastgate Road)"
+  },
+  "NEWS-203": {
+   "q1": "unsure"
+  },
+  "NEWS-204": {
+   "q1": "yes",
+   "site": "other",
+   "other": "Arkema Crosby chemical plant, Crosby, Texas (18000 Crosby Eastgate Road)"
+  },
+  "NEWS-205": {
+   "q1": "yes",
+   "site": "other",
+   "other": "Arkema Crosby chemical plant, Crosby, Texas (18000 Crosby Eastgate Road)"
+  },
+  "NEWS-206": {
+   "q1": "yes",
+   "site": "other",
+   "other": "Arkema Crosby chemical plant, Crosby, Texas (18000 Crosby Eastgate Road)"
+  },
+  "NEWS-207": {
+   "q1": "yes",
+   "site": "unknown"
+  },
+  "NEWS-208": {
+   "q1": "yes",
+   "site": "other",
+   "other": "Arkema Crosby chemical plant, Crosby, Texas (18000 Crosby Eastgate Road)",
+   "date": "2017-08-31"
+  },
+  "NEWS-209": {
+   "q1": "yes",
+   "site": "100000124457",
+   "date": "2017-09-01"
+  },
+  "NEWS-210": {
+   "q1": "yes",
+   "site": "other",
+   "other": "Arkema Crosby chemical plant, Crosby, Texas (18000 Crosby Eastgate Road)",
+   "date": "2017-09-01"
+  },
+  "NEWS-211": {
+   "q1": "yes",
+   "site": "other",
+   "other": "Arkema Crosby chemical plant, Crosby, Texas (18000 Crosby Eastgate Road)",
+   "date": "2017-09-01"
+  },
+  "NEWS-212": {
+   "q1": "yes",
+   "site": "other",
+   "other": "Arkema Crosby chemical plant, Crosby, Texas (18000 Crosby Eastgate Road)",
+   "date": "2017-09-01"
+  },
+  "NEWS-213": {
+   "q1": "yes",
+   "site": "unknown"
+  },
+  "NEWS-214": {
+   "q1": "no"
+  },
+  "NEWS-215": {
+   "q1": "no"
+  },
+  "NEWS-216": {
+   "q1": "yes",
+   "site": "other",
+   "other": "Arkema Crosby chemical plant, Crosby, Texas (18000 Crosby Eastgate Road)",
+   "date": "2017-08-31"
+  },
+  "NEWS-217": {
+   "q1": "no"
+  },
+  "NEWS-218": {
+   "q1": "no"
+  },
+  "NEWS-219": {
+   "q1": "yes",
+   "site": "other",
+   "other": "Arkema Crosby chemical plant, Crosby, Texas (18000 Crosby Eastgate Road)",
+   "date": "2017-08-31"
+  },
+  "NEWS-220": {
+   "q1": "no"
+  },
+  "NEWS-221": {
+   "q1": "no"
+  },
+  "NEWS-222": {
+   "q1": "no"
+  },
+  "NEWS-223": {
+   "q1": "no"
+  },
+  "NEWS-224": {
+   "q1": "no"
+  },
+  "NEWS-225": {
+   "q1": "no"
+  },
+  "NEWS-226": {
+   "q1": "yes",
+   "site": "other",
+   "other": "All Star Recycling Center, San Antonio, Texas (7100 block FM 1346)"
+  },
+  "NEWS-227": {
+   "q1": "no"
+  },
+  "NEWS-228": {
+   "q1": "no"
+  },
+  "NEWS-229": {
+   "q1": "yes",
+   "site": "other",
+   "other": "Tri-Chem Specialty Chemicals plant, Cresson, Texas"
+  },
+  "NEWS-230": {
+   "q1": "yes",
+   "site": "other",
+   "other": "Tri-Chem Specialty Chemicals plant, Cresson, Texas",
+   "date": "2018-03-15"
+  },
+  "NEWS-231": {
+   "q1": "yes",
+   "site": "other",
+   "other": "FedEx Ground sortation facility, Schertz, Texas (9935 Doerr Lane)"
+  },
+  "NEWS-232": {
+   "q1": "yes",
+   "site": "other",
+   "other": "FedEx Ground sortation facility, Schertz, Texas (9935 Doerr Lane)"
+  },
+  "NEWS-233": {
+   "q1": "yes",
+   "site": "other",
+   "other": "FedEx Ground sortation facility, Schertz, Texas (9935 Doerr Lane)"
+  },
+  "NEWS-234": {
+   "q1": "no"
+  },
+  "NEWS-235": {
+   "q1": "yes",
+   "site": "other",
+   "other": "FedEx Ground sortation facility, Schertz, Texas (9935 Doerr Lane)"
+  },
+  "NEWS-236": {
+   "q1": "no"
+  },
+  "NEWS-237": {
+   "q1": "unsure"
+  },
+  "NEWS-238": {
+   "q1": "no"
+  },
+  "NEWS-239": {
+   "q1": "no"
+  },
+  "NEWS-240": {
+   "q1": "no"
+  },
+  "NEWS-241": {
+   "q1": "no"
+  },
+  "NEWS-242": {
+   "q1": "no"
+  },
+  "NEWS-243": {
+   "q1": "no"
+  },
+  "NEWS-244": {
+   "q1": "yes",
+   "site": "other",
+   "other": "Kuraray America EVAL plant, Pasadena, Texas (Choate Road at Bay Area Boulevard)"
+  },
+  "NEWS-245": {
+   "q1": "yes",
+   "site": "other",
+   "other": "Kuraray America EVAL plant, Pasadena, Texas (Choate Road at Bay Area Boulevard)",
+   "date": "2018-05-19"
+  },
+  "NEWS-246": {
+   "q1": "no"
+  },
+  "NEWS-247": {
+   "q1": "no"
+  },
+  "NEWS-248": {
+   "q1": "no"
+  },
+  "NEWS-249": {
+   "q1": "no"
+  },
+  "NEWS-250": {
+   "q1": "yes",
+   "site": "other",
+   "other": "Cotey Chemical Corporation, Lubbock, Texas (near 46th Street and MLK Boulevard)",
+   "date": "2018-06-05"
+  },
+  "NEWS-251": {
+   "q1": "no"
+  },
+  "NEWS-252": {
+   "q1": "no"
+  },
+  "NEWS-253": {
+   "q1": "no"
+  },
+  "NEWS-254": {
+   "q1": "no"
+  },
+  "NEWS-255": {
+   "q1": "no"
+  },
+  "NEWS-256": {
+   "q1": "no"
+  },
+  "NEWS-257": {
+   "q1": "no"
+  },
+  "NEWS-258": {
+   "q1": "no"
+  },
+  "NEWS-259": {
+   "q1": "no"
+  },
+  "NEWS-260": {
+   "q1": "no"
+  },
+  "NEWS-261": {
+   "q1": "no"
+  },
+  "NEWS-262": {
+   "q1": "no"
+  },
+  "NEWS-263": {
+   "q1": "no"
+  },
+  "NEWS-264": {
+   "q1": "no"
+  },
+  "NEWS-265": {
+   "q1": "no"
+  },
+  "NEWS-266": {
+   "q1": "no"
+  },
+  "NEWS-267": {
+   "q1": "no"
+  },
+  "NEWS-268": {
+   "q1": "no"
+  },
+  "NEWS-269": {
+   "q1": "no"
+  },
+  "NEWS-270": {
+   "q1": "no"
+  },
+  "NEWS-271": {
+   "q1": "no"
+  },
+  "NEWS-272": {
+   "q1": "no"
+  },
+  "NEWS-273": {
+   "q1": "no"
+  },
+  "NEWS-274": {
+   "q1": "no"
+  },
+  "NEWS-275": {
+   "q1": "yes",
+   "site": "other",
+   "other": "Intercontinental Terminals Company Deer Park terminal, Deer Park, Texas (1943 Independence Parkway South)",
+   "date": "2019-03-17"
+  },
+  "NEWS-276": {
+   "q1": "yes",
+   "site": "other",
+   "other": "Intercontinental Terminals Company Deer Park terminal, Deer Park, Texas (1943 Independence Parkway South)",
+   "date": "2019-03-17"
+  },
+  "NEWS-277": {
+   "q1": "yes",
+   "site": "other",
+   "other": "Intercontinental Terminals Company Deer Park terminal, Deer Park, Texas (1943 Independence Parkway South)",
+   "date": "2019-03-17"
+  },
+  "NEWS-278": {
+   "q1": "yes",
+   "site": "other",
+   "other": "Intercontinental Terminals Company Deer Park terminal, Deer Park, Texas (1943 Independence Parkway South)",
+   "date": "2019-03-17"
+  },
+  "NEWS-279": {
+   "q1": "yes",
+   "site": "other",
+   "other": "Intercontinental Terminals Company Deer Park terminal, Deer Park, Texas (1943 Independence Parkway South)",
+   "date": "2019-03-17"
+  },
+  "NEWS-280": {
+   "q1": "yes",
+   "site": "other",
+   "other": "Intercontinental Terminals Company Deer Park terminal, Deer Park, Texas (1943 Independence Parkway South)",
+   "date": "2019-03-17"
+  },
+  "NEWS-281": {
+   "q1": "yes",
+   "site": "other",
+   "other": "Intercontinental Terminals Company Deer Park terminal, Deer Park, Texas (1943 Independence Parkway South)",
+   "date": "2019-03-17"
+  },
+  "NEWS-282": {
+   "q1": "yes",
+   "site": "other",
+   "other": "Intercontinental Terminals Company Deer Park terminal, Deer Park, Texas (1943 Independence Parkway South)",
+   "date": "2019-03-17"
+  },
+  "NEWS-283": {
+   "q1": "yes",
+   "site": "other",
+   "other": "Intercontinental Terminals Company Deer Park terminal, Deer Park, Texas (1943 Independence Parkway South)",
+   "date": "2019-03-17"
+  },
+  "NEWS-284": {
+   "q1": "yes",
+   "site": "other",
+   "other": "Intercontinental Terminals Company Deer Park terminal, Deer Park, Texas (1943 Independence Parkway South)",
+   "date": "2019-03-17"
+  },
+  "NEWS-285": {
+   "q1": "yes",
+   "site": "other",
+   "other": "Intercontinental Terminals Company Deer Park terminal, Deer Park, Texas (1943 Independence Parkway South)",
+   "date": "2019-03-17"
+  },
+  "NEWS-286": {
+   "q1": "yes",
+   "site": "other",
+   "other": "Intercontinental Terminals Company Deer Park terminal, Deer Park, Texas (1943 Independence Parkway South)",
+   "date": "2019-03-17"
+  },
+  "NEWS-287": {
+   "q1": "yes",
+   "site": "other",
+   "other": "Intercontinental Terminals Company Deer Park terminal, Deer Park, Texas (1943 Independence Parkway South)",
+   "date": "2019-03-17"
+  },
+  "NEWS-288": {
+   "q1": "yes",
+   "site": "other",
+   "other": "Intercontinental Terminals Company Deer Park terminal, Deer Park, Texas (1943 Independence Parkway South)",
+   "date": "2019-03-17"
+  },
+  "NEWS-289": {
+   "q1": "yes",
+   "site": "other",
+   "other": "Intercontinental Terminals Company Deer Park terminal, Deer Park, Texas (1943 Independence Parkway South)",
+   "date": "2019-03-17"
+  },
+  "NEWS-290": {
+   "q1": "yes",
+   "site": "other",
+   "other": "Intercontinental Terminals Company Deer Park terminal, Deer Park, Texas (1943 Independence Parkway South)",
+   "date": "2019-03-17"
+  },
+  "NEWS-291": {
+   "q1": "yes",
+   "site": "other",
+   "other": "Intercontinental Terminals Company Deer Park terminal, Deer Park, Texas (1943 Independence Parkway South)",
+   "date": "2019-03-17"
+  },
+  "NEWS-292": {
+   "q1": "yes",
+   "site": "unknown"
+  },
+  "NEWS-293": {
+   "q1": "yes",
+   "site": "other",
+   "other": "Intercontinental Terminals Company Deer Park terminal, Deer Park, Texas (1943 Independence Parkway South)",
+   "date": "2019-03-17"
+  },
+  "NEWS-294": {
+   "q1": "yes",
+   "site": "other",
+   "other": "Intercontinental Terminals Company Deer Park terminal, Deer Park, Texas (1943 Independence Parkway South)",
+   "date": "2019-03-17"
+  },
+  "NEWS-295": {
+   "q1": "yes",
+   "site": "other",
+   "other": "Intercontinental Terminals Company Deer Park terminal, Deer Park, Texas (1943 Independence Parkway South)"
+  },
+  "NEWS-296": {
+   "q1": "yes",
+   "site": "other",
+   "other": "Intercontinental Terminals Company Deer Park terminal, Deer Park, Texas (1943 Independence Parkway South)"
+  },
+  "NEWS-297": {
+   "q1": "yes",
+   "site": "other",
+   "other": "Intercontinental Terminals Company Deer Park terminal, Deer Park, Texas (1943 Independence Parkway South)"
+  },
+  "NEWS-298": {
+   "q1": "yes",
+   "site": "other",
+   "other": "Intercontinental Terminals Company Deer Park terminal, Deer Park, Texas (1943 Independence Parkway South)"
+  },
+  "NEWS-299": {
+   "q1": "yes",
+   "site": "other",
+   "other": "Intercontinental Terminals Company Deer Park terminal, Deer Park, Texas (1943 Independence Parkway South)"
+  },
+  "NEWS-300": {
+   "q1": "yes",
+   "site": "other",
+   "other": "Intercontinental Terminals Company Deer Park terminal, Deer Park, Texas (1943 Independence Parkway South)"
+  },
+  "NEWS-301": {
+   "q1": "yes",
+   "site": "other",
+   "other": "Intercontinental Terminals Company Deer Park terminal, Deer Park, Texas (1943 Independence Parkway South)"
+  },
+  "NEWS-302": {
+   "q1": "yes",
+   "site": "other",
+   "other": "Intercontinental Terminals Company Deer Park terminal, Deer Park, Texas (1943 Independence Parkway South)"
+  },
+  "NEWS-303": {
+   "q1": "yes",
+   "site": "other",
+   "other": "Intercontinental Terminals Company Deer Park terminal, Deer Park, Texas (1943 Independence Parkway South)",
+   "date": "2019-03-22"
+  },
+  "NEWS-304": {
+   "q1": "yes",
+   "site": "other",
+   "other": "Intercontinental Terminals Company Deer Park terminal, Deer Park, Texas (1943 Independence Parkway South)",
+   "date": "2019-03-17"
+  },
+  "NEWS-305": {
+   "q1": "yes",
+   "site": "other",
+   "other": "Intercontinental Terminals Company Deer Park terminal, Deer Park, Texas (1943 Independence Parkway South)",
+   "date": "2019-03-17"
+  },
+  "NEWS-306": {
+   "q1": "yes",
+   "site": "other",
+   "other": "Intercontinental Terminals Company Deer Park terminal, Deer Park, Texas (1943 Independence Parkway South)",
+   "date": "2019-03-17"
+  },
+  "NEWS-307": {
+   "q1": "yes",
+   "site": "other",
+   "other": "Intercontinental Terminals Company Deer Park terminal, Deer Park, Texas (1943 Independence Parkway South)",
+   "date": "2019-03-17"
+  },
+  "NEWS-308": {
+   "q1": "yes",
+   "site": "other",
+   "other": "Intercontinental Terminals Company Deer Park terminal, Deer Park, Texas (1943 Independence Parkway South)",
+   "date": "2019-03-17"
+  },
+  "NEWS-309": {
+   "q1": "yes",
+   "site": "other",
+   "other": "Intercontinental Terminals Company Deer Park terminal, Deer Park, Texas (1943 Independence Parkway South)",
+   "date": "2019-03-17"
+  },
+  "NEWS-310": {
+   "q1": "yes",
+   "site": "other",
+   "other": "KMCO chemical processing plant, Crosby, Texas (16503 Ramsey Road)"
+  },
+  "NEWS-311": {
+   "q1": "yes",
+   "site": "other",
+   "other": "KMCO chemical processing plant, Crosby, Texas (16503 Ramsey Road)"
+  },
+  "NEWS-312": {
+   "q1": "yes",
+   "site": "other",
+   "other": "KMCO chemical processing plant, Crosby, Texas (16503 Ramsey Road)"
+  },
+  "NEWS-313": {
+   "q1": "yes",
+   "site": "other",
+   "other": "KMCO chemical processing plant, Crosby, Texas (16503 Ramsey Road)",
+   "date": "2019-04-02"
+  },
+  "NEWS-314": {
+   "q1": "unsure"
+  },
+  "NEWS-315": {
+   "q1": "unsure"
+  },
+  "NEWS-316": {
+   "q1": "unsure"
+  },
+  "NEWS-317": {
+   "q1": "no"
+  },
+  "NEWS-318": {
+   "q1": "yes",
+   "site": "other",
+   "other": "KMCO chemical processing plant, Crosby, Texas (16503 Ramsey Road)",
+   "date": "2019-04-02"
+  },
+  "NEWS-319": {
+   "q1": "yes",
+   "site": "unknown",
+   "date": "1947-04-16"
+  },
+  "NEWS-320": {
+   "q1": "no"
+  },
+  "NEWS-321": {
+   "q1": "yes",
+   "site": "other",
+   "other": "Intercontinental Terminals Company Deer Park terminal, Deer Park, Texas (1943 Independence Parkway South)",
+   "date": "2019-03-17"
+  },
+  "NEWS-322": {
+   "q1": "yes",
+   "site": "other",
+   "other": "Intercontinental Terminals Company Deer Park terminal, Deer Park, Texas (1943 Independence Parkway South)",
+   "date": "2019-03-17"
+  },
+  "NEWS-323": {
+   "q1": "yes",
+   "site": "other",
+   "other": "Intercontinental Terminals Company Deer Park terminal, Deer Park, Texas (1943 Independence Parkway South)",
+   "date": "2019-03-17"
+  },
+  "NEWS-324": {
+   "q1": "yes",
+   "site": "other",
+   "other": "Intercontinental Terminals Company Deer Park terminal, Deer Park, Texas (1943 Independence Parkway South)",
+   "date": "2019-03-17"
+  },
+  "NEWS-325": {
+   "q1": "no"
+  },
+  "NEWS-326": {
+   "q1": "no"
+  },
+  "NEWS-327": {
+   "q1": "no"
+  },
+  "NEWS-328": {
+   "q1": "no"
+  },
+  "NEWS-329": {
+   "q1": "no"
+  },
+  "NEWS-330": {
+   "q1": "no"
+  },
+  "NEWS-331": {
+   "q1": "no"
+  },
+  "NEWS-332": {
+   "q1": "no"
+  },
+  "NEWS-333": {
+   "q1": "no"
+  },
+  "NEWS-334": {
+   "q1": "no"
+  },
+  "NEWS-335": {
+   "q1": "yes",
+   "site": "other",
+   "other": "Intercontinental Terminals Company Deer Park terminal, Deer Park, Texas (1943 Independence Parkway South)",
+   "date": "2019-03-17"
+  },
+  "NEWS-336": {
+   "q1": "no"
+  },
+  "NEWS-337": {
+   "q1": "yes",
+   "site": "100000057528"
+  },
+  "NEWS-338": {
+   "q1": "no"
+  },
+  "NEWS-339": {
+   "q1": "yes",
+   "site": "100000057528"
+  },
+  "NEWS-340": {
+   "q1": "no"
+  },
+  "NEWS-341": {
+   "q1": "yes",
+   "site": "100000057528",
+   "date": "2019-07-31"
+  },
+  "NEWS-342": {
+   "q1": "no"
+  },
+  "NEWS-343": {
+   "q1": "no"
+  },
+  "NEWS-344": {
+   "q1": "no"
+  },
+  "NEWS-345": {
+   "q1": "no"
+  },
+  "NEWS-346": {
+   "q1": "no"
+  },
+  "NEWS-347": {
+   "q1": "no"
+  },
+  "NEWS-348": {
+   "q1": "no"
+  },
+  "NEWS-349": {
+   "q1": "no"
+  },
+  "NEWS-350": {
+   "q1": "no"
+  },
+  "NEWS-351": {
+   "q1": "yes",
+   "site": "unknown"
+  },
+  "NEWS-352": {
+   "q1": "no"
+  },
+  "NEWS-353": {
+   "q1": "no"
+  },
+  "NEWS-354": {
+   "q1": "no"
+  },
+  "NEWS-355": {
+   "q1": "no"
+  },
+  "NEWS-356": {
+   "q1": "yes",
+   "site": "other",
+   "other": "TPC Group Port Neches Operations, Port Neches, Texas (2102 Spur 136)"
+  },
+  "NEWS-357": {
+   "q1": "yes",
+   "site": "other",
+   "other": "TPC Group Port Neches Operations, Port Neches, Texas (2102 Spur 136)"
+  },
+  "NEWS-358": {
+   "q1": "yes",
+   "site": "other",
+   "other": "TPC Group Port Neches Operations, Port Neches, Texas (2102 Spur 136)"
+  },
+  "NEWS-359": {
+   "q1": "yes",
+   "site": "other",
+   "other": "TPC Group Port Neches Operations, Port Neches, Texas (2102 Spur 136)"
+  },
+  "NEWS-360": {
+   "q1": "yes",
+   "site": "other",
+   "other": "TPC Group Port Neches Operations, Port Neches, Texas (2102 Spur 136)"
+  },
+  "NEWS-361": {
+   "q1": "yes",
+   "site": "other",
+   "other": "TPC Group Port Neches Operations, Port Neches, Texas (2102 Spur 136)"
+  },
+  "NEWS-362": {
+   "q1": "yes",
+   "site": "other",
+   "other": "TPC Group Port Neches Operations, Port Neches, Texas (2102 Spur 136)"
+  },
+  "NEWS-363": {
+   "q1": "yes",
+   "site": "other",
+   "other": "TPC Group Port Neches Operations, Port Neches, Texas (2102 Spur 136)"
+  },
+  "NEWS-364": {
+   "q1": "yes",
+   "site": "other",
+   "other": "TPC Group Port Neches Operations, Port Neches, Texas (2102 Spur 136)"
+  },
+  "NEWS-365": {
+   "q1": "yes",
+   "site": "other",
+   "other": "TPC Group Port Neches Operations, Port Neches, Texas (2102 Spur 136)",
+   "date": "2019-11-27"
+  },
+  "NEWS-366": {
+   "q1": "yes",
+   "site": "100000115314",
+   "date": "2019-11-27"
+  },
+  "NEWS-367": {
+   "q1": "yes",
+   "site": "other",
+   "other": "TPC Group Port Neches Operations, Port Neches, Texas (2102 Spur 136)",
+   "date": "2019-11-27"
+  },
+  "NEWS-368": {
+   "q1": "yes",
+   "site": "other",
+   "other": "TPC Group Port Neches Operations, Port Neches, Texas (2102 Spur 136)",
+   "date": "2019-11-27"
+  },
+  "NEWS-369": {
+   "q1": "yes",
+   "site": "other",
+   "other": "TPC Group Port Neches Operations, Port Neches, Texas (2102 Spur 136)",
+   "date": "2019-11-27"
+  },
+  "NEWS-370": {
+   "q1": "yes",
+   "site": "other",
+   "other": "TPC Group Port Neches Operations, Port Neches, Texas (2102 Spur 136)",
+   "date": "2019-11-27"
+  },
+  "NEWS-371": {
+   "q1": "yes",
+   "site": "other",
+   "other": "TPC Group Port Neches Operations, Port Neches, Texas (2102 Spur 136)",
+   "date": "2019-11-27"
+  },
+  "NEWS-372": {
+   "q1": "yes",
+   "site": "other",
+   "other": "TPC Group Port Neches Operations, Port Neches, Texas (2102 Spur 136)",
+   "date": "2019-11-27"
+  },
+  "NEWS-373": {
+   "q1": "yes",
+   "site": "100000115314",
+   "date": "2019-12-04"
+  },
+  "NEWS-374": {
+   "q1": "no"
+  },
+  "NEWS-375": {
+   "q1": "no"
+  },
+  "NEWS-376": {
+   "q1": "no"
+  },
+  "NEWS-377": {
+   "q1": "yes",
+   "site": "other",
+   "other": "Watson Grinding and Manufacturing, Houston, Texas (4525 Gessner Road)",
+   "date": "2020-01-24"
+  },
+  "NEWS-378": {
+   "q1": "yes",
+   "site": "unknown",
+   "date": "2020-01-28"
+  },
+  "NEWS-379": {
+   "q1": "no"
+  },
+  "NEWS-380": {
+   "q1": "no"
+  },
+  "NEWS-381": {
+   "q1": "yes",
+   "site": "other",
+   "other": "Javelina Gas Processing Facility, Corpus Christi, Texas (5314 IH 37; RN102190139)"
+  },
+  "NEWS-382": {
+   "q1": "no"
+  },
+  "NEWS-383": {
+   "q1": "no"
+  },
+  "NEWS-384": {
+   "q1": "no"
+  },
+  "NEWS-385": {
+   "q1": "no"
+  },
+  "NEWS-386": {
+   "q1": "no"
+  },
+  "NEWS-387": {
+   "q1": "no"
+  },
+  "NEWS-388": {
+   "q1": "no"
+  },
+  "NEWS-389": {
+   "q1": "no"
+  },
+  "NEWS-390": {
+   "q1": "no"
+  },
+  "NEWS-391": {
+   "q1": "no"
+  },
+  "NEWS-392": {
+   "q1": "no"
+  },
+  "NEWS-393": {
+   "q1": "no"
+  },
+  "NEWS-394": {
+   "q1": "no"
+  },
+  "NEWS-395": {
+   "q1": "no"
+  },
+  "NEWS-396": {
+   "q1": "no"
+  },
+  "NEWS-397": {
+   "q1": "no"
+  },
+  "NEWS-398": {
+   "q1": "no"
+  },
+  "NEWS-399": {
+   "q1": "no"
+  },
+  "NEWS-400": {
+   "q1": "no"
+  },
+  "NEWS-401": {
+   "q1": "no"
+  },
+  "NEWS-402": {
+   "q1": "no"
+  },
+  "NEWS-403": {
+   "q1": "yes",
+   "site": "other",
+   "other": "Magellan Corpus Christi petroleum terminal, Corpus Christi, Texas (1800 block Poth Lane)",
+   "date": "2020-12-05"
+  },
+  "NEWS-404": {
+   "q1": "no"
+  },
+  "NEWS-405": {
+   "q1": "no"
+  },
+  "NEWS-406": {
+   "q1": "no"
+  },
+  "NEWS-407": {
+   "q1": "no"
+  },
+  "NEWS-408": {
+   "q1": "no"
+  },
+  "NEWS-409": {
+   "q1": "no"
+  },
+  "NEWS-410": {
+   "q1": "no"
+  },
+  "NEWS-411": {
+   "q1": "no"
+  },
+  "NEWS-412": {
+   "q1": "no"
+  },
+  "NEWS-413": {
+   "q1": "no"
+  },
+  "NEWS-414": {
+   "q1": "no"
+  },
+  "NEWS-415": {
+   "q1": "no"
+  },
+  "NEWS-416": {
+   "q1": "no"
+  },
+  "NEWS-417": {
+   "q1": "no"
+  },
+  "NEWS-418": {
+   "q1": "no"
+  },
+  "NEWS-419": {
+   "q1": "no"
+  },
+  "NEWS-420": {
+   "q1": "no"
+  },
+  "NEWS-421": {
+   "q1": "yes",
+   "site": "100000152256",
+   "date": "2021-06-25"
+  },
+  "NEWS-422": {
+   "q1": "unsure"
+  },
+  "NEWS-423": {
+   "q1": "no"
+  },
+  "NEWS-424": {
+   "q1": "no"
+  },
+  "NEWS-425": {
+   "q1": "no"
+  },
+  "NEWS-426": {
+   "q1": "unsure"
+  },
+  "NEWS-427": {
+   "q1": "yes",
+   "site": "other",
+   "other": "LyondellBasell La Porte Complex acetyls plant, La Porte, Texas (1515 Miller Cut-Off Road)",
+   "date": "2021-07-27"
+  },
+  "NEWS-428": {
+   "q1": "yes",
+   "site": "other",
+   "other": "LyondellBasell La Porte Complex acetyls plant, La Porte, Texas (1515 Miller Cut-Off Road)",
+   "date": "2021-07-27"
+  },
+  "NEWS-429": {
+   "q1": "yes",
+   "site": "other",
+   "other": "LyondellBasell La Porte Complex acetyls plant, La Porte, Texas (1515 Miller Cut-Off Road)",
+   "date": "2021-07-27"
+  },
+  "NEWS-430": {
+   "q1": "yes",
+   "site": "other",
+   "other": "LyondellBasell La Porte Complex acetyls plant, La Porte, Texas (1515 Miller Cut-Off Road)",
+   "date": "2021-07-27"
+  },
+  "NEWS-431": {
+   "q1": "no"
+  },
+  "NEWS-432": {
+   "q1": "no"
+  },
+  "NEWS-433": {
+   "q1": "no"
+  },
+  "NEWS-434": {
+   "q1": "yes",
+   "site": "other",
+   "other": "X-FAB Texas semiconductor factory, Lubbock, Texas (2301 North University Avenue)"
+  },
+  "NEWS-435": {
+   "q1": "no"
+  },
+  "NEWS-436": {
+   "q1": "no"
+  },
+  "NEWS-437": {
+   "q1": "no"
+  },
+  "NEWS-438": {
+   "q1": "yes",
+   "site": "100000062905"
+  },
+  "NEWS-439": {
+   "q1": "yes",
+   "site": "100000062905"
+  },
+  "NEWS-440": {
+   "q1": "yes",
+   "site": "100000062905",
+   "date": "2021-12-23"
+  },
+  "NEWS-441": {
+   "q1": "no"
+  },
+  "NEWS-442": {
+   "q1": "no"
+  },
+  "NEWS-443": {
+   "q1": "no"
+  },
+  "NEWS-444": {
+   "q1": "no"
+  },
+  "NEWS-445": {
+   "q1": "no"
+  },
+  "NEWS-446": {
+   "q1": "no"
+  },
+  "NEWS-447": {
+   "q1": "no"
+  },
+  "NEWS-448": {
+   "q1": "no"
+  },
+  "NEWS-449": {
+   "q1": "no"
+  },
+  "NEWS-450": {
+   "q1": "no"
+  },
+  "NEWS-451": {
+   "q1": "no"
+  },
+  "NEWS-452": {
+   "q1": "yes",
+   "site": "other",
+   "other": "Freeport LNG liquefaction/export terminal, Quintana, Texas (Quintana Island)",
+   "date": "2022-06-08"
+  },
+  "NEWS-453": {
+   "q1": "no"
+  },
+  "NEWS-454": {
+   "q1": "yes",
+   "site": "other",
+   "other": "Freeport LNG liquefaction/export terminal, Quintana, Texas (Quintana Island)",
+   "date": "2022-06-08"
+  },
+  "NEWS-455": {
+   "q1": "no"
+  },
+  "NEWS-456": {
+   "q1": "no"
+  },
+  "NEWS-457": {
+   "q1": "no"
+  },
+  "NEWS-458": {
+   "q1": "unsure"
+  },
+  "NEWS-459": {
+   "q1": "no"
+  },
+  "NEWS-460": {
+   "q1": "no"
+  },
+  "NEWS-461": {
+   "q1": "no"
+  },
+  "NEWS-462": {
+   "q1": "no"
+  },
+  "NEWS-463": {
+   "q1": "no"
+  },
+  "NEWS-464": {
+   "q1": "no"
+  },
+  "NEWS-465": {
+   "q1": "no"
+  },
+  "NEWS-466": {
+   "q1": "no"
+  },
+  "NEWS-467": {
+   "q1": "no"
+  },
+  "NEWS-468": {
+   "q1": "no"
+  },
+  "NEWS-469": {
+   "q1": "unsure"
+  },
+  "NEWS-470": {
+   "q1": "no"
+  },
+  "NEWS-471": {
+   "q1": "unsure"
+  },
+  "NEWS-472": {
+   "q1": "no"
+  },
+  "NEWS-473": {
+   "q1": "no"
+  },
+  "NEWS-474": {
+   "q1": "no"
+  },
+  "NEWS-475": {
+   "q1": "no"
+  },
+  "NEWS-476": {
+   "q1": "no"
+  },
+  "NEWS-477": {
+   "q1": "no"
+  },
+  "NEWS-478": {
+   "q1": "yes",
+   "site": "100000137372"
+  },
+  "NEWS-479": {
+   "q1": "no"
+  },
+  "NEWS-480": {
+   "q1": "no"
+  },
+  "NEWS-481": {
+   "q1": "no"
+  },
+  "NEWS-482": {
+   "q1": "no"
+  },
+  "NEWS-483": {
+   "q1": "no"
+  },
+  "NEWS-484": {
+   "q1": "unsure"
+  },
+  "NEWS-485": {
+   "q1": "no"
+  },
+  "NEWS-486": {
+   "q1": "no"
+  },
+  "NEWS-487": {
+   "q1": "no"
+  },
+  "NEWS-488": {
+   "q1": "no"
+  },
+  "NEWS-489": {
+   "q1": "yes",
+   "site": "100000139959"
+  },
+  "NEWS-490": {
+   "q1": "no"
+  },
+  "NEWS-491": {
+   "q1": "no"
+  },
+  "NEWS-492": {
+   "q1": "no"
+  },
+  "NEWS-493": {
+   "q1": "no"
+  },
+  "NEWS-494": {
+   "q1": "no"
+  },
+  "NEWS-495": {
+   "q1": "yes",
+   "site": "other",
+   "other": "Sound Resource Solutions chemical plant, near Shepherd, Texas (731 FM 1127)"
+  },
+  "NEWS-496": {
+   "q1": "yes",
+   "site": "other",
+   "other": "Sound Resource Solutions chemical plant, near Shepherd, Texas (731 FM 1127)"
+  },
+  "NEWS-497": {
+   "q1": "yes",
+   "site": "other",
+   "other": "Sound Resource Solutions chemical plant, near Shepherd, Texas (731 FM 1127)"
+  },
+  "NEWS-498": {
+   "q1": "no"
+  },
+  "NEWS-499": {
+   "q1": "yes",
+   "site": "other",
+   "other": "Tesla Gigafactory Texas, Austin, Texas"
+  }
+ }
+}

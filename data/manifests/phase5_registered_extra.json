@@ -1,0 +1,52 @@
+{
+ "note": "Two registered secondary exposures (plan section 3.4) that had not been run (plan D16 item 1): duration of\nunplanned events, and maintenance, startup and shutdown reports counted on their own over 90 days. H1 design (window\n90, gap 7, end 2021); as registered and with the plant's own reports from the accident day and the 2 days after\nremoved. Outside the Holm family.",
+ "duration_log": {
+  "occurrences": 68610,
+  "unreadable": 48,
+  "negative": 1,
+  "capped_at_720h": 699,
+  "median_hours": 8.0
+ },
+ "duration": {
+  "registered_design": {
+   "rr": 0.9668,
+   "ci": [
+    0.907,
+    1.0306
+   ],
+   "p": 0.3005,
+   "n_accidents": 545
+  },
+  "own_reports_removed": {
+   "rr": 1.0302,
+   "ci": [
+    0.9622,
+    1.103
+   ],
+   "p": 0.3931,
+   "n_accidents": 545
+  },
+  "hours_removed": 13519.0
+ },
+ "planned_90_days": {
+  "registered_design": {
+   "rr": 0.9044,
+   "ci": [
+    0.7416,
+    1.103
+   ],
+   "p": 0.3211,
+   "n_accidents": 545
+  },
+  "own_reports_removed": {
+   "rr": 0.9245,
+   "ci": [
+    0.7545,
+    1.1327
+   ],
+   "p": 0.4486,
+   "n_accidents": 545
+  },
+  "reports_removed": 26
+ }
+}

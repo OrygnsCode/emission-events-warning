@@ -1,0 +1,51 @@
+{
+ "rule": "plan D6 item 10",
+ "a_tceq_complaints_county_day": {
+  "log": {
+   "air_complaint_rows": 89901,
+   "air_complaints": 71555,
+   "no_county": 14558,
+   "air_complaints_in_window_with_county": 44693,
+   "counties": 254,
+   "county_days": 1709621,
+   "exposed_county_days": 52971
+  },
+  "result": {
+   "rate_ratio": 1.06,
+   "ci95": [
+    0.986,
+    1.14
+   ],
+   "p": 0.1122,
+   "obs_used": 439030,
+   "complaints_per_exposed_day": 0.102,
+   "complaints_per_unexposed_day_same_counties": 0.0404
+  }
+ },
+ "b_houston_311_rn_day": {
+  "log": {
+   "air_cases_2011_2026": 11046,
+   "zero_or_missing_coordinates": 545,
+   "air_cases_2011_2021_valid": 6876,
+   "houston_area_event_rns": 159,
+   "rns_with_a_case_within_5km": 103,
+   "rn_days": 411530,
+   "exposed_rn_days": 4258
+  },
+  "result": {
+   "rate_ratio": 1.26,
+   "ci95": [
+    1.126,
+    1.41
+   ],
+   "p": 0.0001,
+   "obs_used": 91499,
+   "cases_per_exposed_rn_day": 0.0326,
+   "cases_per_unexposed_rn_day": 0.0228
+  }
+ },
+ "variant": {
+  "running": "drop",
+  "primary": false
+ }
+}

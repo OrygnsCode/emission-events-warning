@@ -1,0 +1,55 @@
+{
+ "note": "Stored versions of checks whose numbers were first reported from console output (found by the report audit,\n2026-10-06). Each part recomputes and saves its numbers:\n  planned_reports_by_year  planned-work reports per year at linked plants (filters as phase5_diag_planned)\n  accident_day_reports     unplanned events on accident days and the 2 days after, against the number expected from\n                           each plant's long-run daily average (primary accidents, June 2003 to 2021)\n  exposure_recount         1,400 random plant-days of the primary panel: the 90-day event count recomputed directly\n                           from the event table, compared with the panel value\n  fake_dates_long_windows  accidents redrawn to random at-risk days of the same plant-year (no reports follow them);\n                           90, 180 and 365-day windows; 30 draws each; median rate ratio",
+ "planned_reports_by_year_linked_plants": {
+  "2003": 1182,
+  "2004": 1375,
+  "2005": 1373,
+  "2006": 1102,
+  "2007": 1034,
+  "2008": 1012,
+  "2009": 1026,
+  "2010": 919,
+  "2011": 722,
+  "2012": 524,
+  "2013": 397,
+  "2014": 378,
+  "2015": 299,
+  "2016": 243,
+  "2017": 264,
+  "2018": 195,
+  "2019": 195,
+  "2020": 196,
+  "2021": 148,
+  "2022": 154,
+  "2023": 109,
+  "2024": 80,
+  "2025": 65,
+  "2026": 56
+ },
+ "accident_day_reports": {
+  "accident_days": 541,
+  "events_on_day_0": 212,
+  "events_days_0_to_2": 238,
+  "expected_per_day_from_plant_average": 9.7,
+  "ratio_day_0": 21.9,
+  "ratio_days_0_to_2": 8.2
+ },
+ "exposure_recount": {
+  "plant_days": 1400,
+  "differences": 0
+ },
+ "fake_dates_long_windows": {
+  "window_90": {
+   "draws": 30,
+   "median_rr": 0.988
+  },
+  "window_180": {
+   "draws": 30,
+   "median_rr": 0.989
+  },
+  "window_365": {
+   "draws": 30,
+   "median_rr": 0.963
+  }
+ }
+}

@@ -1,0 +1,131 @@
+{
+ "records": 25597,
+ "unique_files": 25590,
+ "per_source": {
+  "bls_qcew": {
+   "deleted_after_slicing": 36
+  },
+  "census_cbp": {
+   "deleted_after_slicing": 38
+  },
+  "csb": {
+   "ok": 174
+  },
+  "eia": {
+   "ok": 127,
+   "deleted_by_decision": 1
+  },
+  "eia_atlas": {
+   "ok": 1
+  },
+  "eog_flares": {
+   "ok": 9
+  },
+  "epa_aqs": {
+   "ok": 3,
+   "deleted_after_slicing": 1175
+  },
+  "epa_campd": {
+   "ok": 90
+  },
+  "epa_echo": {
+   "deleted_by_decision": 3,
+   "ok": 3
+  },
+  "epa_fenceline": {
+   "ok": 1256
+  },
+  "epa_frs": {
+   "ok": 1
+  },
+  "fed_g17": {
+   "ok": 5
+  },
+  "fema": {
+   "ok": 1
+  },
+  "gdelt": {
+   "ok": 1
+  },
+  "hifld_next": {
+   "ok": 39,
+   "deleted_by_decision": 2
+  },
+  "houston_311": {
+   "ok": 19
+  },
+  "iem_asos": {
+   "ok": 239
+  },
+  "nasa_firms": {
+   "deleted_after_slicing": 45
+  },
+  "noaa_ghcn": {
+   "ok": 6795
+  },
+  "noaa_hurdat": {
+   "ok": 28
+  },
+  "noaa_nldn": {
+   "ok": 1,
+   "deleted_after_slicing": 49
+  },
+  "noaa_storm_events": {
+   "ok": 76
+  },
+  "nrc": {
+   "deleted_by_decision": 7,
+   "ok": 1
+  },
+  "ornl_oe417": {
+   "ok": 1
+  },
+  "osha": {
+   "ok": 1,
+   "deleted_after_slicing": 11
+  },
+  "osm": {
+   "ok": 5
+  },
+  "outside_tallies": {
+   "ok": 2
+  },
+  "regulatory_text": {
+   "ok": 47
+  },
+  "rmp_raw": {
+   "ok": 1
+  },
+  "slices": {
+   "ok": 1444
+  },
+  "tceq_gis": {
+   "ok": 1
+  },
+  "tceq_monitors": {
+   "ok": 4212
+  },
+  "tceq_open_data": {
+   "ok": 28
+  },
+  "tceq_psei": {
+   "ok": 13
+  },
+  "tceq_rules": {
+   "ok": 1
+  },
+  "tropomi": {
+   "ok": 11041
+  },
+  "worldbank_flares": {
+   "ok": 1
+  }
+ },
+ "problems": [],
+ "deleted_after_slicing": 1367,
+ "urls_recorded_twice": 7,
+ "files_on_disk_not_in_manifest": [
+  "tceq_pages/download-data.html"
+ ],
+ "n_unlisted": 1
+}

@@ -1,0 +1,112 @@
+{
+ "years": {
+  "2016": {
+   "rows": 372136,
+   "sites": 1884,
+   "sites_with_ee": 712,
+   "ee_tpy_total": 16192.4,
+   "routine_tpy_total": 1118363.6,
+   "year_values_in_file": [
+    2016
+   ]
+  },
+  "2017": {
+   "rows": 362669,
+   "sites": 1917,
+   "sites_with_ee": 699,
+   "ee_tpy_total": 20667.0,
+   "routine_tpy_total": 2035572.0,
+   "year_values_in_file": [
+    2017
+   ]
+  },
+  "2018": {
+   "rows": 369383,
+   "sites": 1924,
+   "sites_with_ee": 713,
+   "ee_tpy_total": 17262.1,
+   "routine_tpy_total": 1936905.1,
+   "year_values_in_file": [
+    2018
+   ]
+  },
+  "2019": {
+   "rows": 375098,
+   "sites": 1927,
+   "sites_with_ee": 733,
+   "ee_tpy_total": 36159.5,
+   "routine_tpy_total": 1783168.6,
+   "year_values_in_file": [
+    2019
+   ]
+  },
+  "2020": {
+   "rows": 369468,
+   "sites": 1902,
+   "sites_with_ee": 720,
+   "ee_tpy_total": 16065.6,
+   "routine_tpy_total": 1860778.1,
+   "year_values_in_file": [
+    2020
+   ]
+  },
+  "2021": {
+   "rows": 362643,
+   "sites": 1836,
+   "sites_with_ee": 705,
+   "ee_tpy_total": 17555.5,
+   "routine_tpy_total": 1956342.9,
+   "year_values_in_file": [
+    2021
+   ]
+  },
+  "2022": {
+   "rows": 367201,
+   "sites": 1839,
+   "sites_with_ee": 695,
+   "ee_tpy_total": 18148.2,
+   "routine_tpy_total": 1871077.7,
+   "year_values_in_file": [
+    2022
+   ]
+  },
+  "2023": {
+   "rows": 377040,
+   "sites": 1836,
+   "sites_with_ee": 721,
+   "ee_tpy_total": 18706.4,
+   "routine_tpy_total": 1677634.1,
+   "year_values_in_file": [
+    2023
+   ]
+  },
+  "2024": {
+   "rows": 377194,
+   "sites": 1821,
+   "sites_with_ee": 729,
+   "ee_tpy_total": 16744.9,
+   "routine_tpy_total": 1716721.8,
+   "year_values_in_file": [
+    2024
+   ]
+  }
+ },
+ "snapshot_change_2016": {
+  "sites_old": 1883,
+  "sites_new": 1883,
+  "sites_ee_changed_over_1pct": 16,
+  "ee_tpy_old": 16057.5,
+  "ee_tpy_new": 16192.4
+ },
+ "snapshot_change_2022": {
+  "sites_old": 1836,
+  "sites_new": 1839,
+  "sites_ee_changed_over_1pct": 32,
+  "ee_tpy_old": 16789.6,
+  "ee_tpy_new": 18148.2
+ },
+ "site_years": 16886,
+ "site_years_in_plant_table": 8476,
+ "site_years_at_rmp_plants": 4539,
+ "site_years_at_rmp_plants_with_ee": 3308
+}
