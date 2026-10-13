@@ -1,6 +1,6 @@
 # Do Small Releases Warn of Serious Chemical Accidents?
 
-Code and data for the paper [*Do Small Releases Warn of Serious Chemical Accidents? Testing Emission Events as a Leading Indicator at Texas Plants*](https://doi.org/10.5281/zenodo.TODO).
+Code and data for the paper [*Do Small Releases Warn of Serious Chemical Accidents? Testing Emission Events as a Leading Indicator at Texas Plants*](https://doi.org/10.5281/zenodo.23348378).
 
 Texas plants have to tell the state within 24 hours whenever they release more air pollution than their permits
 allow. The state publishes every one of those emission event reports, more than 100,000 since 2003. Plants that hold
@@ -89,7 +89,7 @@ coding and the news check) were done on offline pages made by `make_link_review_
 answers are in `data/manual/`, and the scripts above read them from there.
 
 The TCEQ pages as we downloaded them in October 2026 are archived with the paper on Zenodo
-(`tceq_pages_2026-10.tar`, about 390 MB). Unpack it in this folder to get `data/raw/`, run `python src/rebuild_state.py`, and the crawler will only
+(`tceq_pages_2026-10.tar`, about 335 MB). Unpack it in this folder to get `data/raw/`, run `python src/rebuild_state.py`, and the crawler will only
 fetch what is missing.
 
 ## What is not here, and why
@@ -128,7 +128,7 @@ words, and the sites typed in during the news check.
 
 ## Citing this
 
-> Okwor, D. (2026). *Do Small Releases Warn of Serious Chemical Accidents? Testing Emission Events as a Leading Indicator at Texas Plants.* Zenodo. https://doi.org/10.5281/zenodo.TODO
+> Okwor, D. (2026). *Do Small Releases Warn of Serious Chemical Accidents? Testing Emission Events as a Leading Indicator at Texas Plants.* Zenodo. https://doi.org/10.5281/zenodo.23348378
 
 Registered plan: https://osf.io/nf426
 

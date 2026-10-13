@@ -44,7 +44,7 @@ def fig1():
     ax.set_xticks(range(-24, 13, 3))
     ax.legend(frameon=False, loc="upper left", fontsize=8)
     fig.tight_layout()
-    fig.savefig(OUT / "fig1_event_rate.pdf")
+    fig.savefig(OUT / "fig1_event_rate.pdf", metadata={"CreationDate": None})
     plt.close(fig)
 
 
@@ -76,7 +76,7 @@ def fig2():
     ax.minorticks_off()
     ax.legend(frameon=False, loc="lower left", fontsize=8)
     fig.tight_layout()
-    fig.savefig(OUT / "fig2_window_length.pdf")
+    fig.savefig(OUT / "fig2_window_length.pdf", metadata={"CreationDate": None})
     plt.close(fig)
 
 
@@ -107,7 +107,7 @@ def fig3():
     ax.minorticks_off()
     ax.legend(frameon=False, loc="upper right", fontsize=8)
     fig.tight_layout()
-    fig.savefig(OUT / "fig3_time_scale.pdf")
+    fig.savefig(OUT / "fig3_time_scale.pdf", metadata={"CreationDate": None})
     plt.close(fig)
 
 
