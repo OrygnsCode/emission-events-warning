@@ -1469,3 +1469,28 @@ paper or the results reports changes.
 
 Tables that had been made by one-off commands now have scripts (`build_details_table.py`, `build_site_tables.py`,
 `quality_summary.py`, `r18_dates.py`), each checked to give the stored table exactly.
+
+### D17, 2026-11-05: second version of the paper, after an outside review
+
+An outside review of the preprint found wording that went further than the results, and a few places where the
+paper did not match the stored results. The second version of the paper corrects them. No model is refitted and no
+reported estimate changes. The new numbers come from `src/review_checks.py` (`data/manifests/review_checks.json`) and
+from `data/manifests/stored_checks.json`.
+1. "No sign of a rise" becomes "no clear rise". The corrected main estimate (1.05) and the corrected estimates from
+   National Response Center reports (1.08), OSHA records (1.13), the plant's own chemicals (1.06) and satellite heat
+   (1.13) all lie slightly above 1.
+2. The paper said that the choices other than window length barely move the multiverse estimates. By plant links the
+   medians are 0.68 (one-to-one), 0.75 (all links) and 0.82 (registry only), and at the main settings 0.79, 0.88 and
+   1.00, on different sets of plants. The registered robustness checks and the multiverse use the registered design;
+   corrected versions are not run.
+3. The planned-work shuffle test spreads 1.33 times wider than the model's standard error. Widened by that spread, the
+   per-doubling interval is 1.16 to 2.39. The shuffle test covers only the count; if the yes-or-no interval is too
+   narrow by the same factor, it is 0.95 to 2.72.
+4. Planned work reports at linked plants fell from 1,026 in 2009 to 378 in 2014. Texas required planned maintenance,
+   startup and shutdown emissions to be authorized, with application deadlines from January 2007 for refineries and
+   January 2008 for chemical plants to January 2014 for oil and gas sites (30 TAC 101.222(h)), and a report is
+   required only for emissions that are not authorized (30 TAC 101.211). The decline is not checked plant by plant.
+5. On 56% of the days in the primary panel the 90-day window holds no unplanned event.
+6. The paper said the reports were checked against other sources before any accident data were opened. Accident
+   records had already been used for filing dates and duplicate checks, so it now says before any accident was
+   compared with any event.

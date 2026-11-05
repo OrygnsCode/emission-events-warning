@@ -1,6 +1,6 @@
 # Do Small Releases Warn of Serious Chemical Accidents?
 
-Code and data for the paper [*Do Small Releases Warn of Serious Chemical Accidents? Testing Emission Events as a Leading Indicator at Texas Plants*](https://doi.org/10.5281/zenodo.23348378).
+Code and data for the paper [*Do Small Releases Warn of Serious Chemical Accidents? Testing Emission Events as a Leading Indicator at Texas Plants*](https://doi.org/10.5281/zenodo.23348377).
 
 Texas plants have to tell the state within 24 hours whenever they release more air pollution than their permits
 allow. The state publishes every one of those emission event reports, more than 100,000 since 2003. Plants that hold
@@ -10,7 +10,7 @@ small releases pile up before the big accident.
 
 We wrote the test down and registered it on OSF (https://osf.io/nf426) before comparing a single accident with the
 events. Across 545 serious accidents at 216 Texas plants from 2003 to 2021, a plant's emission events in the three
-months before an accident were no more frequent than at its other times in the same year. Doubling a plant's recent
+months before an accident were not clearly more frequent than at its other times in the same year. Doubling a plant's recent
 events changes its accident risk by a factor of 1.05, with a 95% range of 0.85 to 1.29. Along the way we found that
 accidents report themselves: on accident days plants filed about 22 times their usual number of reports, and until
 those are taken out, events look as if they protect plants from accidents.
@@ -128,7 +128,7 @@ words, and the sites typed in during the news check.
 
 ## Citing this
 
-> Okwor, D. (2026). *Do Small Releases Warn of Serious Chemical Accidents? Testing Emission Events as a Leading Indicator at Texas Plants.* Zenodo. https://doi.org/10.5281/zenodo.23348378
+> Okwor, D. (2026). *Do Small Releases Warn of Serious Chemical Accidents? Testing Emission Events as a Leading Indicator at Texas Plants.* Zenodo. https://doi.org/10.5281/zenodo.23348377
 
 Registered plan: https://osf.io/nf426
 

@@ -85,6 +85,7 @@ STEPS = [
     ("louisiana_power", "t2_louisiana_power.py", []),
     ("planned_nrc", "t3_planned_nrc.py", []),
     ("equivalence", "equivalence_summary.py", []),
+    ("review_checks", "review_checks.py", []),
     # numbers and figures for the paper
     ("paper_facts", "paper_facts.py", []),
     ("paper_precision", "paper_precision.py", []),
